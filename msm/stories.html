@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="p a n s" />
+    <meta
+      name="description"
+      content="Discover the stories behind six Melbourne music buskers."
+    />
+    <meta property="og:title" content="Melbourne Street Music | Sclab." />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2014-12-melbourne.jpg.jpg"
+    />
+    <meta property="og:url" content="https://pab-ns.github.io/sclab.co/msm" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Stories | Melbourne Street Music | Sclab.</title>
+  </head>
+
+  <body id="bg">
+    <!-- Nav Hide on Small -->
+    <section class="d-none d-sm-block">
+      <nav class="navbar navbar-dark" style="background-color: transparent">
+        <div class="container">
+          <a class="navbar-brand" href="https://pab-ns.github.io/sclab.co/msm">
+            <img
+              src="img/logo3.png"
+              width="120"
+              alt="Logo MSM"
+              class="img-fluid"
+            />
+          </a>
+          <ul class="list-inline my-auto">
+            <li class="nav-item list-inline-item">
+              <a class="nav-link text-white" href="index.html#stories">
+                <small class="seven">STORIES</small>
+              </a>
+            </li>
+            <li class="nav-item list-inline-item">
+              <a class="nav-link text-white" href="index.html#about">
+                <small class="seven">ABOUT</small>
+              </a>
+            </li>
+            <li class="nav-item list-inline-item">
+              <a
+                class="nav-link text-white"
+                href="https://pab-ns.github.io/sclab.co/"
+              >
+                <small class="seven">Sclab.</small>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <!-- Nav Responsive Show on Small -->
+    <section class="d-block d-sm-none">
+      <nav
+        class="navbar navbar-expand-md navbar-dark"
+        style="background-color: transparent"
+      >
+        <!-- Brand -->
+        <a class="navbar-brand" href="https://pab-ns.github.io/sclab.co/msm">
+          <img
+            src="img/logo3.png"
+            width="120"
+            alt="Logo MSM"
+            class="img-fluid"
+          />
+        </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html#stories">
+                <small class="seven">STORIES</small>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html#about">
+                <small class="seven">ABOUT</small>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white"
+                href="https://pab-ns.github.io/sclab.co/"
+              >
+                <small class="seven">Sclab.</small>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <!-- START HERE -->
+
+    <!-- Slider -->
+    <section class="container my-5">
+      <div id="carouselSlides" class="carousel" data-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Morf -->
+          <div class="carousel-item active">
+            <div class="container">
+              <p></p>
+              <span class="tag-story font-weight-bold mt-0 border-top pt-2 h4"
+                >Morf</span
+              >
+
+              <!-- Quote / Text -->
+              <p class="my-5 mx-auto text-center one font-italic h2 text-white">
+                “I love the streets... <br />
+                It's the best place to develop as a musician.”
+              </p>
+              <p
+                class="content-parragraph my-5 text-center mx-auto text-white five"
+              >
+                Inspired by Melbourne artist <strong>Dub FX</strong>; Morf, a
+                vocal loopist from the UK decided to quit the job that got him
+                to Australia to pursuit music. He started busking as a part time
+                activity and slowly grew into a passion, a full time job and
+                live from it. Even though it hasn’t been all that easy, it's the
+                passion for what he does that keeps him going.
+              </p>
+
+              <!-- Video -->
+              <div
+                class="container embed-responsive embed-responsive-16by9 my-5"
+              >
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://player.vimeo.com/video/108982558"
+                ></iframe>
+              </div>
+
+              <!-- Follow -->
+              <div class="container">
+                <p class="font-weight-bold tag-story seven">Follow Morf on:</p>
+                <ul class="list-inline icono">
+                  <!-- insta -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="http://www.instagram.com/morfmusic"
+                      target="_blank"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <!-- fb -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://www.facebook.com/morfmusic/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <!-- web -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a href="https://www.morfmusic.co.uk/" target="_blank">
+                      <i class="fas fa-globe"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Beto -->
+          <div class="carousel-item">
+            <div class="container">
+              <p></p>
+              <span class="tag-story font-weight-bold mt-0 border-top pt-2 h4"
+                >Beto Chinguel</span
+              >
+
+              <!-- Quote / Text -->
+              <p class="my-5 mx-auto text-center one font-italic h2 text-white">
+                “I fell in love with the pan pipes. <br />
+                I never forgot that feeling and I kept playing them.”
+              </p>
+              <p
+                class="content-parragraph my-5 text-center mx-auto text-white five"
+              >
+                The day came when a peruvian folk band played a gig at Beto’s
+                hometown in the north of Peru. The sound of the pan flute and
+                pan pipes got him. Years later, he left home, traveled around
+                Peru and South America playing folk music, where he meet other
+                musicians and eventually formed a folk band. Beto enjoys the
+                feeling and connection with his native instruments.
+              </p>
+
+              <!-- Video -->
+              <div
+                class="container embed-responsive embed-responsive-16by9 my-5"
+              >
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://player.vimeo.com/video/108980700"
+                ></iframe>
+              </div>
+
+              <!-- Follow -->
+              <div class="container">
+                <p class="font-weight-bold tag-story seven">Follow Morf on:</p>
+                <ul class="list-inline icono">
+                  <!-- fb -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://www.facebook.com/BetoChinguel/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <!-- yt -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://www.youtube.com/user/betochinguel"
+                      target="_blank"
+                    >
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- George -->
+          <div class="carousel-item">
+            <div class="container">
+              <p></p>
+              <span class="tag-story font-weight-bold mt-0 border-top pt-2 h4"
+                >George Kamikawa</span
+              >
+
+              <!-- Quote / Text -->
+              <p class="my-5 mx-auto text-center one font-italic h2 text-white">
+                “Music is sitll an enternaiment and, I like to entertain
+                people.”
+              </p>
+              <p
+                class="content-parragraph my-5 text-center mx-auto text-white five"
+              >
+                From a young age George discovered hit tracks from The Beatles
+                and The Rolling Stones. Over the years, this blues/country
+                frontman develop his music style that includes harmonica and
+                kick drums, <em>“kind of like a one man band...”</em>, he jokes.
+                Music should entertain, he believes, and decides to play
+                fast-catchy tunes, even though he also enjoys slow ballads too.
+              </p>
+
+              <!-- Video -->
+              <div
+                class="container embed-responsive embed-responsive-16by9 my-5"
+              >
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://player.vimeo.com/video/111160978"
+                ></iframe>
+              </div>
+
+              <!-- Follow -->
+              <div class="container">
+                <p class="font-weight-bold tag-story seven">
+                  Follow George on:
+                </p>
+                <ul class="list-inline icono">
+                  <!-- insta -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://www.instagram.com/georgekamikawa/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <!-- fb -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://www.facebook.com/GeorgeKamikawaMusic/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <!-- web -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a href="http://www.georgekamikawa.com.au/" target="_blank">
+                      <i class="fas fa-globe"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- larumba -->
+          <div class="carousel-item">
+            <div class="container">
+              <p></p>
+              <span class="tag-story font-weight-bold mt-0 border-top pt-2 h4"
+                >La Rumba</span
+              >
+
+              <!-- Quote / Text -->
+              <p class="my-5 mx-auto text-center one font-italic h2 text-white">
+                “Music is the most real magic we have... <br />
+                It's magical without being a trick.”
+              </p>
+              <p
+                class="content-parragraph my-5 text-center mx-auto text-white five"
+              >
+                From Fitzroy and Brunswick, this band has a strong Gypsy,
+                Flamingo and Latin American sound that comes from their various
+                music instruments. Acoustics guitars, bongos, shakers, congas…
+                Besides the cheerful tunes, they all love different music
+                genres.
+                <em
+                  >“We have a love for it, and we are very receptive to all
+                  different types of music”</em
+                >, says uruguayan member and vocalist, Leo Salvo.
+              </p>
+
+              <!-- Video -->
+              <div
+                class="container embed-responsive embed-responsive-16by9 my-5"
+              >
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://player.vimeo.com/video/112567079"
+                ></iframe>
+              </div>
+
+              <!-- Follow -->
+              <div class="container">
+                <p class="font-weight-bold tag-story seven">
+                  Follow La Rumba on:
+                </p>
+                <ul class="list-inline icono">
+                  <!-- fb -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://www.facebook.com/La.Rumba.Gypsy.Flamenco/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <!-- sc -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://soundcloud.com/la-rumba-gypsy-flamenco"
+                      target="_blank"
+                    >
+                      <i class="fab fa-soundcloud"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gareth -->
+          <div class="carousel-item">
+            <div class="container">
+              <p></p>
+              <span class="tag-story font-weight-bold mt-0 border-top pt-2 h4"
+                >Gareth Weicko</span
+              >
+
+              <!-- Quote / Text -->
+              <p class="my-5 mx-auto text-center one font-italic h2 text-white">
+                “Doing this on the streets is creating that bridge for people to
+                open their eyes towards classical music.”
+              </p>
+              <p
+                class="content-parragraph my-5 text-center mx-auto text-white five"
+              >
+                Originally from Wales, Gareth traveled to Australia sold his car
+                and purchased a piano. He then hitchhiked his way from Crains to
+                Melbourne playing the keyboard, which he learned how to play
+                when he was 12 years old.<em
+                  >"I feel quite complete when I do it, so it's like a therapy
+                  for me"</em
+                >, he says.
+              </p>
+
+              <!-- Video -->
+              <div
+                class="container embed-responsive embed-responsive-16by9 my-5"
+              >
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://player.vimeo.com/video/112264068"
+                ></iframe>
+              </div>
+
+              <!-- Follow -->
+              <div class="container">
+                <p class="font-weight-bold tag-story seven">
+                  Follow Gareth on:
+                </p>
+                <ul class="list-inline icono">
+                  <!-- insta -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://www.instagram.com/garethwiecko/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <!-- sc -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://soundcloud.com/garethwiecko"
+                      target="_blank"
+                    >
+                      <i class="fab fa-soundcloud"></i>
+                    </a>
+                  </li>
+                  <!-- fb -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://www.facebook.com/GarethWiecko/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Joel -->
+          <div class="carousel-item">
+            <div class="container">
+              <p></p>
+              <span class="tag-story font-weight-bold mt-0 border-top pt-2 h4"
+                >Joel Bardwell</span
+              >
+
+              <!-- Quote / Text -->
+              <p class="my-5 mx-auto text-center one font-italic h2 text-white">
+                “The interaction you have with people is so special... <br />
+                A whole lot of formalities go out the window.”
+              </p>
+              <p
+                class="content-parragraph my-5 text-center mx-auto text-white five"
+              >
+                Since he was a child, Joel was interested in music and
+                originally started by playing piano. He later taught himself
+                different music instruments. Double bass, mandolin and accordion
+                just to name a few. The <em>"busking bug"</em>, as he calls it,
+                hit him while waiting for a friend at a tram stop playing some
+                tunes. After that, it never stopped. Joel is also a photographer
+                with a registered business, but he still prefers performing
+                music over the camera.
+              </p>
+
+              <!-- Video -->
+              <div
+                class="container embed-responsive embed-responsive-16by9 my-5"
+              >
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://player.vimeo.com/video/113350011"
+                ></iframe>
+              </div>
+
+              <!-- Follow -->
+              <div class="container">
+                <p class="font-weight-bold tag-story seven">Follow Joel on:</p>
+                <ul class="list-inline icono">
+                  <!-- insta -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://www.instagram.com/teddybardwell/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <!-- fb -->
+                  <li class="list-inline-item mx-1 icono">
+                    <a
+                      href="https://www.facebook.com/JoelBardwellPhotography/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(".carousel").carousel({
+        interval: false,
+      });
+    </script>
+
+    <!-- new script for loading a particular slide -->
+    <script>
+      (function () {
+        function getSlideParameter(key) {
+          key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
+          var match = location.search.match(
+            new RegExp("[?&]" + key + "=([^&]+)(&|$)")
+          );
+          var slide = match && decodeURIComponent(match[1].replace(/\+/g, " "));
+          if (Math.floor(slide) == slide && $.isNumeric(slide))
+            return parseInt(slide);
+          else return 0; //if 'slide' parameter is not present or doesn't have correct values load 0th slide
+        }
+        $(".carousel").carousel(getSlideParameter("slide"));
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+.modal-header{
+    border-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.card-header{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.modal-body{
+    padding-bottom: 1.5rem !important;
+}
+
+.link[data-toggle].collapsed:before {
+    margin-right: 10%;
+    content: " ▾ ";
+}
+.link[data-toggle]:not(.collapsed):before {
+    margin-right: 10%;
+    content: " ▴ ";
+}
+
+
+.st0, .st1, .select  {
+    transition: all .5s ease;
+}
+
+
+.st0:hover, .st1:hover, .select:hover{
+    fill: #C35340;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.close{
+    color:#C35340 !important;
+}
+
+.card .card-body{
+    background-color: white !important;
+}
+
+
+/* .link[data-toggle].collapsed:before {
+    margin-right: 10%;
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 700;
+} */
+
+/* .link[data-toggle]:not(.collapsed):before {
+    margin-right: 10%;
+    font-family: "Font Awesome 5 Free";
+    content: "\f077";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 700;
+} */
+
+
+
+
+
+
+
+
+/* Media queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nom_reg{
+        font-size: 1rem;
+        margin-right: 3% !important;
+    }
+    #cl-map{
+        display: none;
+    }
+    #cl-map-small{
+        display: inline;
+    }
+    .prof__item-title {
+        font-size: 3.4rem
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .nom_reg{
+        /* color: yellow; */
+    }
+    #cl-map{
+        display: none;
+    }
+    #cl-map-small{
+        display: inline;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .nom_reg{
+        /* color: red; */
+    }
+    #cl-map{
+        display: inline;
+    }
+    #cl-map-small{
+        display: none;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .nom_reg{
+        /* color: blue; */
+    }
+    #cl-map{
+        display: inline;
+    }
+    #cl-map-small{
+        display: none;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .nom_reg{
+        /* font-size: 4.5rem; */
+    }
+    #cl-map{
+        display: inline;
+    }
+    #cl-map-small{
+        display: none;
+    }
+  }
+
+
+

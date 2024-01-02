@@ -1,0 +1,50 @@
+@import url("https://use.typekit.net/std3xut.css");
+body{font-family: "brother-1816",sans-serif;}
+
+/* 200 - Book */
+@font-face {
+    font-family: 'brother-1816';
+    src: url(font/Brother-1816-Book.otf);
+    font-style: normal;
+    font-weight: 200;
+  }
+
+  .brother-book{
+    font-family: 'brother-1816'; 
+    font-weight: 200;
+  }    
+
+  /* 900 - Extra Bold */
+@font-face {
+    font-family: 'brother-1816';
+    src: url(font/Brother-1816-ExtraBold.otf);
+    font-style: normal;
+    font-weight: 900;
+  }
+
+  .brother-extra-bold{
+    font-family: 'brother-1816'; 
+    font-weight: 900;
+  }
+  
+  .item__title {
+    font-weight: bold;
+    font-family: "brother-1816",sans-serif;
+}
+
+
+
+.text-shadow{text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7) !important;}
+
+.svg-shadow{
+    -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 1));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 1));
+}
+
+.title-space{letter-spacing: 1.15rem;}
+
+/* .bottom-thick{border-bottom: solid white 2rem;} */
+
+.about:hover{opacity: 0.5;}
+
+

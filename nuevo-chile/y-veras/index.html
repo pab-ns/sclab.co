@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="Sclab. X FCom UAndes" />
+    <meta
+      name="description"
+      content="Una reportaje de la realidad de los extranjeros que han llegado al país en busca de nuevas oportunidades."
+    />
+    <meta
+      property="og:title"
+      content="Y verás cómo tratan en Chile... | El Nuevo Chile | Sclab."
+    />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-09-nuevo-chile.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://pab-ns.github.io/sclab.co/nuevo-chile"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../../assets/css/theme.css" />
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#navbar-ench").load("../../assets/html/navbar-ench.html");
+        $("#footer").load("../../assets/html/footer.html");
+        $("#sigue-leyendo").load("../html/sigue.html");
+      });
+    </script>
+
+    <!-- Historias -->
+    <link rel="stylesheet" href="../css/historias.css" />
+
+    <title>Y verás cómo tratan en Chile... | El Nuevo Chile | Sclab.</title>
+  </head>
+
+  <body>
+    <!-- START HERE -->
+
+    <!-- NAVBAR -->
+    <div id="navbar-ench"></div>
+
+    <header>
+      <div class="jumbotron d-flex align-items-center" id="jumbo-veras">
+        <div class="container text-center">
+          <h1 class="display-4 text-white">
+            <span>Y verás cómo tratan en Chile...</span>
+          </h1>
+          <p class="autores text-white my-3">
+            <span
+              ><small
+                >Por: Josefina Aravena, Mario Mercier, Ignacio Pinto, Luis
+                Enrique Ramírez y Penélope Villela</small
+              ></span
+            >
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="w-75 mx-auto text-center my-5">
+      <p class="intro">
+        Este reportaje pretende mostrar el día a día de quienes, tras
+        desembarcar en territorio nacional, sueñan con volver a tener
+        tranquilidad, estabilidad y una nueva oportunidad. Estas son las
+        historias de Aranza, Givens y José Roberto.
+      </p>
+    </section>
+
+    <!-- Greyscale -->
+    <section id="projects" class="projects-section my-4">
+      <div class="container">
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid"
+              src="img/vid-aranza.jpg"
+              data-toggle="modal"
+              data-target="#modal1"
+              style="cursor: pointer"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4>Aranza Carrasco, 23 años</h4>
+                  <p class="mb-0 text-dark-50">
+                    <small
+                      >Esta joven de Barcelona, cursó séptimo y octavo en Chile
+                      antes de volverse a su país y nuevamente volver a
+                      Santiago, esta vez a estudiar Ingeniería Comercial en la
+                      Universidad de los Andes. La idea de llegar al país surgió
+                      por las buenas referencias de un vecino le dio a su
+                      padres. Chile es muy acogedor pero aún así echa de menos
+                      la bohemia de la ciudad Condal y su hermano, dice
+                      ella.</small
+                    >
+                  </p>
+                  <p class="mt-4 leermas">
+                    <a href="#" data-toggle="modal" data-target="#modal1"
+                      >Ver fotorrelato</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid"
+              src="img/vid-givens.jpg"
+              data-toggle="modal"
+              data-target="#modal2"
+              style="cursor: pointer"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4>Givens Lavestkra, 33 años</h4>
+                  <p class="mb-0 text-dark-50">
+                    <small
+                      >Probablemente, es uno de los miles de haitianos que ha
+                      llegado a Chile en busca de mejores oportunidades y pese a
+                      que no ha tenido problemas, dice que la vida en nuestro
+                      país es muy difícil para un extranjero si uno no tiene
+                      cabeza fría. Encuentra que la gente es muy pesada y que
+                      existe racismo. A pesar de eso, dice que los entiende y
+                      que tiene que acostumbrarse.</small
+                    >
+                  </p>
+                  <p class="mt-4 leermas">
+                    <a href="#" data-toggle="modal" data-target="#modal2"
+                      >Ver fotorrelato</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Three Row -->
+        <div class="row justify-content-center no-gutters mb-5">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid"
+              src="img/vid-jose.jpg"
+              data-toggle="modal"
+              data-target="#modal3"
+              style="cursor: pointer"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4>José Roberto Piñero, 32 años</h4>
+                  <p class="mb-0 text-dark-50">
+                    <small
+                      >Ingeniero Industrial de profesión, hoy trabaja junto a
+                      otros compatriotas como garzón en un café de Santiago como
+                      part time por no tener aún sus papeles. “Acá el consulado
+                      venezolano, es lo mismo que estar en Venezuela, funciona
+                      de la misma forma, con una burocracia tremenda…” dice.
+                      Pero no siempre trabajó atendiendo mesas.</small
+                    >
+                  </p>
+                  <p class="mt-4 leermas">
+                    <a href="#" data-toggle="modal" data-target="#modal3"
+                      >Ver fotorrelato</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODALS -->
+    <!-- Modal Aranza -->
+    <div
+      class="modal fade"
+      id="modal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                id="nofocusvideo"
+                class="embed-responsive-item"
+                src="https://player.vimeo.com/video/286922514"
+                ;
+                webkitallowfullscreen
+                mozallowfullscreen
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Givens -->
+    <div
+      class="modal fade"
+      id="modal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                id="nofocusvideo2"
+                class="embed-responsive-item"
+                src="https://player.vimeo.com/video/286922916"
+                ;
+                webkitallowfullscreen
+                mozallowfullscreen
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Jose -->
+    <div
+      class="modal fade"
+      id="modal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                id="nofocusvideo3"
+                class="embed-responsive-item"
+                src="https://player.vimeo.com/video/286923167"
+                ;
+                webkitallowfullscreen
+                mozallowfullscreen
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sigue Leyendo -->
+    <div id="sigue-leyendo"></div>
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!--  -->
+    <!--  -->
+
+    <!-- Popper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap 4.1.1 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- MODAL JS -->
+    <script>
+      // VIDEO ARANZA //
+      // Stop Video on [X] Close
+      function stopVideo() {
+        var $frame = $("iframe#nofocusvideo");
+
+        // saves the current iframe source
+        var vidsrc = $frame.attr("src");
+
+        // sets the source to nothing, stopping the video
+        $frame.attr("src", "");
+
+        // sets it back to the correct link so that it reloads immediately on the next window open
+        $frame.attr("src", vidsrc);
+      }
+
+      $("#modal1").on("hidden.bs.modal", function (e) {
+        stopVideo();
+      });
+
+      // VIDEO GIVENS //
+      // Stop Video on [X] Close
+      function stopVideo2() {
+        var $frame = $("iframe#nofocusvideo2");
+
+        // saves the current iframe source
+        var vidsrc = $frame.attr("src");
+
+        // sets the source to nothing, stopping the video
+        $frame.attr("src", "");
+
+        // sets it back to the correct link so that it reloads immediately on the next window open
+        $frame.attr("src", vidsrc);
+      }
+
+      $("#modal2").on("hidden.bs.modal", function (e) {
+        stopVideo2();
+      });
+
+      // VIDEO JOSE //
+      // Stop Video on [X] Close
+      function stopVideo3() {
+        var $frame = $("iframe#nofocusvideo3");
+
+        // saves the current iframe source
+        var vidsrc = $frame.attr("src");
+
+        // sets the source to nothing, stopping the video
+        $frame.attr("src", "");
+
+        // sets it back to the correct link so that it reloads immediately on the next window open
+        $frame.attr("src", vidsrc);
+      }
+
+      $("#modal3").on("hidden.bs.modal", function (e) {
+        stopVideo3();
+      });
+    </script>
+  </body>
+</html>

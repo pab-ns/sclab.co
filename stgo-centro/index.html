@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="Sclab. X FCom UAndes" />
+    <meta
+      name="description"
+      content="Un registro gráfico de la comuna más antigua de la capital. Santiago Centro es historia, presente y futuro. Es allí donde surgieron los primeros barrios urbanos y comerciales de la ciudad."
+    />
+    <meta property="og:title" content="Stgo. Centro en 11 estaciones | Sclab" />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-06-stgo-centro.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://pab-ns.github.io/sclab.co/stgo-centro"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#navbar").load("../assets/html/navbar.html");
+        $("#footer").load("../assets/html/footer.html");
+      });
+    </script>
+
+    <title>Stgo. Centro | Sclab.</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
+
+    <!-- Portada -->
+    <section>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="display-4 titular text-dark">
+              Santiago Centro en 11 estaciones
+            </h1>
+            <h3 class="subtitulo text-dark">
+              un registro gráfico de la comuna más antigua de la capital
+            </h3>
+            <p class="serif mt-3">
+              Por: Narrativa Multimedia 2018 · Sección 2 | Universidad de los
+              Andes
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- lead -->
+    <div class="container my-5">
+      <div class="contenedor">
+        <div class="row">
+          <p class="lead text-center mx-auto text-dark">
+            El centro de la ciudad es más que la ubicación tradicional de
+            oficinas, bancos y edificios gubernamentales. Alberga el centro
+            histórico (donde alguna vez llegó Pedro de Valdivia hace más de 500
+            años), los primeros barrios urbanos y comerciales de la ciudad e
+            historias. Aquellas, que no solo se hacen presentes en los textos
+            escolares, sino que historias en sus calles, locales y galerías. Y
+            es que en esta comuna, perdiéndose es la única manera de descubrir…
+            Picadas para comer, coleccionar y beber, lugares para apostar y
+            pasear y verdaderos monumentos a nuestra memoria país. Santiago
+            Centro es historia, presente y futuro. <br /><br />
+            <small
+              ><em
+                >Haz click sobre los lugares para conocer y ver más sobre
+                ellos.</em
+              ></small
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- places -->
+    <section class="my-5">
+      <div class="container">
+        <div class="contenedor text-center">
+          <!-- Plaza de Armas -->
+          <a
+            class="btn btn-secondary btn-circle btn-xl"
+            href="lugares.html?slide=10"
+            id="lugar1"
+            role="button"
+            data-toggle="tooltip"
+            title="Plaza de Armas"
+          ></a>
+
+          <!-- Bar Liguria -->
+          <a
+            class="btn btn-secondary btn-circle btn-xl"
+            href="lugares.html?slide=0"
+            id="lugar2"
+            role="button"
+            data-toggle="tooltip"
+            title="Bar Liguria"
+          ></a>
+
+          <!-- Confitería Torres -->
+          <a
+            class="btn btn-secondary btn-circle btn-xl"
+            href="lugares.html?slide=2"
+            id="lugar3"
+            role="button"
+            data-toggle="tooltip"
+            title="Confitería Torres"
+          ></a>
+
+          <!-- Deportes Player -->
+          <a
+            class="btn btn-secondary btn-circle btn-xl"
+            href="lugares.html?slide=3"
+            id="lugar4"
+            role="button"
+            data-toggle="tooltip"
+            title="Deportes Player"
+          ></a>
+
+          <!-- Club Hipico -->
+          <a
+            class="btn btn-secondary btn-circle btn-xl"
+            href="lugares.html?slide=1"
+            id="lugar5"
+            role="button"
+            data-toggle="tooltip"
+            title="Club Hípico"
+          ></a>
+
+          <!-- La Piojera -->
+          <a
+            class="btn btn-secondary btn-circle btn-xl"
+            href="lugares.html?slide=5"
+            id="lugar6"
+            role="button"
+            data-toggle="tooltip"
+            title="La Piojera"
+          ></a>
+
+          <!-- El Rapido -->
+          <a
+            class="btn btn-secondary btn-circle btn-xl"
+            href="lugares.html?slide=4"
+            id="lugar7"
+            role="button"
+            data-toggle="tooltip"
+            title="El Rápido"
+          ></a>
+
+          <!-- Peluquería Francesa -->
+          <a
+            class="btn btn-secondary btn-circle btn-xl"
+            href="lugares.html?slide=8"
+            id="lugar8"
+            role="button"
+            data-toggle="tooltip"
+            title="Peluquería Francesa"
+          ></a>
+
+          <!-- Barrio París-Londres -->
+          <a
+            class="btn btn-secondary btn-circle btn-xl"
+            href="lugares.html?slide=6"
+            id="lugar9"
+            role="button"
+            data-toggle="tooltip"
+            title="Barrio París-Londres"
+          ></a>
+
+          <!-- Paseo Bandera -->
+          <a
+            class="btn btn-secondary btn-circle btn-xl"
+            href="lugares.html?slide=7"
+            id="lugar10"
+            role="button"
+            data-toggle="tooltip"
+            title="Paseo Bandera"
+          ></a>
+
+          <!-- El Penique Negro -->
+          <a
+            class="btn btn-secondary btn-circle btn-xl"
+            href="lugares.html?slide=9"
+            id="lugar11"
+            role="button"
+            data-toggle="tooltip"
+            title="El Penique Negro"
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- map -->
+    <section>
+      <div id="map"></div>
+    </section>
+
+    <script>
+      var locations = [
+        {
+          title: "Plaza de Armas",
+          url: "https://www.instagram.com/p/BiA-Tb3lBNZ/embed/captioned/",
+          coords: { lat: -33.437818, lng: -70.650449 },
+          pin: "img/pins/01-pin-plaza.png",
+        },
+        {
+          title: "Bar Liguria",
+          url: "https://www.instagram.com/p/BiA-fc5llL8/embed/captioned/",
+          coords: { lat: -33.437179, lng: -70.640979 },
+          pin: "img/pins/02-pin-liguria.png",
+        },
+        {
+          title: "Confitería Torres",
+          url: "https://www.instagram.com/p/BiA-tKnF0Te/embed/captioned/",
+          coords: { lat: -33.4462, lng: -70.65816 },
+          pin: "img/pins/03-pin-confiteria.png",
+        },
+        {
+          title: "Deportes Player",
+          url: "https://www.instagram.com/p/BiA-3vlFILU/embed/captioned/",
+          coords: { lat: -33.435509, lng: -70.649852 },
+          pin: "img/pins/04-pin-player.png",
+        },
+        {
+          title: "Club Hípico",
+          url: "https://www.instagram.com/p/BiA_COElXLw/embed/captioned/",
+          coords: { lat: -33.459392, lng: -70.670663 },
+          pin: "img/pins/05-pin-hipico.png",
+        },
+        {
+          title: "La Piojera",
+          url: "https://www.instagram.com/p/BiA_SinFQnB/embed/captioned/",
+          coords: { lat: -33.433556, lng: -70.652152 },
+          pin: "img/pins/06-pin-piojera.png",
+        },
+        {
+          title: "El Rápido",
+          url: "https://www.instagram.com/p/BiA_coQFYvv/embed/captioned/",
+          coords: { lat: -33.439257, lng: -70.652197 },
+          pin: "img/pins/07-pin-rapido.png",
+        },
+        {
+          title: "Peluquería Francesa",
+          url: "https://www.instagram.com/p/BiA_su-lfSm/embed/captioned/",
+          coords: { lat: -33.440895, lng: -70.674123 },
+          pin: "img/pins/08-pin-peluqueria.png",
+        },
+        {
+          title: "Barrio París-Londres",
+          url: "https://www.instagram.com/p/BiBAE4aF5GC/embed/captioned/",
+          coords: { lat: -33.444826, lng: -70.648395 },
+          pin: "img/pins/09-pin-paris.png",
+        },
+        {
+          title: "Paseo Bandera",
+          url: "https://www.instagram.com/p/BiBAbGTFrAr/embed/captioned/",
+          coords: { lat: -33.439998, lng: -70.652252 },
+          pin: "img/pins/10-pin-bandera.png",
+        },
+        {
+          title: "El Penique Negro",
+          url: "https://www.instagram.com/p/BiBAlRZFLdF/embed/captioned/",
+          coords: { lat: -33.439301, lng: -70.651586 },
+          pin: "img/pins/11-pin-penique.png",
+        },
+      ];
+
+      function initMap() {
+        var uluru = { lat: -33.4502, lng: -70.65996 };
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 14,
+          center: uluru,
+          styles: [
+            {
+              featureType: "administrative",
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#a1a1a1",
+                },
+              ],
+            },
+            {
+              featureType: "administrative",
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#a1a1a1",
+                },
+              ],
+            },
+            {
+              featureType: "landscape.man_made",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#f6f6f6",
+                },
+              ],
+            },
+            {
+              featureType: "landscape.man_made",
+              elementType: "geometry.stroke",
+              stylers: [
+                {
+                  color: "#d4d4d4",
+                },
+              ],
+            },
+            {
+              featureType: "landscape.natural",
+              elementType: "all",
+              stylers: [
+                {
+                  color: "#ffffff",
+                },
+              ],
+            },
+            {
+              featureType: "poi",
+              elementType: "all",
+              stylers: [
+                {
+                  weight: 1,
+                },
+              ],
+            },
+            {
+              featureType: "poi",
+              elementType: "labels.icon",
+              stylers: [
+                {
+                  visibility: "off",
+                },
+                {
+                  saturation: -100,
+                },
+              ],
+            },
+            {
+              featureType: "poi",
+              elementType: "labels.text",
+              stylers: [
+                {
+                  color: "#6c6c6c",
+                },
+              ],
+            },
+            {
+              featureType: "poi",
+              elementType: "labels.text.stroke",
+              stylers: [
+                {
+                  visibility: "off",
+                },
+                {
+                  color: "#2d2d2d",
+                },
+              ],
+            },
+            {
+              featureType: "poi.attraction",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#eeeeee",
+                },
+              ],
+            },
+            {
+              featureType: "poi.attraction",
+              elementType: "geometry.stroke",
+              stylers: [
+                {
+                  color: "#dedede",
+                },
+              ],
+            },
+            {
+              featureType: "poi.business",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#eeeeee",
+                },
+              ],
+            },
+            {
+              featureType: "poi.business",
+              elementType: "geometry.stroke",
+              stylers: [
+                {
+                  color: "#dedede",
+                },
+              ],
+            },
+            {
+              featureType: "poi.government",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#eeeeee",
+                },
+              ],
+            },
+            {
+              featureType: "poi.government",
+              elementType: "geometry.stroke",
+              stylers: [
+                {
+                  color: "#dedede",
+                },
+              ],
+            },
+            {
+              featureType: "poi.medical",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#eeeeee",
+                },
+              ],
+            },
+            {
+              featureType: "poi.medical",
+              elementType: "geometry.stroke",
+              stylers: [
+                {
+                  color: "#dedede",
+                },
+              ],
+            },
+            {
+              featureType: "poi.park",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#e1f3e0",
+                },
+              ],
+            },
+            {
+              featureType: "poi.park",
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#a4c296",
+                },
+              ],
+            },
+            {
+              featureType: "poi.place_of_worship",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#eeeeee",
+                },
+              ],
+            },
+            {
+              featureType: "poi.place_of_worship",
+              elementType: "geometry.stroke",
+              stylers: [
+                {
+                  color: "#dedede",
+                },
+              ],
+            },
+            {
+              featureType: "poi.school",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#eeeeee",
+                },
+              ],
+            },
+            {
+              featureType: "poi.school",
+              elementType: "geometry.stroke",
+              stylers: [
+                {
+                  color: "#dedede",
+                },
+              ],
+            },
+            {
+              featureType: "poi.sports_complex",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#eeeeee",
+                },
+              ],
+            },
+            {
+              featureType: "poi.sports_complex",
+              elementType: "geometry.stroke",
+              stylers: [
+                {
+                  color: "#dedede",
+                },
+              ],
+            },
+            {
+              featureType: "road",
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#909090",
+                },
+              ],
+            },
+            {
+              featureType: "road.arterial",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#dbdbdb",
+                },
+              ],
+            },
+            {
+              featureType: "road.local",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#dbdbdb",
+                },
+              ],
+            },
+            {
+              featureType: "road.local",
+              elementType: "labels",
+              stylers: [
+                {
+                  visibility: "on",
+                },
+              ],
+            },
+            {
+              featureType: "road.local",
+              elementType: "labels.text.stroke",
+              stylers: [
+                {
+                  color: "#ffffff",
+                },
+              ],
+            },
+            {
+              featureType: "transit",
+              elementType: "all",
+              stylers: [
+                {
+                  visibility: "off",
+                },
+              ],
+            },
+            {
+              featureType: "transit",
+              elementType: "labels",
+              stylers: [
+                {
+                  saturation: -100,
+                },
+              ],
+            },
+            {
+              featureType: "water",
+              elementType: "geometry.fill",
+              stylers: [
+                {
+                  color: "#92dcd9",
+                },
+              ],
+            },
+          ],
+          // End map style
+        });
+
+        locations.forEach(function (el) {
+          var contentString =
+            '<div id="content">' +
+            '<div id="siteNotice">' +
+            el.title +
+            "</div>" +
+            '<iframe width="330" height="370" src="' +
+            el.url +
+            '" frameborder="0"></iframe>' +
+            "</div>" +
+            "</div>";
+
+          var infowindow = new google.maps.InfoWindow({
+            content: contentString,
+          });
+
+          var marker = new google.maps.Marker({
+            position: el.coords,
+            map: map,
+            icon:
+              el.pin ||
+              "https://chittagongit.com/images/google-maps-location-icon/google-maps-location-icon-2.jpg",
+            title: el.title,
+          });
+          marker.addListener("click", function () {
+            infowindow.open(map, this);
+          });
+          google.maps.event.addListener(map, "click", function (event) {
+            infowindow.close();
+          });
+        });
+      }
+    </script>
+
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQz7YqvjLJjaSjVyRcbfIVeVg2GxEVG4o&callback=initMap"
+    ></script>
+
+    <script type="text/javascript" src="js/platfominsta.js"></script>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!--  -->
+    <!--  -->
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Popper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap 4.1.1 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>

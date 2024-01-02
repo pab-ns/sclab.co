@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story, 50dias, 50, estallido, social, estalido social, octubre, chile, manifestaciones, protestas, piñera, constitucion, nueva, nueva constitucion, plebiscito, 18 octubre, 25 octubre, marcha"
+    />
+    <meta name="author" content="La Tercera - SCLab." />
+    <meta
+      name="description"
+      content="A 50 días del estallido | SCLab. | La Tercera"
+    />
+    <meta
+      property="og:title"
+      content="A 50 días del estallido | SCLab. | La Tercera"
+    />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2020-10-50dias.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://pab-ns.github.io/sclab.co/50-dias-estallido/"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="SCLab." />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://pab-ns.github.io/sclab.co/assets/img/favicon.ico/"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- proyect style  -->
+    <link rel="stylesheet" href="../css/proyect-style.css" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>
+      10 protagonistas de la mayor crisis política en 30 años | A 50 días del
+      estallido | SCLab. | La Tercera
+    </title>
+  </head>
+
+  <body>
+    <!-- START HERE -->
+    <div class="nav-bar mt-5">
+      <nav class="main-navigation lead small mx-auto">
+        <a href="https://pab-ns.github.io/sclab.co/50-dias-estallido/"
+          >50 días</a
+        >
+        <a href="https://pab-ns.github.io/sclab.co/50-dias-estallido/sobre.html"
+          >Sobre</a
+        >
+        <a href="https://www.sclab.co/" target="_blank">SCLab.</a>
+      </nav>
+    </div>
+    <!-- navbar -->
+    <section class="container my-5 text-center">
+      <!-- title -->
+      <h1 class="title display-3">
+        10 protagonistas de la mayor crisis política en 30 años
+      </h1>
+      <br />
+      <!-- lead -->
+      <hr class="line" />
+      <p class="lead">
+        <span class="text-danger"
+          >Sin duda que el mundo político ha sido uno de los más afectados
+          durante estos 50 días de crisis social.</span
+        >
+        El conjunto de sus actores ha sido emplazado por la ciudadanía a
+        responder a sus demandas y la agenda que estaba trazada ha cambiado casi
+        diametralmente. Y en este escenario convulsionado -que incluyó un cambio
+        de gabinete, baterías de nuevos proyectos y un acuerdo para una nueva
+        Constitución- hay figuras que se transformaron en protagonistas de lo
+        que ha ocurrido. Acá, 10 de ellas:
+      </p>
+      <hr class="line" />
+      <!-- author -->
+      <small class="author"
+        ><i>Por: <strong>Equipo de La Tercera</strong></i></small
+      >
+    </section>
+
+    <section class="container my-5">
+      <p class="content-paragraph text-center">
+        <strong>Haz click sobre cada personaje para más información.</strong>
+      </p>
+      <div class="properties-list">
+        <div class="property" data-toggle="modal" data-target="#marioDesbordes">
+          <img
+            src="img/XKIJ5OZGYFBXHPDTTFPX4V3RSI.webp"
+            alt=""
+            class="drop-shadow card-img-hover"
+          />
+          <h4 class="p-2"><span class="text-danger">Mario</span> Desbordes</h4>
+        </div>
+        <!-- property -->
+
+        <div class="property" data-toggle="modal" data-target="#gabrielBoric">
+          <img
+            src="img/2HVAJEFBTBBOXBPM4P4ZEXDNPU.webp"
+            alt=""
+            class="drop-shadow card-img-hover"
+          />
+          <h4 class="p-2"><span class="text-danger">Gabriel</span> Boric</h4>
+        </div>
+        <!-- property -->
+
+        <div class="property" data-toggle="modal" data-target="#gonzaloBlumel">
+          <img
+            src="img/M5GNPK7KCJDDNJOLJTTJOV2EJU.webp"
+            alt=""
+            class="drop-shadow card-img-hover"
+          />
+          <h4 class="p-2"><span class="text-danger">Gonzalo</span> Blumel</h4>
+        </div>
+        <!-- property -->
+
+        <div
+          class="property"
+          data-toggle="modal"
+          data-target="#barbaraFigueroa"
+        >
+          <img
+            src="img/AV5WSRRIXFDVTJW34WQZTEXS2Q.webp"
+            alt=""
+            class="drop-shadow card-img-hover"
+          />
+          <h4 class="p-2">
+            <span class="text-danger">El PC</span> y B. Figueroa
+          </h4>
+        </div>
+        <!-- property -->
+
+        <div class="property" data-toggle="modal" data-target="#germanCodina">
+          <img
+            src="img/YRWGY6LLGJF7XCRXCBJ6GMLBWE.webp"
+            alt=""
+            class="drop-shadow card-img-hover"
+          />
+          <h4 class="p-2"><span class="text-danger">Germán</span> Codina</h4>
+        </div>
+        <!-- property -->
+
+        <div class="property" data-toggle="modal" data-target="#andresChadwick">
+          <img
+            src="img/K6H6AZUXXRA3LJ5DEWEM5DSFTA.webp"
+            alt=""
+            class="drop-shadow card-img-hover"
+          />
+          <h4 class="p-2"><span class="text-danger">Andrés</span> Chadwick</h4>
+        </div>
+        <!-- property -->
+
+        <div class="property" data-toggle="modal" data-target="#udi">
+          <img
+            src="img/44ZTAYLRDQNDO5MMZWD2RN3CH4Y.jpg"
+            alt=""
+            class="drop-shadow card-img-hover"
+          />
+          <h4 class="p-2">
+            <span class="text-danger">J. van Rysselberghe</span> y la UDI
+          </h4>
+        </div>
+        <!-- property -->
+
+        <div class="property" data-toggle="modal" data-target="#jaimeQuintana">
+          <img
+            src="img/N5D5XDODBFG4PCTA4U5RIKHZLY.webp"
+            alt=""
+            class="drop-shadow card-img-hover"
+          />
+          <h4 class="p-2"><span class="text-danger">Jaime</span> Quintana</h4>
+        </div>
+        <!-- property -->
+
+        <div
+          class="property nine"
+          data-toggle="modal"
+          data-target="#ignacioBriones"
+        >
+          <img
+            src="img/SZI5TCSCOFBPDBOEAPMWRF2GZE.webp"
+            alt=""
+            class="drop-shadow card-img-hover"
+          />
+          <h4 class="p-2"><span class="text-danger">Ignacio</span> Briones</h4>
+        </div>
+        <!-- property -->
+
+        <div class="property ten" data-toggle="modal" data-target="#fuadChahin">
+          <img
+            src="img/WBESHSRWMNARVBMEFU6LOKV4SQ.webp"
+            alt=""
+            class="drop-shadow card-img-hover"
+          />
+          <h4 class="p-2"><span class="text-danger">Fuad</span> Chahin</h4>
+        </div>
+        <!-- property -->
+      </div>
+      <!-- properties-list -->
+    </section>
+
+    <!-- end -->
+    <div class="container my-5 text-center">
+      <hr />
+      <a href="https://pab-ns.github.io/sclab.co/50-dias-estallido/"
+        ><img src="../css/logo50.png" class="img-fluid" width="100" alt=""
+      /></a>
+    </div>
+
+    <!-- Modals -->
+
+    <!-- marioDesbordes  -->
+    <div
+      class="modal fade"
+      id="marioDesbordes"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="marioDesbordesLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 id="marioDesbordesLabel">
+              <span class="text-danger">Mario</span> Desbordes
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              El 13 de noviembre, la diputada Karol Cariola (PC) y el diputado
+              Giorgio Jackson (RD) retuitearon el mismo artículo de prensa. Se
+              titulaba "Mario Desbordes (RN) afirma que 'hay uno o dos días'
+              para alcanzar una salida institucional y que 'yo no descarto un
+              plebiscito' para definir el mecanismo constituyente". Los
+              parlamentarios de oposición no escatimaron en halagos al timonel
+              de RN en Twitter, en días en que ya se había convertido en un
+              interlocutor válido del oficialismo ante la oposición para salir
+              de la crisis.
+            </p>
+            <p>
+              El diputado RN fue uno de los primeros de su sector en hablar de
+              una nueva Constitución, algo que le valió críticas internas, pero
+              que se terminaron apagando con un aplauso transversal en el
+              Congreso al día siguiente del acuerdo del 15 de noviembre.
+            </p>
+            <p>
+              A eso se sumaron las declaraciones sobre su padre y la pensión de
+              $ 180 mil que recibía, cuando contó que su hijo de 23 años
+              participó de algunas de las manifestaciones y su propuesta para
+              que se condonara la deuda del CAE a los estudiantes que no
+              alcanzaron a obtener la gratuidad en 2015.
+            </p>
+            <p>
+              Su actuación en la crisis le valió aparecer, como nunca antes, en
+              los primeros lugares de las mediciones políticas. La encuesta
+              Cadem de fines de noviembre lo situó como la cuarta figura mejor
+              evaluada, con un 44% de aprobación.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- gabrielBoric  -->
+    <div
+      class="modal fade"
+      id="gabrielBoric"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="gabrielBoricLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 id="gabrielBoricLabel">
+              <span class="text-danger">Gabriel</span> Boric
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              Al inicio del estallido social, el diputado de Convergencia Social
+              Gabriel Boric protagonizó un video viral donde se enfrentaba
+              duramente a un militar en Plaza Italia. El incidente, como otros
+              episodios mediáticos de su trayectoria, le trajo duras críticas
+              por parte de Chile Vamos.
+            </p>
+            <p>
+              A medida que avanzó la crisis, sin embargo, el parlamentario se
+              convirtió en un personaje relevante en las conversaciones con el
+              oficialismo para destrabar el acuerdo por una nueva Constitución.
+              Una conversación suya con el senador UDI Juan Antonio Coloma abrió
+              paso a la fórmula que se terminó por plasmar en el texto que
+              firmaron 10 partidos políticos.
+            </p>
+            <p>
+              Además, el parlamentario trabajó activamente para que el resto de
+              su coalición se sumara al pacto. No obstante, no pudo asegurar el
+              respaldo de su propia colectividad y terminó por dar su rúbrica a
+              título personal. La situación desencadenó un quiebre al interior
+              de su partido y la renuncia de cientos de militantes y del alcalde
+              de Valparaíso, Jorge Sharp.
+            </p>
+            <p>
+              En paralelo, miembros del partido lo denunciaron en el TS de la
+              tienda. Debido a esto, la mesa decidió congelar su militancia
+              mientras se investiga el caso.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- gonzaloBlumel  -->
+    <div
+      class="modal fade"
+      id="gonzaloBlumel"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="gonzaloBlumelLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 id="gonzaloBlumelLabel">
+              <span class="text-danger">Gonzalo</span> Blumel
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              Fue un aterrizaje sorpresivo en el Ministerio del Interior y él
+              mismo lo ha calificado como una de sus mayores responsabilidades.
+              Desde que asumió como jefe de gabinete en medio de la crisis
+              -calificado en varios sectores como una cara "más amable" que su
+              antecesor, Andrés Chadwick-, a Gonzalo Blumel (Evópoli) le ha
+              tocado tener un rol protagónico en el gobierno: ha debido
+              enfrentar las denuncias contra Carabineros por violaciones a los
+              derechos humanos; ha tenido que liderar la agenda de seguridad y,
+              además, encabezar -por el lado de La Moneda- las conversaciones
+              para el acuerdo constitucional. Todo esto, mandatado por el
+              Presidente Sebastián Piñera.
+            </p>
+            <p>
+              Su estilo, en todo caso, no ha pasado desapercibido y ha recibido
+              cuestionamientos de la UDI, partido que lo acusa de no estar
+              enfocado en la agenda de seguridad y de continuar ejerciendo las
+              labores de su antiguo cargo en la Segpres, en desmedro del
+              ministro Felipe Ward (UDI). De hecho, los diputados de esa
+              colectividad le enviaron una carta transmitiéndole los reparos.
+            </p>
+            <p>
+              Pese a eso, en La Moneda defienden el rol que ha cumplido,
+              recalcan que él es el jefe político y que, por lo tanto, le
+              corresponde "empoderarse" y liderar los grandes temas políticos.
+              Así, han sido varias las reuniones que ha encabezado con
+              dirigentes -incluso en su propia casa- para ir avanzando en
+              medidas frente a la crisis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- barbaraFigueroa  -->
+    <div
+      class="modal fade"
+      id="barbaraFigueroa"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="barbaraFigueroaLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 id="barbaraFigueroaLabel">
+              <span class="text-danger">El PC</span> y B. Figueroa
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              Desde el primer día de la crisis, el PC se puso a la izquierda de
+              todos, incluso del FA, marginándose del acuerdo por la
+              Constitución, impulsando la acusación constitucional a Piñera,
+              votando en contra de algunas leyes, como las que endurece penas
+              por saqueos y poniéndose al lado de la Mesa de Unidad Social y sus
+              demandas. Justamente en este bloque sindical ha tenido mucho
+              protagonismo la presidenta de la CUT, Bárbara Figueroa. La
+              militante comunista acudió a la cita con el ministro Blumel a La
+              Moneda y ha hecho de vocera del grupo en ruedas de prensa y
+              entrevistas.
+            </p>
+            <p>
+              El rol de Figueroa ha sobresalido más que el de los diputados
+              (Cariola, Vallejo...); alcaldes (Jadue) e incluso de los dirigente
+              de la mesa (Teillier, Carmona...), cuyas posturas han evidenciado
+              diferencias al interior de la colectividad de la hoz y el
+              martillo, cuyas banderas han sido reemplazadas en las
+              manifestaciones por la mapuche y otras.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- germanCodina  -->
+    <div
+      class="modal fade"
+      id="germanCodina"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="germanCodinaLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 id="germanCodinaLabel">
+              <span class="text-danger">Gemán</span> Codina
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              Ese viernes 18 de octubre estaba en el Congreso exponiendo a
+              propósito del Presupuesto, pidiendo más recursos a seguridad y
+              despliegue de Carabineros. A las horas estaba lidiando con los
+              estragos del transporte, colocando buses de acercamiento. Luego,
+              los desmanes y saqueos también flagelaron a Puente Alto y coparon
+              buena parte de la agenda de su alcalde RN, considerado en su
+              momento el heredero del senador Ossandón.
+            </p>
+            <p>
+              Pero como presidente de la Asociación Chilena de Municipalidades,
+              Germán Codina jugó sus propias cartas en este medio centenar de
+              días. Yendo en contra de la corriente de su sector, y apoyado por
+              los otros jefes comunales del gremio que encabeza, se jugó por
+              impulsar un proceso de consulta ciudadana constituyente, que por
+              espacio de unos pocos días fue la única ventana a través de la
+              cual se estaba canalizando dicha demanda. Eso, cuando la derecha
+              aún no se abría a eso. La idea perdió espacio cuando se aceleraron
+              las tratativas de los partidos que derivaron en el pacto político
+              en su día tachado de "histórico", aunque aún no concretado. Con
+              todo, la consulta edilicia sigue.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- andresChadwick  -->
+    <div
+      class="modal fade"
+      id="andresChadwick"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="andresChadwickLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 id="andresChadwickLabel">
+              <span class="text-danger">Andrés</span> Chadwick
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              Su cargo era el más pedido por los incontables rayados callejeros
+              -sin contar el del Presidente- y apenas sobrevivió a los primeros
+              10 días de la crisis. Cayó en el cambio de gabinete del 28 de
+              octubre, aunque Sebastián Piñera no quería dejarlo ir y hasta
+              pensó en colocarlo en otro ministerio. Más de un mes después, no
+              se le ha vuelto a ver en público, pero su presencia sigue siendo
+              una pieza relevante del tablero.
+            </p>
+            <p>
+              Convertido en un símbolo de la demanda de justicia de la oposición
+              por las violaciones a los derechos humanos cometidas por
+              uniformados, Andrés Chadwick enfrentará el miércoles el desenlace
+              de una acusación constitucional de la que siempre zafó cuando era
+              ministro del Interior. Su defensa ha separado aguas con la del
+              gobierno, especialmente con un proceso paralelo al Presidente. Sus
+              amigos temen un frente judicial penal en su contra.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- udi  -->
+    <div
+      class="modal fade"
+      id="udi"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="udiLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 id="udiLabel">
+              <span class="text-danger">J. van Rysselberghe</span> y la UDI
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              Desde el inicio de la crisis, la UDI exigía resguardo del orden
+              público como prioridad y pedía al Presidente Sebastián Piñera que
+              decretara estado de emergencia. Por esos días, el partido fue
+              reacio al cambio de gabinete y pedía cuidar las arcas fiscales
+              ante los anuncios que vinieran.
+            </p>
+            <p>
+              Esa dura postura, sin embargo, tuvo una cesión mayor la madrugada
+              del 15 de noviembre. Mientras cundían apretones de mano y
+              felicitaciones entre dirigentes de oposición y oficialismo que
+              habían estado negociando el acuerdo por una nueva Constitución, el
+              rostro apesadumbrado de la presidenta de la UDI, Jacqueline van
+              Rysselberghe, contrastó en la escena. Su congoja respondía a que
+              el partido se había visto en la obligación de sumarse a un acuerdo
+              que podría terminar con la Constitución que redactó el fundador de
+              la UDI, Jaime Guzmán.
+            </p>
+            <p>
+              Y aunque logró incorporar un alto quórum (2/3) para una eventual
+              nueva Carta Magna, la cesión de la UDI le significó hasta lágrimas
+              a su timonel. Por lo mismo, la el partido ha sido el principal
+              freno para un avance de un acuerdo complementario en el proceso
+              constituyente.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jaimeQuintana  -->
+    <div
+      class="modal fade"
+      id="jaimeQuintana"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="jaimeQuintanaLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 id="jaimeQuintanaLabel">
+              <span class="text-danger">Jaime</span> Quintana
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              Desde el inicio del estallido social, el presidente del Senado,
+              Jaime Quintana (PPD), ha sido sindicado -en distintos sectores-
+              como una de las figuras que más han facilitado el diálogo con el
+              gobierno.
+            </p>
+            <p>
+              Junto a su par de la Cámara de Diputados, Iván Flores, el
+              parlamentario por La Araucanía fue de las primeras autoridades en
+              concurrir a La Moneda a reunirse con el Presidente Sebastián
+              Piñera, incluso en medio del polémico estado de emergencia que
+              decretó el Mandatario el 19 de octubre.
+            </p>
+            <p>
+              Ese rol se vio cristalizado cuando el 15 de noviembre el
+              legislador fue el vínculo entre la oposición y el ministro del
+              Interior, Gonzalo Blumel, para lograr lo que terminó siendo un
+              histórico acuerdo por una nueva Constitución. Con todo, pese a que
+              ha tendido puentes, también ha sido crítico con la forma en que el
+              Ejecutivo ha enfrentado la crisis y lo ha hecho ver en el propio
+              Palacio, por ejemplo, cuando fue convocado al Consejo de Seguridad
+              Nacional (Cosena).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ignacioBriones  -->
+    <div
+      class="modal fade"
+      id="ignacioBriones"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="ignacioBrionesLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 id="ignacioBrionesLabel">
+              <span class="text-danger">Ignacio</span> Briones
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              Solo dos horas antes de que el Presidente Sebastián Piñera
+              liderara la ceremonia de cambio de gabinete del 28 de octubre,
+              Ignacio Briones (Evópoli) fue notificado por el propio Mandatario
+              que reemplazaría a Felipe Larraín en el Ministerio de Hacienda.
+            </p>
+            <p>
+              Desde que llegó a Teatinos 120, Briones impuso un estilo distinto
+              al de su antecesor, ya que, para varios en la oposición, se plantó
+              con un tono más "dialogante" y "cercano".
+            </p>
+            <p>
+              Esos atributos lo habrían ayudado a destrabar, el 8 de noviembre,
+              la reforma tributaria impulsada por el Ejecutivo que, hasta antes
+              de la crisis, parecía casi imposible de aprobar. Lo mismo con el
+              presupuesto 2020, que, al igual como lo hizo con la tributaria,
+              explicó en detalle a través de Twitter. En su sector agregan que
+              su estilo tiene que ver con su formación universitaria en Francia,
+              con su paso por la Universidad Adolfo Ibáñez y por sus 46 años de
+              edad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fuadChahin  -->
+    <div
+      class="modal fade"
+      id="fuadChahin"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="fuadChahinLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 id="fuadChahinLabel">
+              <span class="text-danger">Fuad</span> Chahin
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              El presidente DC, Fuad Chahin, fue el primero de los timoneles de
+              oposición en decir que sí a la invitación del Mandatario Sebastián
+              Piñera a La Moneda para abordar la crisis. Y aunque no asistieron
+              todos los líderes partidistas, su decisión empujó a que otros
+              también se sumaran a la cita que se dio a días del estallido.
+            </p>
+
+            <p>
+              También fue clave la decisión del exparlamentario de sumarse con
+              su firma a un documento de toda la oposición pidiendo una asamblea
+              constituyente, lo que luego derivó en el acuerdo transversal por
+              una nueva Constitución.
+            </p>
+
+            <p>
+              La DC también fue una de las primera en "dar por muerta" la
+              reforma tributaria del gobierno. Chahin, además, junto al timonel
+              de RN, Mario Desbordes, han empujado varios acuerdos para la
+              agenda social.
+            </p>
+
+            <p>
+              Los votos DC en la Cámara también fueron fundamentales para que la
+              acusación constitucional contra Andrés Chadwick siga su curso.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

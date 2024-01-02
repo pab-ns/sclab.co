@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
+
+body{
+    background-color: #f9f9f9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-weight: 800 !important;
+}
+
+h1 span, .autores span{
+	background-color: black;
+	padding: 1%;
+}
+
+.jumbotron {
+    height: 60vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center top;
+    border-radius: 0 !important;
+}
+
+.intro{
+    font-weight: 600;
+    line-height: 2.0;
+}
+
+.content{
+    max-width: 750px;
+  }
+
+.content-parragraph{
+    font-family: serif;
+    /* color-1: #424242; */
+    color: #484a4c;
+    line-height: 2;
+  }  
+
+
+
+
+/*  */
+/* EL LADO B */
+/*  */
+#jumbo-ladob{
+    background-image: url(../lado-b/img/home1.jpg);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.leermas a{
+    font-weight: 900;
+    color: orangered;
+    padding: 2px;
+}
+
+
+
+
+/*  */
+/* CIFRAS INMIGRACIÓN */
+/*  */
+#jumbo-cifras{
+    background-image: url(../cifras-inmigracion/img/foto-portada.jpg);
+}
+
+
+
+
+/*  */
+/* Y VERAS COMO */
+/*  */
+#jumbo-veras{
+    background-image: url(../y-veras/img/home1.jpg);
+}
+
+.projects-section .project-text {
+    padding: 3rem;
+}
+
+.modal-lg{
+	max-width: 80%;
+}
+
+
+
+
+
+/*  */
+/* CANCHA */
+/*  */
+#jumbo-cancha{
+    background-image: url(../a-la-cancha/img/home2.jpg);
+}
+
+blockquote {
+    text-align:center;
+    position:relative;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:after {
+    color:#444;
+    font-family:Source Sans Pro;
+    content: open-quote;
+    font-size:80px;
+    position:absolute;
+    left:50%;
+    bottom:calc(100% - 20px);
+    /* background:#fff; */
+    height:55px;
+    width: 55px;
+    line-height:normal;
+    text-align:center;
+    transform:translateX(-50%);
+}
+blockquote p {
+    padding:20px;
+}
+
+
+
+
+/*  */
+/* CHILENISMOS */
+/*  */
+#jumbo-chilenismos{
+    background-image: url(../bueno-malo-chilenismos/img/home2.jpg);
+}
+
+audio{
+    width: 100%;
+    display: none;
+}
+
+.audios{
+    width: 100%;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.card{
+    border: 0px !important;
+    background: #fff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    border-radius: 14px;
+}
+
+.rounded-top{
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.mc-btn-action{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 47px;
+    text-align: center;
+    color: orangered !important;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 20;
+}
+
+progress{
+    /*gets rid of default appearance*/
+   -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+/*styles as any good ol' div would */
+  height:5px;
+  color: orangered;
+}
+progress::-moz-progress-bar { background: orangered; }
+progress::-webkit-progress-value { background: orangered; }
+
+.leermas{
+    color: orangered;
+}
+
+
+
+

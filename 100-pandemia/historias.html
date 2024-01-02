@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="Sclab." />
+    <meta
+      name="description"
+      content="100 días de pandemia. Breves relatos de un extenso problema."
+    />
+    <meta property="og:title" content="100 días de pandemia | Sclab." />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2020-07-100-pandemia.jpg"
+    />
+    <meta property="og:url" content="https://www.sclab.co/100-pandemia/" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- sclab theme -->
+    <link rel="stylesheet" href="https://www.sclab.co/assets/css/theme.css" />
+
+    <!-- jquery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(function () {
+        $("#nav").load("https://www.sclab.co/100-pandemia/index/html/nav.html");
+        $("#footer").load("https://www.sclab.co/assets/html/footer.html");
+      });
+    </script>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!-- Proyect stlye  -->
+    <link rel="stylesheet" type="text/css" href="story-style.css" />
+
+    <style>
+      /* Media queries */
+      /* Extra small devices (phones, 600px and down) */
+      @media only screen and (max-width: 600px) {
+        .prof__item-title {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <title>Historias | 100 días de pandemia | Scl.</title>
+  </head>
+
+  <body class="theme-2 prof__item--bg">
+    <!-- START HERE -->
+    <div id="nav"></div>
+
+    <section class="container my-5">
+      <h1 class="display-3 prof__item-title">Historias</h1>
+    </section>
+
+    <!-- stories -->
+    <section class="my-5 container">
+      <!-- 1 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-1.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="nueva-mentalidad/">Nueva Mentalidad</a>
+          </p>
+          <p class="prof__item-text small">
+            Por: María Jesús Auad, Jorge Bravo y Lorraine Luci
+          </p>
+          <p class="prof__item-text content-story">
+            Paula tomó la decisión de seguir sus sueños y dedicarse de lleno a
+            los tatuajes. Pese a las adversidades y limitaciones que han traído
+            las medidas de contención del COVID-19, se las arregla para mejorar
+            su técnica y proyectar una sociedad post pandemia.
+          </p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-2.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="libres-prisioneros/">Libres prisioneros</a>
+          </p>
+          <p class="prof__item-text small">Por: María Ignacia Camus</p>
+          <p class="prof__item-text content-story">
+            Tres amigos buscan un escape mental del confinamiento a través de su
+            pasión por la música, recordando sus días pre-pandemia cantando y
+            compartiendo y creando ritmos.
+          </p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-3.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="diario-musical/">Mi diario <s>personal</s> musical</a>
+          </p>
+          <p class="prof__item-text small">
+            Por: Ignacio Carrasco y Javiera Mella
+          </p>
+          <p class="prof__item-text content-story">
+            Los problemas personales de este joven lo han hecho llevar el
+            confinamiento de forma más difícil que a otras personas. Por lo
+            mismo, su diario y su música se ha convertido en un medio de
+            desahogo.
+          </p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-4.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="publicidad-pandemia/">Publicidad, pandemia y personas</a>
+          </p>
+          <p class="prof__item-text small">
+            Por: Catalina Maureira, María José Nolasco y Sofía Rivera
+          </p>
+          <p class="prof__item-text content-story">
+            Considerando que la publicidad es una resultante de variables, el
+            contexto nacional e internacional, economía, confianza, entre otros;
+            ¿cuáles son los desafíos del rubro hoy y a futuro?
+          </p>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-5.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="que-dijo/">¿Qué dijo..?</a>
+          </p>
+          <p class="prof__item-text small">
+            Por: Daniela Berger, Jaime Mc Intyre, Bruno Mansilla, Joaquín Rodó,
+            Cristián Santander y Florencia Szantó
+          </p>
+          <p class="prof__item-text content-story">
+            Tres actores principales han tenido que colaborar y en más de una
+            ocasión limar asperezas para enfrentar una pandemia histórica. A
+            continuación hacemos un recorrido de cómo han sido,
+            comunicacionalmente, 100 días de pandemia desde la Presidencia, el
+            Ministerio de Salud y el Colegio Médico de Chile.
+          </p>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-6.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="metodo-ardern/">El método Ardern</a>
+          </p>
+          <p class="prof__item-text small">
+            Por: Constanza Aravena y Macarena Ortiz
+          </p>
+          <p class="prof__item-text content-story">
+            Nueva Zelanda ha tenido una excepcional labor para frenar la
+            propagación de la pandemia, aplicando medidas de forma rápida,
+            pruebas masivas y el buen liderazgo de sus autoridades, entre otras.
+          </p>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-7.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="que-paso/">¿Qué pasó en 100 días?</a>
+          </p>
+          <p class="prof__item-text small">
+            Por: Ilan Czerny, Camila González, Cuiling Zhong, Carolina
+            Fernández, Catalina Vila y Delfina Gómez
+          </p>
+          <p class="prof__item-text content-story">
+            El siguiente interactivo muestra los acontecimientos más importantes
+            de los últimos tres meses. Algunos países han visto de frente el
+            lado más oscuro de la pandemia, otros han sabido esquivarla y los
+            menos se han recuperado.
+          </p>
+        </div>
+      </div>
+
+      <!-- 9 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-9.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="bueno-malo-aprendido/">Lo bueno, lo malo y lo aprendido</a>
+          </p>
+          <p class="prof__item-text small">
+            Por: Isidora Jadue, Florencia Slobodiuk, Bernardita Valenzuela,
+            Agustina Medovic y Florencia Mery
+          </p>
+          <p class="prof__item-text content-story">
+            Durante esta época de cuarentena los chilenos de todas las regiones
+            han modificado sus rutinas para adaptarse y sobrevivir al
+            asilamiento. Algunos mediante nuevas recetas, otros a ser más
+            tolerantes y algunos a sobrellevar el estrés.
+          </p>
+        </div>
+      </div>
+
+      <!-- 10 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-10.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="a-un-click/">A un click</a>
+          </p>
+          <p class="prof__item-text small">
+            Por: Yessenia Henríquez J, Mariano Serce, Javiera Deramond, Cecil
+            Fourt, Renata Olguín, Andrés Aguayo, Dominga Foster y Agustina
+            Gesche
+          </p>
+          <p class="prof__item-text content-story">
+            El COVID-19 nos ha obligado a adaptarnos a una nueva normalidad, y
+            en el caso de miles de estudiantes, cambiar sus tradicionales salas
+            de clases por un computador.
+          </p>
+        </div>
+      </div>
+
+      <!-- 11 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-11.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="tiempo-oro/">El tiempo es oro</a>
+          </p>
+          <p class="prof__item-text small">Por: Javiera Swinburn</p>
+          <p class="prof__item-text content-story">
+            Una hija se ve forzada a estar separada de su padre para proteger su
+            vida y la casa que solía ser el lugar de encuentro para numerosos
+            eventos familiares hoy se ha convertido en un fuerte para combatir
+            la más grande de las guerras.
+          </p>
+        </div>
+      </div>
+
+      <!-- 12 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-12.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="cuesta-arriba/">Cuesta arriba</a>
+          </p>
+          <p class="prof__item-text small">
+            Por: Amelia Janssen y Mónica Ugarte
+          </p>
+          <p class="prof__item-text content-story">
+            Pandemia y confinamiento. Muchas veces la situación ha estado cuesta
+            arriba. Alex, sin embargo, está acostumbrado a las pendientes. Su
+            bicicleta lo acompaña para subirlas. Echa de menos salir a andar,
+            pero como la gran mayoría se las ingenió.
+          </p>
+        </div>
+      </div>
+
+      <!-- 13 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-13.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="dias-perro/">Días de perros</a>
+          </p>
+          <p class="prof__item-text small">
+            Por: Trinidad Bofill y Sofía Chemsi
+          </p>
+          <p class="prof__item-text content-story">
+            Nuestro fieles amigos han sentido este encierro de una manera
+            distinta. No entienden por qué siempre hay gente en casa ni tampoco
+            la ausencia de sus actividades en los parques.
+          </p>
+        </div>
+      </div>
+
+      <!-- 14 -->
+      <div class="media my-5">
+        <img
+          class="mr-3"
+          src="index/img/thumb-small/Untitled-14.jpg"
+          width="100"
+        />
+        <div class="media-body">
+          <p class="my-0 lead prof__item-lead text-dark font-weight-bold">
+            <a href="amor-encerrado/">Amor encerrado</a>
+          </p>
+          <p class="prof__item-text small">Por: Athenea Codjambassis</p>
+          <p class="prof__item-text content-story">
+            La realidad los separó más de 800km pero no romperá la conexión de
+            estos dos adolescentes enamorados hasta las patas pese a no saber
+            cuándo se volverán a ver. En el amor (y en la guerra) todo se vale.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- flyback logo -->
+    <section class="container my-5 text-center">
+      <a href="https://www.sclab.co/100-pandemia/">
+        <img
+          src="https://www.sclab.co/100-pandemia/index/img/logo1.png"
+          alt=""
+          class="img-fluid mt-5"
+          width="100"
+        />
+      </a>
+    </section>
+
+    <!-- FOOTER -->
+    <div id="footer"></div>
+
+    <!--  -->
+    <!--  -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      ScrollReveal().reveal(".section-reveal", {
+        duration: 500,
+        origin: "bottom",
+        distance: "1%",
+        opacity: 0,
+        easing: "ease-in",
+        viewFactor: 0.1,
+      });
+    </script>
+  </body>
+</html>

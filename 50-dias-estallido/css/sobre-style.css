@@ -1,0 +1,33 @@
+.main-navigation{
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 25rem;
+  justify-content: space-evenly;
+  margin-top: 0;
+}
+
+.main-navigation a{
+  text-decoration: none;
+  color: rgba(0,0,0,.5);
+  font-weight: 400;
+}
+
+.main-navigation a:hover{
+  color: #AA272F;
+  font-weight: 900;
+}
+
+@media screen and (max-width:400px){
+  .title{font-size: 3.6rem;}
+}
+
+.click{
+  text-decoration: none;
+  color: #AA272F;
+}
+
+.click:hover{
+  text-decoration: none;
+  color: #AA272F;
+  font-weight: 900;
+}

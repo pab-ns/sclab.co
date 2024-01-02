@@ -1,0 +1,109 @@
+/* Desktop */
+
+/* Galaxy - Pixel 2 - Pixel 2 XL -  iPhone 5/SE - iPhone 6/7/8+ - iPhone X -  */
+@media screen and (max-width: 420px) {
+
+    .slideshow {
+		overflow: hidden;
+		margin: 0;
+		height: 100vh;
+	}
+	.slide {
+		height: 100vh;
+    }
+    
+    .slide__img {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	background-position: 50% 50%;
+	position: absolute;
+	pointer-events: none;
+    }
+
+    .slide__wrap{
+        height: 100vh;
+    }
+
+    .slide__title-wrap{
+        padding-top: 15rem;
+	}
+	
+	.slide__title{
+		font-size: 2rem;
+	}
+
+}
+
+/* iPad */
+@media screen and (max-width: 768px) and (min-width: 420px) {
+    .slideshow {
+		overflow: hidden;
+		margin: 0;
+		height: 100vh;
+	}
+
+	.slide {
+		height: 100vh;
+	}
+
+    .slide__img {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	background-position: 50% 50%;
+	position: absolute;
+	pointer-events: none;
+    }
+
+    .slide__wrap{
+        height: 100vh;
+    }
+
+    .slide__title-wrap{
+        padding-top: 30rem;
+	}
+	
+	.slide__title{
+		font-size: 3rem;
+	} 
+
+	.slide__subtitle{
+		font-size: 1.7rem;
+	}
+} 
+
+/* Landing */
+ .sombra{
+	text-shadow: 2px 2px 10px black;
+}
+
+/* Entrevistas */
+/*Citas*/
+blockquote {
+    text-align:center;
+    position:relative;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:after {
+    color:#444;
+    font-family:Source Sans Pro;
+    content: open-quote;
+    font-size:80px;
+    position:absolute;
+    left:50%;
+    bottom:calc(100% - 20px);
+    background:#fff;
+    height:55px;
+    width: 55px;
+    line-height:normal;
+    text-align:center;
+    transform:translateX(-50%);
+}
+blockquote p {
+    padding:20px;
+}

@@ -1,0 +1,50 @@
+label.radio_image input {
+    display: none;
+}
+
+label.radio_image img {
+    padding: 8px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    background: none;
+}
+
+label.radio_image input:checked + img {
+    background: #a2daec;
+}
+
+label.radio_image .palette {
+    float: left;
+    width: 100%;
+}
+
+.customize-control-multi-image .thumbnails .thumbnail {
+    width: 100%;
+    height: 90px;
+    margin: 5px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    outline: none;
+    margin: 5px 1px 3px 0px;
+    opacity: 1;
+}
+
+.customize-control-multi-image .thumbnails .thumbnail:hover {
+    opacity: 0.8 !important;
+    cursor: move;
+}
+
+.multi-image-control-placeholder {
+    height: 90px;
+    line-height: 60px;
+}
+
+.error {
+    color: #f00;
+}

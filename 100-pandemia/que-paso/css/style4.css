@@ -1,0 +1,109 @@
+.gal {
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    column-gap:2px;
+	}	
+	.gal img{ 
+    width: 100%; 
+    padding: 1px 0;
+  }
+
+
+  @media (max-width: 500px) {
+		.gal {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	}
+		
+  }
+
+
+  .contenedor {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .1s linear;
+    border: solid 5px #C35340;
+    background-color: rgba(0, 0, 0, .6)
+  }
+  
+  .contenedor:hover .overlay {
+    opacity: 1;
+  }
+
+
+  .card-body{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  
+
+
+
+  /* Media queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .card-body > .text-white {
+      font-size: 0.5rem;
+  }
+  .card-body{
+    padding-top: 0 !important;
+  }
+
+  .gal {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+      -moz-column-count: 2; /* Firefox */
+      column-count: 2;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .gal {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+      -moz-column-count: 2; /* Firefox */
+      column-count: 2;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .gal {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+      -moz-column-count: 2; /* Firefox */
+      column-count: 2;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .gal {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+      -moz-column-count: 3; /* Firefox */
+      column-count: 3;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .gal {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+      -moz-column-count: 4; /* Firefox */
+      column-count: 4;
+    }
+
+}

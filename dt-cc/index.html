@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="p a n s" />
+    <meta
+      name="description"
+      content="Analizamos el rendimiento de todos los directores técnicos de cuadro albo desde 1991 hasta la actualidad. ¿Quién es el mejor?"
+    />
+    <meta property="og:title" content="Mejor DT de Colo-Colo | Sclab." />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-12-dt.jpg"
+    />
+    <meta property="og:url" content="https://pab-ns.github.io/sclab.co/dt-cc" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.css" />
+
+    <!-- D3 -->
+    <link rel="stylesheet" type="text/css" href="d3/bubble_chart.css" />
+
+    <!-- Custom CSS (If neccesary) -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#navbar").load("../assets/html/navbar.html");
+        $("#footer").load("../assets/html/footer.html");
+      });
+    </script>
+
+    <title>Mejor DT de Colo-Colo | Sclab.</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
+
+    <!-- START HERE -->
+    <!-- INTRO -->
+    <section class="container mt-4">
+      <div class="container">
+        <span class="roman small">Desde 1991 hasta la actualidad</span>
+        <h1 class="display-3 bold">
+          ¿Quién ha sido el mejor técnico de Colo-Colo?
+        </h1>
+        <p class="roman font-italic mb-4">
+          Por: Sclab. | Datos:
+          <a href="http://historiadecolocolo.com/" target="_blank">
+            Historia de Colo-Colo</a
+          >
+        </p>
+        <p class="lead medium">
+          La llegada de Mario Salas al cuadro albo marca una nueva era en el
+          cuadro popular. Y es que desde 1991, más de 25 técnicos han dirigido
+          al club. Chilenos, argentinos y hasta europeos se han colocado el
+          "buzo", unos con más éxitos que otros, algunos que se repitieron el
+          plato y otros que pasaron sin pena ni gloria.
+          <!-- que han logrado intentar llevar al equipo de Macul a lo más alto, unos con más éxito que otros. -->
+        </p>
+        <hr class="my-5" />
+      </div>
+    </section>
+
+    <!-- Main Photo -->
+    <div class="text-center my-5 container">
+      <figure class="figure mx-auto">
+        <img
+          src="http://www.conmebol.com/sites/default/files/galeria-historica/colo-colo-1991_0.jpg"
+          width="700"
+          class="figure-img img-fluid"
+          alt="Mirko Jozic Copa Libertadores"
+          title="Photo credit: Conmebol.com"
+        />
+        <small>
+          <figcaption class="figure-caption text-secondary roman">
+            Mirko Jozic, uno de los técnicos más destacatos de Colo-Colo por la
+            obtención de la Copa Libertadores, pero no el de mejor rendimiento.
+          </figcaption>
+        </small>
+      </figure>
+    </div>
+
+    <!-- CONTENT -->
+    <section class="container content my-5">
+      <p class="content-parragraph">
+        El segundo paso de Héctor Tapia por la banca de Colo-Colo fue extraño,
+        por decir lo menos. En sus primeros partidos al mando de equipo logró
+        descomprimir el plantel y logró resultados. En el plano internacional,
+        clasificó después de 21 años a los octavos de final de Copa
+        Libertadores, dejó en el camino a un gigante sudamericano como el
+        Corinthians de Brasil y logró instalarse en los cuartos de final de la
+        Copa. Sin embargo, en el campeonato nacional nunca encontró regularidad
+        algo que fecha a fecha empezó a incomodar en Macul y que finalmente
+        terminó en la despediad de Tapia del club al término del torneo, dejando
+        a los albos en un discreto quinto lugar a 18 puntos del campeón,
+        Universidad Católica. <br /><br />
+        Aquí, revisamos el rendimiento -en el campeonato nacional- que han
+        tenido los entrenadores de la banca del Colo-Colo hasta la segunda era
+        de "Tito" Tapia. (No se consideran técnicos interinos).
+      </p>
+    </section>
+
+    <!-- NOT AVAILABLE -->
+    <section class="d-block d-lg-none my-5">
+      <div class="container">
+        <p class="text-center bold">
+          INTERACTIVO NO DISPONIBLE PARA TABLETS NI SMARTPHONES 😰
+        </p>
+      </div>
+    </section>
+
+    <!-- D3 BUTTONS -->
+    <!-- <section class="d-none d-lg-block">
+  <div class="container my-5 text-center">
+    <button type="button" id="combine" class="btn btn-outline-secondary"><small>TODOS LOS DTs</small></button>
+
+    <button type="button" id="ch-extranjero" class="btn btn-outline-secondary"><small>¿CHILENO O EXTRANJERO?</small></button>
+
+    <button type="button" id="titulos" class="btn btn-outline-secondary"><small>¿GANÓ TÍTULOS?</small></button>
+    <br>
+
+    <small class="mt-5 medium">(*) Primera etapa  (**) Segunda etapa</small>
+  </div>
+</section> -->
+
+    <!-- D3 BUTTONS 2 -->
+    <div class="container text-center my-5">
+      <small class="mt-1 roman text-secondary"
+        >Haz click sobre los filtros para separar los técnicos. También puedes
+        pasar el mouse sobre cada DT para conocer más detalles de su
+        desempeño.</small
+      >
+
+      <ul class="bold list-inline my-3" id="myBtnContainer">
+        <li class="list-inline-item filter_btn current medium" id="combine">
+          Todos los DTs
+        </li>
+        <li class="list-inline-item filter_btn medium" id="ch-extranjero">
+          ¿Chileno o extranjero?
+        </li>
+        <li class="list-inline-item filter_btn medium" id="titulos">
+          ¿Ganó títulos?
+        </li>
+      </ul>
+      <small class="mt-1 roman text-secondary"
+        >(*) Primera etapa (**) Segunda etapa</small
+      >
+    </div>
+
+    <!-- CHART -->
+    <section class="d-none d-lg-block">
+      <div id="chart"></div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!--  -->
+    <!--  -->
+
+    <!-- D3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+
+    <!-- Tooltip -->
+    <script src="d3/tooltip.js"></script>
+
+    <!-- Bubble Chart -->
+    <script src="d3/bubble.js"></script>
+
+    <!-- Active Button -->
+    <script>
+      document.getElementById("combine").focus();
+    </script>
+
+    <!-- Popper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap 4.1.1 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Add current class to the current button (highlight it)
+      var btnContainer = document.getElementById("myBtnContainer");
+      var btns = btnContainer.getElementsByClassName("filter_btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("current");
+          current[0].className = current[0].className.replace(" current", "");
+          this.className += " current";
+        });
+      }
+    </script>
+
+    <!--  -->
+  </body>
+</html>

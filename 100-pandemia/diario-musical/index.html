@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="Sclab. X FCom UAndes" />
+    <meta
+      name="description"
+      content="100 días de pandemia. Breves relatos de un extenso problema."
+    />
+    <meta property="og:title" content="100 días de pandemia | Sclab." />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2020-07-100-pandemia.jpg"
+    />
+    <meta property="og:url" content="https://www.sclab.co/100-pandemia/" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.sclab.co/assets/img/favicon.ico"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="https://www.sclab.co/assets/css/theme.css" />
+
+    <!-- Proyect stlye  -->
+    <link rel="stylesheet" type="text/css" href="../story-style.css" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- jquery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(function () {
+        $("#footer").load("https://www.sclab.co/assets/html/footer.html");
+      });
+    </script>
+
+    <title>Mi diario musical | 100 días de pandemia | Scl.</title>
+  </head>
+
+  <body class="notebook">
+    <!-- START HERE -->
+
+    <div class="row my-5">
+      <button
+        type="button"
+        onclick="myFunction()"
+        class="btn btn-outline-danger btn-lg random mx-auto dia"
+      >
+        Día aleatorio
+      </button>
+      <!-- <a class="btn btn-outline-danger btn-lg mx-auto dia" href="index.html" role="button">Volver al inicio</a> -->
+    </div>
+
+    <!-- carousel start -->
+    <section class="container carousel-ride section-reveal my-5">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner container content">
+          <!-- 0 Intro -->
+          <div class="carousel-item active transparent">
+            <div class="text-center">
+              <h1 class="dia display-4">Mi diario <s>personal</s> musical</h1>
+              <p class="dia h4 my-5 rotate">
+                Este es un diario de cada día desde que comenzó la
+                <s>pandemia</s> cuarentena... <br /><br />
+                bueno vivo con hartos problemas que me han hecho llevarla de
+                forma difícil, pero espero que me lean y así puedan comprender a
+                la gente como yo :)
+                <br /><br />
+                <img src="img/arrow.png" class="float-left" alt="" width="50" />
+                PD: Aquí puedes ver toda<s>s las canciones</s> la playlist y si
+                hacen click en las flechas de arriba puedes ver la canción y
+                "entrada" del día.
+              </p>
+              <iframe
+                src="https://open.spotify.com/embed/playlist/1pYmu2blw2udiiT2RxlStt"
+                width="500"
+                height="380"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- 1 -->
+          <div id="app"></div>
+        </div>
+
+        <!-- carousel control -->
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- carousel end -->
+
+    <!-- volver inicio -->
+    <div class="row">
+      <a
+        class="btn btn-outline-danger btn-lg mx-auto dia"
+        href="index.html"
+        role="button"
+        >Volver al inicio</a
+      >
+    </div>
+
+    <!-- flyback logo -->
+    <section class="container my-5 text-center">
+      <a href="https://www.sclab.co/100-pandemia/">
+        <img
+          src="https://www.sclab.co/100-pandemia/index/img/logo1.png"
+          alt=""
+          class="img-fluid mt-5"
+          width="100"
+        />
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script src="pet3.js"></script>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(".carousel").carousel({
+        interval: false,
+      });
+    </script>
+
+    <script>
+      function myFunction() {
+        var slideNum = $(".carousel-inner .carousel-item").length;
+        var randomNum = Math.floor(Math.random() * slideNum) + 1;
+        var randomNumIndex = randomNum - 1;
+        $(".carousel").carousel(randomNumIndex);
+        $(".carousel-item").removeClass("transparent");
+        $(".carousel").addClass("carousel-fade");
+        $(".carousel").removeClass("slide");
+      }
+    </script>
+
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+      $(window).on("load", function () {
+        $(".loader-wrapper").fadeOut("slow");
+      });
+    </script>
+  </body>
+</html>

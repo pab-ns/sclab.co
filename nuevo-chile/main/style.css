@@ -1,0 +1,51 @@
+
+/* Title Content */
+.grid__item-title {
+	font-weight: 800;
+	font-size: 4.5rem;
+	line-height: 1;
+	margin: 1rem 0 0 0;
+	color: var(--item-title);
+}
+
+/* iPhone */
+.grid__item-title--small {
+	font-size: 3rem;
+	line-height: 1.1;
+	margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 50em) {
+    .grid__item-title {
+		font-size: 7vw;
+	}
+	.grid__item-title--small {
+		font-size: 4vw;
+	}
+}
+
+
+/* Lead Content */
+.grid__item-subtitle {
+	display: block;
+	margin: auto 0 0 0;
+	padding-bottom: 10%;
+	font-size: 0.9em;
+	color: var(--item-subtitle);
+}
+
+@media screen and (min-width: 50em) {
+	.grid__item-subtitle {
+		font-size: 1em;
+	}
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.grid__item-link{
+	font-weight: 800;
+}
+
+

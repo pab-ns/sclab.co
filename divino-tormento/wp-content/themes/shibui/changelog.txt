@@ -1,0 +1,14 @@
+== Changelog ==
+These are the changes seen by Shibui since it was first available for public download.
+
+= Version 1.1 (July 28, 2016) =
+    * Fixed post navigation
+    * Fixed Infnite Scroll button positioning
+    * Fixed social media icons color
+    * Updated Infinete Scroll grid layout
+
+= Version 1.0.1 (Dec. 8, 2015) =
+    * Updater added
+
+= Version 1.0.0 (Aug. 27, 2015) =
+    * Initial release

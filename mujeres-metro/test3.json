@@ -1,0 +1,1390 @@
+{
+  "storymap": {
+    "language": "es",
+    "call_to_action": false,
+    "zoomify": {
+      "path": "https://pab-ns.github.io/sclab.co/mujeres-metro/8m/8m/",
+      "width": 6015,
+      "height": 6705
+    },
+
+    "slides": [
+      {
+        "comment": "Slide Intro 0",
+        "date": "",
+        "media": {
+          "url": "",
+          "caption": "",
+          "credit": ""
+        },
+        "location": {
+          "line": false,
+          "lat": 35.389261744966447,
+          "lon": -45.88279301745635,
+          "zoom": 2,
+          "icon": "./img/null.png",
+          "use_custom_marker": true
+        },
+        "background": {
+          "url": "https://www.solidbackgrounds.com/images/1920x1080/1920x1080-black-solid-color-background.jpg",
+          "color": "#000000",
+          "opacity": 50
+        },
+        "text": {
+          "headline": "Conócelas<br>aquí <hr>",
+          "text": ""
+        }
+      },
+
+      {
+        "comment": "L1 - Tatiana Fariña",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-farina.jpg",
+          "caption": "",
+          "credit": "(Metro San Pablo)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -133.2421875,
+          "zoom": 4,
+          "lat": 58.309488840677645,
+          "line": true,
+          "icon": "./img/pin/pin-l1.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Tatiana Fariña <hr>",
+          "text": "Militante de las Juventudes Comunistas y estudiante de Sociología en la U. de Chile, su muerte a los 19 años fue informada como resultado de la explosión de una bomba que supuestamente portaba en Lo Prado en 1985. Sin embargo, su familia afirma que fue una ejecutada política. <br><br> <small>Crédito Foto: Memoriaviva.com</small> "
+        }
+      },
+
+      {
+        "comment": "L1 - Gladys Marin",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-marin.jpg",
+          "caption": "",
+          "credit": "(Metro Pajaritos)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -125.94726562499999,
+          "zoom": 4,
+          "lat": 53.225768435790194,
+          "line": true,
+          "icon": "./img/pin/pin-l1.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Gladys Marín <hr>",
+          "text": "Profesora normalista y dirigente política, fue presidente del PC y diputada del partido. En 1998 interpuso la primera querella en contra de Augusto Pinochet, por la desaparición de su esposo en 1976. Al año siguiente fue candidata a la presidencia de la República, donde obtuvo un 3,19% de los votos.. <br><br> <small>Crédito Foto: Miguras.cl</small> "
+        }
+      },
+
+      {
+        "comment": "L1 - Nicole Saavedra",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-saavedra.jpg",
+          "caption": "",
+          "credit": "(Metro Universidad de Santiago)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -95.625,
+          "zoom": 4,
+          "lat": 53.225768435790194,
+          "line": true,
+          "icon": "./img/pin/pin-l1.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Nicole Saavedra <hr>",
+          "text": "Joven lesbiana de 23 años que permaneció una semana desaparecida, hasta que su cadáver apareció golpeado, maniatado y sin signos vitales en una zona montañosa cerca del embalse Los Aromos. <br><br> <small>Crédito Foto: CNNChile.com</small> "
+        }
+      },
+
+      {
+        "comment": "L1 - Michelle Peña",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-pena.jpg",
+          "caption": "",
+          "credit": "(Metro Estación Central)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -87.01171875,
+          "zoom": 4,
+          "lat": 53.225768435790194,
+          "line": true,
+          "icon": "./img/pin/pin-l1.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Michelle Peña <hr>",
+          "text": "Estudiante de Ingeniería Eléctrica de la U. Técnica del Estado y militante del Partido Socialista. En 1975 fue detenida por la Dirección de Inteligencia Nacional y continúa desaparecida hasta hoy. Tenía 27 años y ocho meses de embarazo. <br><br> <small>Crédito Foto: Twitter @Dondeestancl</small> "
+        }
+      },
+
+      {
+        "comment": "L1 - Macarena Valdés",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-valdes.jpg",
+          "caption": "",
+          "credit": "(Metro Los Héroes)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -66.884765625,
+          "zoom": 5,
+          "lat": 53.225768435790194,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Macarena Valdés <hr>",
+          "text": "En agosto de 2016, la activista ambiental mapuche de 32 años fue encontrada muerta en su casa. Aunque la autopsia oficial estableció un suicidio, su familia insiste en que víctima de un crimen. <br><br> <small>Crédito Foto: ElMostrador.cl</small> "
+        }
+      },
+
+      {
+        "comment": "L1 - Elena Caffarena",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-caffarena.jpg",
+          "caption": "",
+          "credit": "(Metro Universidad de Chile)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -56.42578125,
+          "zoom": 5,
+          "lat": 53.225768435790194,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Elena Caffarena <hr>",
+          "text": "Abogada y una de las 15 primeras mujeres juristas chilenas, Caffarena se tituló con la memoria “El enriquecimiento sin causa a expensas de otro”. Fundó el Movimiento Pro-Emancipación de las Mujeres de Chile en 1935 y trató temas inéditos para la época, como el divorcio, y otros que aún hoy causan debate, como el aborto, en artículos y columnas. <br><br> <small>Crédito Foto: LaTercera.com</small> "
+        }
+      },
+
+      {
+        "comment": "L1 - Margarita Pisano",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-pisano.jpg",
+          "caption": "",
+          "credit": "(Metro Universidad Católica)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -40.341796875,
+          "zoom": 4,
+          "lat": 53.225768435790194,
+          "line": true,
+          "icon": "./img/pin/pin-l1.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Margarita Pisano <hr>",
+          "text": "Arquitecta y pensadora feminista, autora del Manifiesto Feminista junto a Julieta Kirkwood e integrante del Movimiento Feminista de oposición a Pinochet donde la consigna fue <em>“Democracia en el país, en la casa y en la cama”.</em> <br><br> <small>Crédito Foto: Mpisano.cl</small> "
+        }
+      },
+
+      {
+        "comment": "L1 - Violeta Parra",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-parra.jpg",
+          "caption": "",
+          "credit": "(Metro Baquedano)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -33.662109375,
+          "zoom": 5,
+          "lat": 53.225768435790194,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Violeta Parra <hr>",
+          "text": "La compositora más universal de Chile, fue además pintora, escultora, bordadora y ceramista, pero sobre todo divulgadora de la música popular chilena. Es autora de canciones de alcance planetario como <em>“Gracias a la vida”</em> y <em>“Run Run se fue pal norte”</em>. <br><br> <small>Crédito Foto: CulturaColectiva.com</small> "
+        }
+      },
+
+      {
+        "comment": "L1 - Lumi Videla",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-videla.jpg",
+          "caption": "",
+          "credit": "(Metro Los Leones)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -5.712890625,
+          "zoom": 4,
+          "lat": 56.559482483762245,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Lumi Videla <hr>",
+          "text": "Estudiante de sociología de la U. de Chile, militante del Movimiento de Izquierda Revolucionaria y ejecutada en 1984. <br><br> <small>Crédito Foto: Twiter @Hugo_Gutierrez_</small> "
+        }
+      },
+
+      {
+        "comment": "L1 - Marta Vergara",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-vergara.jpg",
+          "caption": "",
+          "credit": "(Metro Tobalaba)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 2.28515625,
+          "zoom": 4,
+          "lat": 56.559482483762245,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Marta Vergara <hr>",
+          "text": "Editora, periodista y activista chilena por los derechos de las mujeres, fue una de las fundadoras del Movimiento Pro-Emancipación de las Mujeres de Chile. <br><br> <small>Crédito Foto: MujeresBacanas.com</small> "
+        }
+      },
+
+      {
+        "comment": "L1 - Comandante Tamara",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-tamara.jpg",
+          "caption": "",
+          "credit": "(Metro Escuela Militar)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 23.466796875,
+          "zoom": 4,
+          "lat": 56.559482483762245,
+          "line": true,
+          "icon": "./img/pin/pin-l1.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Comandante Tamara <hr>",
+          "text": "Cecilia Magni, la <em>“Comandante Tamara”</em>, fue integrante del FPMR. En 1988 su cuerpo fue encontrado con señales de tortura producto de golpes y disparos. <br><br> <small>Crédito Foto: ElDesconcierto.cl</small> "
+        }
+      },
+
+      {
+        "comment": "L1 - Agustina Huenupe",
+        "date": "",
+        "media": {
+          "url": "./img/l1/l1-huenupe.jpg",
+          "caption": "",
+          "credit": "(Metro Los Dominicos)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 46.05468749999999,
+          "zoom": 4,
+          "lat": 56.559482483762245,
+          "line": true,
+          "icon": "./img/pin/pin-l1.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Agustina Huenupe <hr>",
+          "text": "En 2002, la activista mapuche fue abatida durante un proceso de recuperación de tierras en Cauñicú. <br><br> <small>Crédito Foto: ConvergenciaMedios.cl</small> "
+        }
+      },
+
+      {
+        "comment": "L2 - Claudia López",
+        "date": "",
+        "media": {
+          "url": "./img/l2/l2-lopez.jpg",
+          "caption": "",
+          "credit": "(Metro Vespucio Norte)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -42.01171875,
+          "zoom": 4,
+          "lat": 75.84516854027044,
+          "line": true,
+          "icon": "./img/pin/pin-l2.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Claudia López <hr>",
+          "text": "Anarquista asesinada durante una protesta en 1998, veinticinco años después del golpe de Estado de 1973, en La Pincoya. <br><br> <small>Crédito Foto: iVoox - Editoral Audiolibros</small> "
+        }
+      },
+
+      {
+        "comment": "L2 - Amanda Labarca",
+        "date": "",
+        "media": {
+          "url": "./img/l2/l2-labarca.jpg",
+          "caption": "",
+          "credit": "(Metro Einstein)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -42.01171875,
+          "zoom": 4,
+          "lat": 70.78690984117928,
+          "line": true,
+          "icon": "./img/pin/pin-l2.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Amanda Labarca <hr>",
+          "text": "Profesora y embajadora chilena, se ocupó de la lucha por la obtención del voto femenino y en combatir el cohecho. Además publicó una serie de libros vinculados al feminismo y la educación. <br><br> <small>Crédito Foto: Sitio Web - RevistadeEducacion.cl</small> "
+        }
+      },
+
+      {
+        "comment": "L2 - Herminia Concha",
+        "date": "",
+        "media": {
+          "url": "./img/l2/l2-concha.jpg",
+          "caption": "",
+          "credit": "(Metro Patronato)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -44.912109375,
+          "zoom": 4,
+          "lat": 63.54855223203644,
+          "line": true,
+          "icon": "./img/pin/pin-l2.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Herminia Concha <hr>",
+          "text": "Participó en la fundación del MIR, organizó el Frente de Pobladores y participó de la toma de terreno que dio origen a la población <em>“La Pincoya</em> en Santiago. <br><br> <small>Crédito Foto: Flickr @Antitezo</small> "
+        }
+      },
+
+      {
+        "comment": "L2 - Esther Cabrera",
+        "date": "",
+        "media": {
+          "url": "./img/l2/l2-cabrera.jpg",
+          "caption": "",
+          "credit": "(Metro Cal y Canto)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -56.42578125,
+          "zoom": 5,
+          "lat": 62.3903694381427,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Esther Cabrera <hr>",
+          "text": "Integrante del Frente Patriótico Manuel Rodríguez (FPMR), detenida en 1987 y ejecutada en la llamada Operación Albania. <br><br> <small>Crédito Foto: Unidadmpt.wordpress.com</small> "
+        }
+      },
+
+      {
+        "comment": "L2 - Belén de Sárraga",
+        "date": "",
+        "media": {
+          "url": "./img/l2/l2-sarraga.jpg",
+          "caption": "",
+          "credit": "(Metro Santa Ana)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -66.884765625,
+          "zoom": 5,
+          "lat": 58.309488840677645,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Belén de Sárraga <hr>",
+          "text": "Médica y periodista española de ideas anarquistas que visitó Chile en varias oportunidades para difundir el feminismo y el anticlericalismo. <br><br> <small>Crédito Foto: Laicismo.org</small> "
+        }
+      },
+
+      {
+        "comment": "L2 - Margot Loyola",
+        "date": "",
+        "media": {
+          "url": "./img/l2/l2-loyola.jpg",
+          "caption": "",
+          "credit": "(Metro Franklin)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -58.27148437499999,
+          "zoom": 4,
+          "lat": 33.284619968887675,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Margot Loyola <hr>",
+          "text": "Folclorista y compositora, su legado guarda relación con la investigación del folclor, la poesía popular y el canto popular de las más apartadas regiones de Chile. Recopiló y asimiló gran cantidad de material, que se sigue difundiendo y estudiando en la academia que lleva su nombre. <br><br> <small>Crédito Foto: LaTercera.com</small> "
+        }
+      },
+
+      {
+        "comment": "L2 - Isidora Góngora",
+        "date": "",
+        "media": {
+          "url": "",
+          "caption": "(Metro El Llano)",
+          "credit": "(Metro El Llano)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -56.42578125,
+          "zoom": 4,
+          "lat": 26.980828590472107,
+          "line": true,
+          "icon": "./img/pin/pin-l2.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Isidora Góngora <hr>",
+          "text": "Primera matrona profesional del país. <br><br> (Metro El Llano)"
+        }
+      },
+
+      {
+        "comment": "L2 - Sola Sierra",
+        "date": "",
+        "media": {
+          "url": "./img/l2/l2-sierra.jpg",
+          "caption": "",
+          "credit": "(Metro Lo Ovalle)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -56.42578125,
+          "zoom": 4,
+          "lat": -11.695272733029402,
+          "line": true,
+          "icon": "./img/pin/pin-l2.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Sola Sierra <hr>",
+          "text": "Activista por los derechos humanos y ex presidenta de la Agrupación de Familiares de Detenidos Desaparecidos. <br><br> <small>Crédito Foto: Twiter @Hugo_Gutierrez_</small> "
+        }
+      },
+
+      {
+        "comment": "L2 - Lenka Franulic",
+        "date": "",
+        "media": {
+          "url": "./img/l2/l2-franulic.jpg",
+          "caption": "",
+          "credit": "(Metro La Cisterna)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -56.42578125,
+          "zoom": 4,
+          "lat": -26.74561038219901,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Lenka Franulic <hr>",
+          "text": "Primera mujer chilena en desempeñarse como periodista, fue galardonada con el Premio Nacional de Periodismo mención crónica en 1957 y se desempeñó además como traductora. <br><br> <small>Crédito Foto: CirculodePeriodistas.cl</small> "
+        }
+      },
+
+      {
+        "comment": "L3 - Marta Cano",
+        "date": "",
+        "media": {
+          "url": "",
+          "caption": "",
+          "credit": ""
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -76.640625,
+          "zoom": 5,
+          "lat": 76.83080820849285,
+          "line": true,
+          "icon": "./img/pin/pin-l3.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Marta Cano <hr>",
+          "text": "Fallecida en agosto de 1983 en la población <em>El Bosque.</em> Durante una protesta fue herida de bala en el interior de su casa. Según el Informe Rettig, testimonios y pericias balísticas acreditan suficientemente que los disparos provinieron de armas militares. <br><br> <small>Metro: Los Libertadores</small>"
+        }
+      },
+
+      {
+        "comment": "L3 - Joane Florvil",
+        "date": "",
+        "media": {
+          "url": "./img/l3/l3-florvil.jpg",
+          "caption": "",
+          "credit": "(Metro Conchalí)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -56.42578125,
+          "zoom": 4,
+          "lat": 71.23022052382076,
+          "line": true,
+          "icon": "./img/pin/pin-l3.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Joane Florvil <hr>",
+          "text": "Acusada, detenida y criminalizada supuestamente por abandonar a su hija. Luego se supo que todo había sido una confusión, donde el problema había sido el idioma. Las versiones de este caso son muchas, pero en la historia hay dos hechos: una haitiana que nunca entendió lo que estaba pasando y que terminó detenida, luego muerta en la ex Posta Central, y finalmente su cadáver debió esperar meses para ser repatriado a Haití. <br><br> <small>Crédito Foto: 24horas.cl </small> "
+        }
+      },
+
+      {
+        "comment": "L4 - Marta Ugarte",
+        "date": "",
+        "media": {
+          "url": "./img/l4/l4-ugarte.jpg",
+          "caption": "",
+          "credit": "(Metro Plaza Egaña)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 23.37890625,
+          "zoom": 4,
+          "lat": 43.068887774169625,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Marta Ugarte <hr>",
+          "text": "Profesora detenida y asesinada por la Dirección de Inteligencia Nacional, DINA, en 1976. <br><br> <small>Crédito Foto: Villagrimaldi.cl </small> "
+        }
+      },
+
+      {
+        "comment": "L4 - Carmen Bueno Cifuentes",
+        "date": "",
+        "media": {
+          "url": "./img/l4/l4-bueno.jpg",
+          "caption": "",
+          "credit": "(Metro Grecia)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 24.609375,
+          "zoom": 4,
+          "lat": 35.02999636902566,
+          "line": true,
+          "icon": "./img/pin/pin-l4.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Carmen Bueno Cifuentes <hr>",
+          "text": "Cineasta desaparecida en Santiago, en noviembre de 1974, a los 24 años de edad. <br><br> <small>Crédito Foto: Terrorismodeestadoenchile.cl </small> "
+        }
+      },
+
+      {
+        "comment": "L4 - Guadalupe Santa Cruz",
+        "date": "",
+        "media": {
+          "url": "./img/l4/l4-santa-cruz.jpg",
+          "caption": "",
+          "credit": "(Metro Macul)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 24.609375,
+          "zoom": 4,
+          "lat": 16.97274101999902,
+          "line": true,
+          "icon": "./img/pin/pin-l4.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Guadalupe Santa Cruz <hr>",
+          "text": "Escritora e integrante del Primer Congreso Internacional de Literatura Femenina Latinoamericana. Publicó sobre feminismo y estudió Filosofía. <br><br> <small>Crédito Foto: Yonosoyfunes.wordpress.com </small> "
+        }
+      },
+
+      {
+        "comment": "L4 - Isidora Aguirre",
+        "date": "",
+        "media": {
+          "url": "./img/l4/l4-aguirre.jpg",
+          "caption": "",
+          "credit": "(Metro Vicuña Mackenna)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 20.0390625,
+          "zoom": 4,
+          "lat": 11.695272733029402,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Isidora Aguirre <hr>",
+          "text": "Escritora y dramaturga, fue la autora de <em>“La Pérgola de Las Flores”</em>, uno de los mayores hitos del teatro chileno. <br><br> <small>Crédito Foto: Wikipedia.org </small> "
+        }
+      },
+
+      {
+        "comment": "L4 - Carmela Jeria",
+        "date": "",
+        "media": {
+          "url": "./img/l4/l4-jeria.jpg",
+          "caption": "",
+          "credit": "(Metro Elisa Correa)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 24.609375,
+          "zoom": 4,
+          "lat": -26.82407078047018,
+          "line": true,
+          "icon": "./img/pin/pin-l4.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Carmela Jeria <hr>",
+          "text": "Activista sindical, editora y periodista. Fue fundadora de <em>“La Alborada”</em>, primer periódico obrero feminista en el país. También se desempeñó como tipógrafa y linotipista. <br><br> <small>Crédito Foto: Revistascientificas.filo.uba.ar</small>"
+        }
+      },
+
+      {
+        "comment": "L4 - Reinalda Pereira",
+        "date": "",
+        "media": {
+          "url": "./img/l4/l4-pereira.jpg",
+          "caption": "",
+          "credit": "(Metro Hospital Sótero del Río)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 24.609375,
+          "zoom": 4,
+          "lat": -33.06392419812064,
+          "line": true,
+          "icon": "./img/pin/pin-l4.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Reinalda Pereira <hr>",
+          "text": "Tecnóloga médico, militante del PC, fue detenida y desaparecida en 1976 cuando tenía 29 años y estaba embarazada. <br><br> <small>Crédito Foto: Casosvicaria.cl </small>"
+        }
+      },
+
+      {
+        "comment": "L4 - Esther Valdés",
+        "date": "",
+        "media": {
+          "url": "./img/l4/l4-valdes.jpg",
+          "caption": "",
+          "credit": "(Metro Plaza de Puente Alto)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 24.609375,
+          "zoom": 4,
+          "lat": -49.03786794532641,
+          "line": true,
+          "icon": "./img/pin/pin-l4.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Esther Valdés <hr>",
+          "text": "Dirigente obrera y feminista, participó como periodista del periódico feminista <em>“La Alborada”</em>. Fundó el medio feminista <em>“La Palanca”</em> <br><br> <small>Crédito Foto: Wikipedia.org</small>"
+        }
+      },
+
+      {
+        "comment": "L4A - Pedro Lemebel",
+        "date": "",
+        "media": {
+          "url": "./img/l4/l4a-lemebel.jpg",
+          "caption": "",
+          "credit": "(Metro Santa Rosa)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -26.015625,
+          "zoom": 4,
+          "lat": -26.74561038219901,
+          "line": true,
+          "icon": "./img/pin/pin-l4a.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Pedro Lemebel <hr>",
+          "text": "Escritor y artista visual. En 1987, junto a Francisco Casas, formó el colectivo de arte <em>“Yeguas del Apocalipsis”</em>, que realizó un extenso trabajo plástico en performance, fotografía, video e instalación. <br><br> <small>Crédito Foto: Clavedelibros.com</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Nicolasa Quintreman",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-quintreman.jpg",
+          "caption": "",
+          "credit": "(Metro Plaza de Maipú)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -146.42578125,
+          "zoom": 4,
+          "lat": -4.477856485570586,
+          "line": true,
+          "icon": "./img/pin/pin-l5.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Nicolasa Quintreman <hr>",
+          "text": "Activista mapuche de origen pehuenche y férrea opositora a la construcción de la central hidroeléctrica Ralco de Endesa. En 2013 su cuerpo fue encontrado flotando en el embalse artificial de la represa Ralco. El Servicio Médico Legal señaló que la activista murió ahogada producto de una caída accidental. <br><br> <small>Crédito Foto: News.yahoo.com.com</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Maritza Quiroz Leiva",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-quiroz.jpg",
+          "caption": "",
+          "credit": "(Metro Laguna Sur)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -139.21874999999997,
+          "zoom": 4,
+          "lat": 38.8225909761771,
+          "line": true,
+          "icon": "./img/pin/pin-l5.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Maritza Quiroz Leiva <hr>",
+          "text": "Defensora de derechos humanos&nbsp;y líder de las mujeres afro víctimas de desplazamiento en la zona rural de Colombia. Trabajó por los derechos de todas las víctimas del conflicto, especialmente con relación a situaciones de desplazamiento forzado, el cual ella misma sufrió, así como de la comunidad afro, a la cual pertenecía. <br><br> <small>Crédito Foto: Seguimiento.co</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Aracely Romo",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-romo.jpg",
+          "caption": "",
+          "credit": "(Metro Pudahuel)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -139.130859375,
+          "zoom": 4,
+          "lat": 58.17070248348609,
+          "line": true,
+          "icon": "./img/pin/pin-l5.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Aracely Romo <hr>",
+          "text": "Miembro del Movimiento de Izquierda Revolucionaria (MIR), y formadora del Comité de Defensa de la Mujer, fue muerta en Temuco en 1988. <br><br> <small>Crédito Foto: Elpueblo.cl</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Gabriela Mistral",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-mistral.jpg",
+          "caption": "",
+          "credit": "(Metro Quinta Normal)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -90.52734374999999,
+          "zoom": 4,
+          "lat": 58.309488840677645,
+          "line": true,
+          "icon": "./img/pin/pin-l5.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Gabriela Mistral <hr>",
+          "text": "Poeta, profesora y diplomática, la primera Premio Nobel de Literatura de Chile fue una importante pensadora respecto al rol de la educación pública. Es autora de obras fundamentales de la literatura chilena: <em>“Desolación”, “Tala”, “Lagar”</em>, entre otros. <br><br> <small>Crédito Foto: MujeresBacanas.com</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Mónica Briones",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-briones.jpg",
+          "caption": "",
+          "credit": "(Metro Plaza de Armas)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -56.6015625,
+          "zoom": 5,
+          "lat": 58.309488840677645,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Mónica Briones <hr>",
+          "text": "Escultora y lesbiana asesinada en 1984 en pleno centro de Santiago. <br><br> <small>Crédito Foto: ElDesconcierto.cl</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Laura Rodig",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-rodig.jpg",
+          "caption": "",
+          "credit": "(Metro Bellas Artes)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -41.923828125,
+          "zoom": 4,
+          "lat": 58.309488840677645,
+          "line": true,
+          "icon": "./img/pin/pin-l5.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Laura Rodig <hr>",
+          "text": "Pintora, escultora, ilustradora y educadora. Fue fundadora de la Asociación Chilena de Pintores y Escultores, además de ser una de las primeras artistas chilenas en impulsar el arte social y despertar la conciencia sobre los ancestros indígenas. <br><br> <small>Crédito Foto: Arteallimite.com</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Javiera Neira",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-neira.jpg",
+          "caption": "",
+          "credit": "(Metro Irarrázabal)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -33.662109375,
+          "zoom": 5,
+          "lat": 43.068887774169625,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Javiera Neira <hr>",
+          "text": "Menor de 6 años asesinada por su padre en 2005 en medio de un episodio de violencia donde su madre fue víctima de femicidio frustrado. <br><br> <small>Crédito Foto: LaTercera.com</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Paulina Aguirre",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-aguirre.jpg",
+          "caption": "",
+          "credit": "(Metro Ñuble)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -33.662109375,
+          "zoom": 5,
+          "lat": 34.88593094075317,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Paulina Aguirre <hr>",
+          "text": "Militante del Movimiento de Izquierda Revolucionaria (MIR).  Tenía 20 años cuando fue acribillada en 1985. <br><br> <small>Crédito Foto: Facebook - Soy paulina alejandra aguirre tobar aunque mis camaradas de ruta me llaman luisa</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Hija de Perra",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-hdp.jpg",
+          "caption": "",
+          "credit": "(Metro San Joaquín)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -14.0625,
+          "zoom": 4,
+          "lat": 17.056784609942554,
+          "line": true,
+          "icon": "./img/pin/pin-l5.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Hija de Perra <hr>",
+          "text": "Transformista y activista sexual, protagonizó películas y documentales.<br><br> <small>Crédito Foto: Sinetiquetas.org</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Janequeo",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-janequeo.jpg",
+          "caption": "",
+          "credit": "(Metro Pedrero)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -8.61328125,
+          "zoom": 4,
+          "lat": 11.867350911459308,
+          "line": true,
+          "icon": "./img/pin/pin-l5.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Janequeo <hr>",
+          "text": "La llamada <em>“Juana de Arco de La Araucanía”</em> fue una mujer lonco, de origen mapuche-pehuenche, quien alcanzó a liderar a miles de indígenas en guerra contra los conquistadores.<br><br> <small>Crédito Foto: Megustaleer.cl</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Ana González",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-gonzalez.jpg",
+          "caption": "",
+          "credit": "(Metro Bellavista de La Florida)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 6.50390625,
+          "zoom": 4,
+          "lat": 6.315298538330033,
+          "line": true,
+          "icon": "./img/pin/pin-l5.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Ana González <hr>",
+          "text": "Fundadora de la Agrupación de Detenidos Desaparecidos.<br><br> <small>Crédito Foto: Tvu.cl</small>"
+        }
+      },
+
+      {
+        "comment": "L5 - Teresa Flores",
+        "date": "",
+        "media": {
+          "url": "./img/l5/l5-flores.jpg",
+          "caption": "",
+          "credit": "(Metro Vicente Valdés)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": 20.0390625,
+          "zoom": 4,
+          "lat": 6.315298538330033,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Teresa Flores <hr>",
+          "text": "Conocida como <em>“Compañerita”</em>, fue una dirigente sindical chilena, anarcosindicalista, feminista y militante del Partido Obrero Socialista y luego del Partido Comunistas (PC).<br><br> <small>Crédito Foto: Wikipedia.org</small>"
+        }
+      },
+
+      {
+        "comment": "L6 - Luz Donoso",
+        "date": "",
+        "media": {
+          "url": "./img/l6/l6-donoso.jpg",
+          "caption": "",
+          "credit": "(Metro Cerillos)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -108.984375,
+          "zoom": 4,
+          "lat": 26.03704188651584,
+          "line": true,
+          "icon": "./img/pin/pin-l6.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Luz Donoso <hr>",
+          "text": "Artista visual y destacada exponente del grabado en dictadura.<br><br> <small>Crédito Foto: ElMostrador.cl</small>"
+        }
+      },
+
+      {
+        "comment": "L6 - Herminda de la Victoria",
+        "date": "",
+        "media": {
+          "url": "",
+          "caption": "",
+          "credit": ""
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -94.04296874999999,
+          "zoom": 4,
+          "lat": 30.14512718337613,
+          "line": true,
+          "icon": "./img/pin/pin-l6.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Herminda de la Victoria <hr>",
+          "text": "Bebé fallecida en una toma de terreno realizada en Cerro Navia en 1967. Según relata la canción de Víctor Jara, que lleva su nombre, fue muerta por una bala perdida de Carabineros..<br><br> <small>Metro: Lo Valledor</small>"
+        }
+      },
+
+      {
+        "comment": "L6 - Anita Lizana",
+        "date": "",
+        "media": {
+          "url": "./img/l6/l6-lizana.jpg",
+          "caption": "",
+          "credit": "(Metro Estadio Nacional)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -10.72265625,
+          "zoom": 4,
+          "lat": 34.88593094075317,
+          "line": true,
+          "icon": "./img/pin/pin-l6.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Anita Lizana <hr>",
+          "text": "La mayor exponente del tenis chileno en las décadas de 1930 y 1940.<br><br> <small>Crédito Foto: Getty Images</small>"
+        }
+      },
+
+      {
+        "comment": "L6 - Juliera Kirkwood",
+        "date": "",
+        "media": {
+          "url": "./img/l6/l6-kirkwood.jpg",
+          "caption": "",
+          "credit": "(Metro Ñuñoa)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -9.84375,
+          "zoom": 3,
+          "lat": 43.068887774169625,
+          "line": true,
+          "icon": "./img/pin/pin.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Juliera Kirkwood <hr>",
+          "text": "Socióloga y cientista político fue una de las fundadoras del movimiento feminista chileno en la década del 80. Fue también una precursora de los estudios de género y se desempeñó como investigadora en la FLACSO. Creó distintos movimientos en pro de los derechos de la mujer.<br><br> <small>Crédito Foto: T13.cl</small>"
+        }
+      },
+
+      {
+        "comment": "L6 - Guacolda",
+        "date": "",
+        "media": {
+          "url": "./img/l6/l6-guacolda.jpg",
+          "caption": "",
+          "credit": "(Metro Inés de Suárez)"
+        },
+        "location": {
+          "iconSize": [31.82608695652174, 38],
+          "lon": -9.84375,
+          "zoom": 4,
+          "lat": 50.28933925329178,
+          "line": true,
+          "icon": "./img/pin/pin-l6.svg",
+          "use_custom_marker": true
+        },
+        "background": {
+          "color": "#000000",
+          "opacity": 20,
+          "url": ""
+        },
+        "text": {
+          "headline": "Guacolda <hr>",
+          "text": "Heroína de Arauco, compañera de Lautaro. Para algunos historiadores Guacolda no sería más que un personaje literario creado por Alonso de Ercilla en su poema <em>“La Araucana”</em>. Otros cronistas coloniales, en cambio, no ponen en duda su existencia. Para los españoles, se llamaba Teresa y era mujer muy hermosa.&nbsp; Se unió a Lautaro cuando éste tomó la ciudad de Concepción..<br><br> <small>Crédito Foto: Heroinas.net</small>"
+        }
+      }
+    ],
+    "map_background_color": "#e3e4e8",
+    "map_type": "zoomify",
+    "call_to_action_text": "Comenzar",
+    "map_as_image": true
+  },
+
+  "font_css": "stock:abril-droidsans"
+}

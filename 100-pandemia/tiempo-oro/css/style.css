@@ -1,0 +1,60 @@
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: #C35340;
+}
+
+.section img {
+	display: block;
+	/* max-width: 80%; */
+	width: 500px;
+	margin: 0 auto;
+  }
+  
+.flyback{
+	width: 20% !important;
+}
+
+.section:nth-child(2)  {
+	background:
+	  url(../img/fotorr1.jpeg)
+	  no-repeat fixed center / cover;
+  }
+
+.section:nth-child(4)  {
+	background:
+	  url(../img/fotorr5.jpeg)
+	  no-repeat fixed center / cover;
+  }
+
+  .section:nth-child(6)  {
+	background:
+	  url(../img/fotorr11.jpeg)
+	  no-repeat fixed center / cover;
+  }
+  
+  .section:nth-child(10)  {
+	background:
+	  url(../img/fotorr2.jpeg)
+	  no-repeat fixed center / cover;
+  }
+
+  .section:nth-child(8)  {
+	background:
+	  url(../img/fotorr12.jpeg)
+	  no-repeat fixed center / cover;
+  }
+
+  .section:nth-child(12)  {
+	background:
+	  url(../img/fotorr6.jpeg)
+	  no-repeat fixed center / cover;
+  }
+
+  .section:nth-child(14)  {
+	background:
+	  url(../img/fotorr4.jpeg)
+	  no-repeat fixed center / cover;
+  }
+  
+
+  

@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="Codrops X p a n s" />
+    <meta
+      name="description"
+      content="Desde que se creó la Copa Confederaciones, ninguna selección que ganó el torneo ha podido ganar el Mundial siguiente."
+    />
+    <meta property="og:title" content="¿Maldición Confederaciones? | Sclab." />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-07-confederation.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://pab-ns.github.io/sclab.co/confederaciones"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Light Tippy JS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tippy.js@4/themes/light.css"
+    />
+
+    <!-- Codrops -->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom-bars.css" />
+    <!--[if IE]>
+      <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.css" />
+
+    <!-- Own -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#navbar").load("../assets/html/navbar.html");
+        $("#footer").load("../assets/html/footer.html");
+      });
+    </script>
+
+    <title>¿Maldición Confederaciones? | Sclab.</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
+
+    <!-- START HERE -->
+    <!-- INTRO -->
+    <section class="container mt-4">
+      <div class="container">
+        <span class="roman small"
+          >¿Cómo fue el desempeño mundialero de los que ganaron la
+          Confederaciones?</span
+        >
+        <h1 class="display-3 bold">La maldición de la Copa Confederaciones</h1>
+        <p class="roman font-italic mb-4">Por: Sclab.</p>
+        <p class="lead medium">
+          No hay brujos, ni magia negra. Es una "maldita" coincidencia, nada
+          más. Esto porque desde que se disputó la Copa Confederaciones, ningún
+          equipo logró tener un buen desempeño (ni menos ganar la copa) en el
+          Mundial posterior. Brasil y Francia estuvieron a un paso de concretar
+          la hazaña en 1998 y 2006, respectivamente.
+        </p>
+        <hr class="my-5" />
+      </div>
+    </section>
+
+    <!-- PHOTOS -->
+    <section class="container">
+      <div class="row">
+        <div class="col-md-6 d-block img-fluid text-center mx-auto">
+          <div
+            class="getty embed image"
+            style="
+              background-color: #f9f9f9;
+              display: inline-block;
+              font-family: Roboto, sans-serif;
+              color: #000;
+              font-size: 11px;
+              width: 100%;
+              max-width: 594px;
+            "
+          >
+            <div style="padding: 0; margin: 0; text-align: left">
+              <a
+                href="https://www.gettyimages.es/detail/805747132"
+                target="_blank"
+                style="
+                  color: #a7a7a7;
+                  text-decoration: none;
+                  font-weight: normal !important;
+                  border: none;
+                  display: inline-block;
+                "
+              ></a>
+            </div>
+            <div
+              style="
+                overflow: hidden;
+                position: relative;
+                height: 0;
+                padding: 66.66667% 0 0 0;
+                width: 100%;
+              "
+            >
+              <iframe
+                src="//embed.gettyimages.com/embed/805747132?et=n-XIBpf9QfJfEV7_2HHYug&amp;tld=es&amp;sig=PT5NmOogouVwbM_5EP44efI1V02-p1zRdOovYxtN724=&amp;caption=true&amp;ver=1"
+                scrolling="no"
+                frameborder="0"
+                width="594"
+                height="396"
+                style="
+                  display: inline-block;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  margin: 0;
+                "
+              ></iframe>
+            </div>
+            <p class="text-left roman">
+              Una equipo alternativo de Alemania celebra la obtención de la Copa
+              Confederaciones en Rusia el año 2017 ante Chile.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 d-block img-fluid text-center mx-auto">
+          <div
+            class="getty embed image"
+            style="
+              background-color: #f9f9f9;
+              display: inline-block;
+              font-family: Roboto, sans-serif;
+              color: #000;
+              font-size: 11px;
+              width: 100%;
+              max-width: 594px;
+            "
+          >
+            <div style="padding: 0; margin: 0; text-align: left">
+              <a
+                href="https://www.gettyimages.es/detail/986003784"
+                target="_blank"
+                style="
+                  color: #a7a7a7;
+                  text-decoration: none;
+                  font-weight: normal !important;
+                  border: none;
+                  display: inline-block;
+                "
+              ></a>
+            </div>
+            <div
+              style="
+                overflow: hidden;
+                position: relative;
+                height: 0;
+                padding: 66.32997% 0 0 0;
+                width: 100%;
+              "
+            >
+              <iframe
+                src="//embed.gettyimages.com/embed/986003784?et=Q-iAq64dRPRkAih2dvgaTw&amp;tld=es&amp;sig=3z92Q7ZodnMFOjgSbtfrTWBjPzPJ13wt1cy0HTJuvRQ=&amp;caption=true&amp;ver=1"
+                scrolling="no"
+                frameborder="0"
+                width="594"
+                height="394"
+                style="
+                  display: inline-block;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  margin: 0;
+                "
+              ></iframe>
+            </div>
+            <p class="text-left roman">
+              El cara y sello de la copa. Los germanos eran cantidados a
+              quedarse con el Mundial pero fueron eliminados en primera ronda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEXT -->
+    <section class="container content mt-5">
+      <p class="content-parragraph">
+        La Copa Confederaciones fue un torneo de curiosa organización, pese a
+        ser un campeonato oficial gestado por la FIFA. Las primeras dos
+        ediciones (1992 y 1995) se realizaron bajo el nombre de Rey Fahd y se
+        jugaba en Arabia Saudita. La tercera edición, pese a jugarse en el mismo
+        país, fue nombrada como Copa Confederaciones. Desde el '95 hasta el
+        2005, el torneo se campeonato se disputaba cada dos años y desde el 2001
+        (excepto el 2003) se realizaba un año antes a Copa del Mundo. Una prueba
+        de fuego para el anfitrión.
+        <br /><br />
+        En ella, participaban las seis selecciones ganadoras de cada
+        confederación continental de la FIFA (Copa América, Eurocopa, Copa de
+        Africa, Asía, de las Naciones y la Concacaf), el campeón vigente del
+        mundo y la selección local que albergará el Mundial. Se hacían dos
+        grupos de cuatro equipos y pasaban de ronda los dos primeros (de cada
+        grupo) formándose las llaves de semifinal.
+        <br /><br />
+        Sin embargo, en cada una de las 10 ediciones que se realizó el
+        campeonato, ningún equipo logró tener un buen desempeño en el Mundial
+        posterior, ni menos hacerse dueño de la Copa, quedando así la
+        "maldición" de la Copa Confederaciones. La Selección más cercana en
+        "romper" la mala racha fue Brasil y Francia.
+        <br /><br />
+        A continuación, revisamos a el desempeño de las selecciones ganadoras de
+        la Copa Confederaciones desde la primera edición -celebrada en Arabia
+        Saudita- hasta la última, en Rusia y su posterior rendimiento en el
+        Mundial.
+        <br /><br />
+        <em
+          >Pasa el mouse encima o clickea las barras para conocer el desempeño
+          en detalle del equipo.</em
+        >
+      </p>
+    </section>
+
+    <!-- Pre Graph -->
+    <div class="leyenda">
+      <div class="caja1"></div>
+      <span class="explanation medium"
+        >% Rendimeinto en Copa Confederaciones</span
+      >
+      <div class="caja2"></div>
+      <span class="explanation medium">% Rendimeinto en Mundial</span>
+    </div>
+
+    <!-- Graphs -->
+    <section class="container">
+      <div class="container text-center d-block img-fluid my-5">
+        <div class="row">
+          <!-- 10ma edición -- Alemania 2017 -->
+          <div class="col-md-6 mt-5">
+            <h3 class="bold">Alemania 2017</h3>
+
+            <!-- Bar 1 - Confederaciones -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors navy move"
+                  role="progressbar"
+                  aria-valuenow="87"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="aleConf"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bar 2 - Mundial -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors red move"
+                  role="progressbar"
+                  aria-valuenow="33"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="aleMund"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="roman text-justify mt-5">
+              Joachim Löw se la jugó con llevar un equipo "B" a las
+              Confederaciones pensando en alternativas para el Mundial. Su
+              jugada funcionó en 2017. En el Mundial 2018, sin embargo, se
+              despidieron en la fase de grupo ganando apenas un partido.
+            </p>
+          </div>
+
+          <!-- 9na edición -- Brasil 2013 -->
+          <div class="col-md-6 mt-5">
+            <h3 class="bold">Brasil 2013</h3>
+
+            <!-- Bar 1 - Confederaciones -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors navy move"
+                  role="progressbar"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="braConfD"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bar 2 - Mundial -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors red move"
+                  role="progressbar"
+                  aria-valuenow="52"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="braMundD"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="roman text-justify mt-5">
+              Nuevas caras se vieron en el equipo brasileño para las
+              Confederaciones. Aún así, Neymar y compañía tampoco pudieron
+              conseguir el hexacampeonato y se despidieron con una goleada que
+              difícilmente será olvidadad: 7-1 ante Alemania.
+            </p>
+          </div>
+
+          <!-- 8va edición -- Brasil 2009 -->
+          <div class="col-md-6 mt-5">
+            <h3 class="bold">Brasil 2009</h3>
+
+            <!-- Bar 1 - Confederaciones -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors navy move"
+                  role="progressbar"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="braConfC"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bar 2 - Mundial -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors red move"
+                  role="progressbar"
+                  aria-valuenow="67"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="braMundC"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="roman text-justify mt-5">
+              Por tercera vez se coronaban con la Copa Confederaciones y
+              llegaban al Mundial de Sudáfrica con chapa de candidato. Por
+              segundo Mundial consecutivo fueron eliminados en la ronda de
+              cuartos de final ante Holanda.
+            </p>
+          </div>
+
+          <!-- 7ta edición -- Brasil 2005 -->
+          <div class="col-md-6 mt-5">
+            <h3 class="bold">Brasil 2005</h3>
+
+            <!-- Bar 1 - Confederaciones -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors navy move"
+                  role="progressbar"
+                  aria-valuenow="67"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="braConfB"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bar 2 - Mundial -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors red move"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="braMundB"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="roman text-justify mt-5">
+              A la "Verdeamarela" se le ha sido esquiva un nuevo título mundial.
+              A Alemania llegaban con un equipo plagado de estrellas, pero no
+              pudo nuevamente ante el talento de Zidane y compañía despidiéndose
+              en cuartos de final.
+            </p>
+          </div>
+
+          <!-- 6ta edición -- Francia 2003 -->
+          <div class="col-md-6 mt-5">
+            <h3 class="bold">Francia 2003</h3>
+
+            <!-- Bar 1 - Confederaciones -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors navy move"
+                  role="progressbar"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="fraConfB"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bar 2 - Mundial -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors red move"
+                  role="progressbar"
+                  aria-valuenow="71"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="fraMundB"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="roman text-justify mt-5">
+              Luego del fracaso del Mundial del 2002, Francia logró el primer
+              bicampeonato del torneo. Al año siguiente, estuvieron a punto de
+              romper la "maldición" pero cayó ante Italia en definición a
+              penales.
+            </p>
+          </div>
+
+          <!-- 5ta edición -- Francia 2001 -->
+          <div class="col-md-6 mt-5">
+            <h3 class="bold">Francia 2001</h3>
+
+            <!-- Bar 1 - Confederaciones -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors navy move"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="fraConf"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bar 2 - Mundial -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors red move"
+                  role="progressbar"
+                  aria-valuenow="11"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="fraMund"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="roman text-justify mt-5">
+              Los galos contaba con un sólida delantera con Trezeguet, Cissé y
+              Henry. Aún así, y por primera vez en la historia, el campeón
+              vigente del mundo era incapaz de anotar un solo gol y fue
+              eliminado en la frase de grupos de Japón - Corea 2002
+            </p>
+          </div>
+
+          <!-- 4ta edición -- Mexico 1999 -->
+          <div class="col-md-6 mt-5">
+            <h3 class="bold">México 1999</h3>
+
+            <!-- Bar 1 - Confederaciones -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors navy move"
+                  role="progressbar"
+                  aria-valuenow="87"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="mexConf"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bar 2 - Mundial -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors red move"
+                  role="progressbar"
+                  aria-valuenow="58"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="mexMund"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="roman text-justify mt-5">
+              Los aztecas comenzaron con el pie derecho su participación en el
+              Mundial del 2002, quedando incluso líderes de su grupo y logrando
+              pasar a los octavos de final donde cayeron ante EE.UU.
+            </p>
+          </div>
+
+          <!-- 3ra edición -- Brasil 1997 -->
+          <div class="col-md-6 mt-5">
+            <h3 class="bold">Brasil 1997</h3>
+
+            <!-- Bar 1 - Confederaciones -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors navy move"
+                  role="progressbar"
+                  aria-valuenow="87"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="braConf"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bar 2 - Mundial -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors red move"
+                  role="progressbar"
+                  aria-valuenow="71"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="braMund"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="roman text-justify mt-5">
+              Brasil estuvo a un paso de acabar con la “maldición” en el Mundial
+              de Francia de 1998, pero sucumbió ante el anfitrión y las
+              genialidades de Zinedine Zidane que golearon 3-0 en una extraña
+              noche para el "Scratch".
+            </p>
+          </div>
+
+          <!-- 2da edición -- Dinamarca 1995 -->
+          <div class="col-md-6 mt-5">
+            <h3 class="bold">Dinamarca 1995</h3>
+
+            <!-- Bar 1 - Confederaciones -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors navy move"
+                  role="progressbar"
+                  aria-valuenow="78"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="dinConf"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bar 2 - Mundial -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors red move"
+                  role="progressbar"
+                  aria-valuenow="47"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="dinMund"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="roman text-justify mt-5">
+              La "Dinamita Danesa" llegaba de ser campeón de la Eurocopa de
+              1992, liderados por los hermanos Laudrup. En Francia,hicieron una
+              discreta fase grupal, golearon a Nigeria en octavos de final, pero
+              cayeron en la siguiente fase ante Brasil.
+            </p>
+          </div>
+
+          <!-- 1ra Edición -- Argentina 1992 -->
+          <div class="col-md-6 mt-5">
+            <h3 class="bold">Argentina 1992</h3>
+
+            <!-- Bar 1 -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors navy move"
+                  role="progressbar"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="argConf"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bar 2 -->
+            <div class="progress-factor flexy-item mb-2">
+              <div class="progress-barb">
+                <div
+                  class="bar has-rotation has-colors red move"
+                  role="progressbar"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  id="argMund"
+                >
+                  <div class="tooltip white"></div>
+                  <div class="bar-face face-position roof percentage"></div>
+                  <div class="bar-face face-position back percentage"></div>
+                  <div
+                    class="bar-face face-position floor percentage volume-lights"
+                  ></div>
+                  <div class="bar-face face-position left"></div>
+                  <div class="bar-face face-position right"></div>
+                  <div
+                    class="bar-face face-position front percentage volume-lights shine"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="roman text-justify mt-5">
+              Los transandinos ganaron la primera edición de la Copa
+              Confederaciones de manera invicta, donde solo participaban cuatro
+              equipos. En el Mundial de EE.UU, ganaron dos duelos de cuatro
+              jugados y se despidieron en 8vos de final.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!--  -->
+    <!--  -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Tippy & Own JS -->
+    <script src="https://unpkg.com/tippy.js@4"></script>
+    <script src="js/papa.js"></script>
+  </body>
+</html>

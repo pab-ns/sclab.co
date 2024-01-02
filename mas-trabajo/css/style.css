@@ -1,0 +1,357 @@
+@import url("https://use.typekit.net/std3xut.css");
+body{font-family: "brother-1816",sans-serif;}
+
+.content{
+    max-width: 750px;
+    line-height: 2;
+}
+
+
+/* Themes */
+.theme-1 {
+    --item-bg: #fff;
+    --item-title: #514753;
+    --item-lead: #514753;
+    --item-author: #514753;
+    --item-text: #69606B;
+}
+
+.theme-2 {
+    --item-bg: #F8EBDA;
+    --item-title: #585A66;
+    --item-lead: #585A66;
+    --item-author: #585A66;
+    --item-text: #69606B;
+}
+
+.theme-3 {
+    --item-bg: #F1F1F1;
+    --item-title: #2D3B44;
+    --item-lead: #000000;
+    --item-author: #2E3337;
+    --item-text: #2E3337;
+}
+
+.theme-4 {
+    --item-bg: #43434B;
+    --item-title: #FFFFFF;
+    --item-lead: #FFFFFF;
+    --item-author: #FFFFFF;
+    --item-text: #B2B2C0;
+}
+
+.theme-5 {
+    --item-bg: #E0F3CA;
+    --item-title: #000000;
+    --item-lead: #000000;
+    --item-author: #000000;
+    --item-text: #000000;
+}
+
+.theme-6 {
+    --item-bg: #C9EFEE;
+    /* --item-title: #2D3B44; */
+    /* --item-author: #2E3337; */
+    --item-title: #4A4A4A;
+    --item-lead: #000000;
+    --item-author: #4A4A4A;
+    --item-text: #4A4A4A;
+}
+
+.theme-7 {
+    --item-bg: #fff;
+    --item-title: #fff;
+    --item-lead: #7F1515;
+    --item-author: #7F1515;
+    --item-text: #7F1515;
+}
+
+.theme-9 {
+  --item-bg: #4C565B;
+  --item-title: #F6FBFE;
+  --item-lead: #F6FBFE;
+  --item-author: #F6FBFE;
+  --item-text: #fff;
+}
+
+.theme-10 {
+  --item-bg: #F8F8FF;
+  --item-title: #0B1C00;
+  --item-lead: #0B1C00;
+  --item-author: #0B1C00;
+  --item-text: #0E2300;
+}
+
+.prof__item--bg {
+	background-color: var(--item-bg);
+}
+
+.prof__item-title {
+  font-weight: bold;
+	color: var(--item-title);
+}
+
+.prof__item-lead {
+	color: var(--item-lead);
+}
+
+.prof__item-author {
+    font-weight: bold;
+	color: var(--item-author);
+}
+
+.prof__item-text {
+    color: var(--item-text);
+}
+
+.drop-shadow{
+    -webkit-box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.drop-shadow-2{
+  -webkit-box-shadow: 0px 14px 80px rgba(150, 150, 150, 0.3);
+  box-shadow: 0px 14px 80px rgba(150, 150, 150, 0.3);
+}
+
+.text-shadow{text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8) !important;}
+
+.about{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.about:hover{
+text-decoration: none !important;
+color: white;
+opacity: 0.2;
+}
+
+
+
+
+/*  */
+/* HISTORIA 1 */
+/* Escultor */
+/*  */
+
+/* GALLERY */
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40vh;
+  }
+  .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.5s ease;
+  }
+  
+  .item:hover {
+    flex: 2.2;
+  }
+  
+  .item:hover > a > .inter-pajaro > .div-centrar-a > .texto-galeria-a{
+          opacity: .9;
+  }
+
+  /* .texto-galeria-a {
+    position: absolute;
+    color: black;
+	opacity: 0;
+	transition: opacity 0.8s;
+	background-color: white;
+	background-size: cover;
+	padding: 0.35em 0.5625em;
+} */
+
+/* .div-centrar-a{
+	position: relative;
+	left: 0%;
+} */
+
+.inter-pajaro{
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.item-1 {background-image: url('../arte-flores-macilla/img/01rinoceronte_small.jpg');}
+.item-2 {background-image: url('../arte-flores-macilla/img/02dragon_small.jpg');}
+.item-3 {background-image: url('../arte-flores-macilla/img/03villano_small.jpeg');}
+.item-4 {background-image: url('../arte-flores-macilla/img/04alien_small.jpeg');}
+.item-5 {background-image: url('../arte-flores-macilla/img/05predator_small.jpg');}
+.item-6 {background-image: url('../arte-flores-macilla/img/06nave_small.jpg');}
+/* END GALLERY */
+
+
+
+/*  */
+/* HISTORIA 3 */
+/* Carrito */
+/*  */
+
+#main-photo-3{
+    background-image: url("../carrito-salvavidas/img/IMG_7980.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*  */
+/* HISTORIA 5 */
+/* Botones */
+/*  */
+#main-photo-5 {
+    background-image: url("../botones-reliquias/img/DSC06357.jpg");
+    background-color: #111;
+    height: 680px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #main-photo-5 {
+        background-position: 25% 50%;
+      }   
+    
+    .title-5{
+          font-size: 450%;
+          margin-top: 50% !important;
+      }
+
+  }
+  
+  .jumbotron > .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.2);
+      z-index: 1;
+  }
+  
+  .jumbotron > .inner {
+      position: relative;
+      z-index: 1;
+      padding: 80px 0px;
+  }
+
+ 
+
+  .title-5{
+    margin-top: 20%;
+  }
+
+  .content_space{
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+
+  .photos_s_five{
+    background-color: #111;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  #photo-1{background-image: url("../botones-reliquias/img/DSC06306.jpg");}
+  #photo-2{background-image: url("../botones-reliquias/img/DSC06321.jpg");}
+  #photo-3{background-image: url("../botones-reliquias/img/DSC06324.jpg");}
+  #photo-4{background-image: url("../botones-reliquias/img/DSC06325.jpg");}
+  #photo-5{background-image: url("../botones-reliquias/img/DSC06365.jpg");}
+  #photo-6{background-image: url("../botones-reliquias/img/DSC06374.jpg");}
+  #photo-7{background-image: url("../botones-reliquias/img/DSC06386.jpg");}
+  #photo-8{background-image: url("../botones-reliquias/img/DSC06392.jpg");}
+  #photo-9{background-image: url("../botones-reliquias/img/DSC06397.jpg");}
+  #photo-10{background-image: url("../botones-reliquias/img/DSC06422.jpg");}
+
+
+/* HISTORIA 5_BOTONES */
+
+  /* .lead_two{
+    font-size: 1.5rem;
+    line-height: 2;
+  } */
+
+  /* .text_two{
+    font-size: 1rem;
+    line-height: 2;
+  } */
+
+  /* @media only screen and (max-width: 600px) {
+    .titular_mov{
+        font-size: 10rem;
+        padding: 25% 5% 5% 5%;
+    }
+    
+    .author_mov{
+        font-size: 2rem;
+    }
+    
+    .lead_two{
+        font-size: 2.8rem;
+        line-height: 2;
+        padding: 2%;
+      }
+    
+      .text_two{
+        font-size: 2.2rem;
+        line-height: 2;
+        padding: 2%;
+      }
+
+  }   */
+
+
+
+
+/*  */
+/* HISTORIA 7 */
+/* Productor Musical */
+/*  */
+#main-photo-7 {
+  background-image: url("../vida-musica/img/1.jpg");
+  background-color: #111;
+  height: 650px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  #main-photo-7 {
+      background-position: 25% 50%;
+    }   
+}
+
+/*  */
+/* HISTORIA 9 */
+/* Triatlon */
+/*  */
+
+.item9-1 {background-image: url('../deportes-ninos/img/01medalla.jpg');}
+.item9-2 {background-image: url('../deportes-ninos/img/02medalla.jpg');}
+.item9-3 {background-image: url('../deportes-ninos/img/03medalla.jpg');}
+.item9-4 {background-image: url('../deportes-ninos/img/05medalla.jpg');}
+.item9-5 {background-image: url('../deportes-ninos/img/04medalla.jpg');}
+.item9-6 {background-image: url('../deportes-ninos/img/06medalla.jpg');}
+
+
+
+
+
+
+

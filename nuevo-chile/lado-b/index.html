@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="Sclab. X FCom UAndes" />
+    <meta
+      name="description"
+      content="Una reportaje de la realidad de los extranjeros que han llegado al país en busca de nuevas oportunidades."
+    />
+    <meta
+      property="og:title"
+      content="El lado B del “Sueño Chileno” | El Nuevo Chile | Sclab."
+    />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-09-nuevo-chile.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://pab-ns.github.io/sclab.co/nuevo-chile"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Slider Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css"
+    />
+    <link rel="stylesheet" href="slider.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../../assets/css/theme.css" />
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#navbar-ench").load("../../assets/html/navbar-ench.html");
+        $("#footer").load("../../assets/html/footer.html");
+        $("#sigue-leyendo").load("../html/sigue.html");
+      });
+    </script>
+
+    <!-- Historias -->
+    <link rel="stylesheet" href="../css/historias.css" />
+
+    <title>El lado B del “Sueño Chileno” | El Nuevo Chile | Sclab.</title>
+  </head>
+
+  <body>
+    <!-- START HERE -->
+
+    <!-- NAVBAR -->
+    <div id="navbar-ench"></div>
+
+    <header>
+      <div class="jumbotron d-flex align-items-center" id="jumbo-ladob">
+        <div class="container text-center">
+          <h1 class="display-4 text-white">
+            <span>El lado B del “Sueño Chileno”</span>
+          </h1>
+          <p class="autores text-white my-3">
+            <span
+              ><small
+                >Por: Francisca Álvarez, Adia Riquelme y Catalina Muñoz</small
+              ></span
+            >
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="w-75 mx-auto text-center my-5">
+      <p class="intro">
+        Muchos inmigrantes que llegan a nuestro país lo hacen con un título
+        profesional universitario. Sin embargo, no tienen la posibilidad de
+        ejercer sus profesiones, por lo que se desempeñan en otras áreas
+        laborales lejanas a su ocupación original. ¿El principal obstáculo?
+        <a href="#validacion">La validación de sus títulos extranjeros</a>. Un
+        trámite considerado demasiado engorroso. Aquí, presentamos las historias
+        de tres profesionales que se ganan la vida realizando labores que
+        quizás, nunca pensaron hacer.
+      </p>
+    </section>
+
+    <!-- Slider -->
+    <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+        <!-- Historia 1 -->
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="img/historia-patricia.jpg" alt="" />
+          </div>
+          <div class="blog-slider__content">
+            <h3 class="font-weight-bold my-3">La meta que no se logró</h3>
+            <small
+              >Lo que serían unas vacaciones de verano, se transformaron en una
+              estadía indefinida. Patricia Artiles lleva 15 años viviendo en
+              Chile, y a pesar de que extraña el clima cálido de Perú, no
+              pretende volver. Hoy se dedica a la venta de aparatos electrónicos
+              y repuestos de celulares, aunque su verdadera vocación la dejó
+              enterrada en su país natal.</small
+            >
+            <br />
+            <p class="mt-4 leermas">
+              <a href="#" data-toggle="modal" data-target="#modalPatricia"
+                >Leer más</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- Historia 2 -->
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="img/historia-andres.jpg" alt="" />
+          </div>
+          <div class="blog-slider__content">
+            <h3 class="font-weight-bold my-3">Cambio de delantal</h3>
+            <small
+              >Cinco años han pasado desde que Andrés Villegas tomó un avión sin
+              fecha de regreso en su zona cafetera hacia Chile. El objetivo era
+              claro: buscar oportunidades laborales y un mejor salario. Pese a
+              su formación profesional, hoy atiende en un café del sector
+              oriente de la capital, lugar donde se siente feliz.</small
+            >
+            <p class="mt-4 leermas">
+              <a href="#" data-toggle="modal" data-target="#modalAndres"
+                >Leer más</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- Historia 3 -->
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="img/historia-kilber.jpg" alt="" />
+          </div>
+          <div class="blog-slider__content">
+            <h3 class="font-weight-bold my-3">De las leyes a la conserjería</h3>
+            <small
+              >Kilber dejó los códigos jurídicos para encargarse de la seguridad
+              de más de 60 familias que residen en un departamento del barrio
+              oriente de Santiago. Nunca lo planeó, pero la crisis política y
+              humanitaria de su natal Venezuela hizo que tomará la díficil
+              decisión de migrar a otro país.</small
+            >
+            <p class="mt-4 leermas">
+              <a href="#" data-toggle="modal" data-target="#modalKilber"
+                >Leer más</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="blog-slider__pagination"></div>
+    </div>
+
+    <!-- Modal 1 - Patricia -->
+    <div
+      class="modal fade"
+      id="modalPatricia"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalPatriciaLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="modalPatriciaLabel">
+              Patricia Artiles
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="content-parragraph p-2">
+              Iba en tercer año de bioquímica cuando cruzó la frontera, pero en
+              Santiago se negaron a convalidarle los ramos cursados. Patricia no
+              se quedó de brazos cruzados y quiso empezar desde cero. En ese
+              momento apareció una nueva barrera: la económica. Pues lo que le
+              apasionaba era muy costoso en universidades chilenas. Por eso se
+              atrevió a estudiar enfermería en la Universidad de Chile. Se
+              tituló como enfermera y trabajó durante un año, cumpliendo los
+              sacrificados turnos que impone esta profesión. Sin embargo, no
+              pudo continuar ejerciendo porque definitivamente bioquímica era lo
+              suyo. Comenta que entró al mundo del comercio porque tiene
+              horarios fijos que le permiten disfrutar más tiempo con su
+              familia. <br /><br />
+              Vino a Chile pensando que pasaría un par de semanas como turista.
+              El verdadero motivo de su viaje era contarle a su suegra que en
+              pocos meses sería abuela, ya que estaba embarazada. Pero para su
+              sorpresa, le diagnosticaron un embarazo de alto riesgo y así fue
+              postergando su regreso. Lo que desconocía en ese entonces, era que
+              terminaría enamorándose del país vecino, por eso lo único que la
+              motiva a ir de vez en cuando a Perú es su sabrosa gastronomía.
+            </p>
+
+            <!-- Gallery -->
+            <div class="my-4">
+              <div class="row">
+                <div class="m-auto">
+                  <div id="slider1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/peru/foto3.jpg"
+                          alt="Patricia 1"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/peru/foto4.jpg"
+                          alt="Patricia 2"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/peru/foto5.jpg"
+                          alt="Patricia 3"
+                        />
+                      </div>
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/peru/foto6.jpg"
+                          alt="Patricia 4"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/peru/foto7.jpg"
+                          alt="Patricia 5"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/peru/foto8.jpg"
+                          alt="Patricia 6"
+                        />
+                      </div>
+                    </div>
+
+                    <!-- CONTROLS -->
+                    <a
+                      href="#slider1"
+                      class="carousel-control-prev"
+                      data-slide="prev"
+                    >
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+
+                    <a
+                      href="#slider1"
+                      class="carousel-control-next"
+                      data-slide="next"
+                    >
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 - Andrés -->
+    <div
+      class="modal fade"
+      id="modalAndres"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalAndresLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="modalAndresLabel">
+              Andrés Villegas
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="content-parragraph p-2">
+              Tiene 29 años, y aunque su profesión es tecnólogo médico, ejerce
+              una labor muy distinta. Andrés es feliz siendo uno de los garzones
+              de la pastelería Cory, lugar donde cambió los laboratorios
+              clínicos por bandejas que transportan tortas y café en el local
+              ubicado en el Centro Comercial Apumanque. Asegura que en este
+              trabajo todo marcha como corresponde, a diferencia de otros
+              lugares en los que se han negado a darle un contrato. <br /><br />
+              Cory le abrió las puertas hace dos años. Antes intentó convalidar
+              sus estudios pero se rindió ante el engorroso trámite. Su sueldo
+              de garzón lo mantiene conforme, y sus clientes suelen preguntarle
+              la nacionalidad y felicitarlo por la buena atención que entrega.
+              Señala que el ambiente laboral es agradable y que sus compañeros
+              son en su mayoría extranjeros.
+              <br /><br />
+              Hoy vive en la comuna de San Miguel, ahí donde hace 4 décadas
+              nació la banda más representativa del rock chileno: Los
+              Prisioneros. Andrés tiene un cariño especial por el país donde
+              reside en calidad de inmigrante. Ya no quiere regresar a su natal
+              Colombia, y los motivos son lógicos, su polola es chilena y en un
+              mes nacerá su primera hija.
+            </p>
+
+            <!-- Gallery -->
+            <div class="my-4">
+              <div class="row">
+                <div class="m-auto">
+                  <div id="slider2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/colombia/foto2.jpg"
+                          alt="Andrés 1"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/colombia/foto4.jpg"
+                          alt="Andrés 2"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/colombia/foto6.jpg"
+                          alt="Andrés 3"
+                        />
+                      </div>
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/colombia/foto7.jpg"
+                          alt="Andrés 4"
+                        />
+                      </div>
+                    </div>
+
+                    <!-- CONTROLS -->
+                    <a
+                      href="#slider2"
+                      class="carousel-control-prev"
+                      data-slide="prev"
+                    >
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+
+                    <a
+                      href="#slider2"
+                      class="carousel-control-next"
+                      data-slide="next"
+                    >
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 - Kilber -->
+    <div
+      class="modal fade"
+      id="modalKilber"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalKilberLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="modalKilberLabel">
+              Kilber Monzón
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="content-parragraph p-2">
+              Al abrir la puerta del edificio Nova Vida sus residentes se pueden
+              encontrar con un joven atento, de sonrisa acogedora y tono de voz
+              caribeño. Es Kilber Monzón, 26 años, venezolano. Este muchacho
+              tuvo que dejar los códigos jurídicos para encargarse de velar por
+              la seguridad de más de 60 familias que residen en los
+              departamentos. <br /><br />
+              Sin embargo, pasar de ser abogado en su país a conserje en Chile,
+              fue el único camino que Kilber encontró para huir de la crisis
+              humanitaria y económica que afecta a su natal. Mientras anota el
+              nombre de una visita que hace ingreso al edificio, Monzón comenta:
+              En mi país hay muchos profesionales como yo, que de verdad
+              trabajamos, trabajamos y trabajamos, pero el dinero no alcanza por
+              la hiperinflación que se está viviendo allá, entonces si nos vamos
+              al tipo de cambio, gano más acá como conserje que como abogado en
+              Venezuela.
+              <br /><br />
+              A pesar de estar feliz y tranquilo trabajando como conserje, la
+              abogacía siempre será su pasión. Mira al costado de su escritorio
+              y recuerda los días que pasaba leyendo escritos jurídicos sobre
+              protección al consumidor en su oficina ubicada en la ciudad de
+              Barinas en Venezuela. Pero para Kilber la excesiva cantidad de
+              trámites y dinero que hay que juntar para volver a ser abogado en
+              Chile lo alejan cada día más de su verdadera profesión.
+            </p>
+
+            <!-- Gallery -->
+            <div class="my-4">
+              <div class="row">
+                <div class="m-auto">
+                  <div id="slider3" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/venezuela/foto3.jpg"
+                          alt="Kilber 1"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/venezuela/foto5.jpg"
+                          alt="Kilber 2"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/venezuela/foto7.jpg"
+                          alt="Kilber 3"
+                        />
+                      </div>
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/venezuela/foto8.jpg"
+                          alt="Kilber 4"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/venezuela/foto10.jpg"
+                          alt="Kilber 5"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block img-fluid"
+                          src="img/venezuela/foto11.jpg"
+                          alt="Kilber 6"
+                        />
+                      </div>
+                    </div>
+
+                    <!-- CONTROLS -->
+                    <a
+                      href="#slider3"
+                      class="carousel-control-prev"
+                      data-slide="prev"
+                    >
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+
+                    <a
+                      href="#slider3"
+                      class="carousel-control-next"
+                      data-slide="next"
+                    >
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Validacion -->
+    <section class="container my-5">
+      <div class="content mx-auto">
+        <h2 class="font-weight-bold mb-3" id="validacion">
+          ¿Cómo es la validación de títulos en Chile?
+        </h2>
+        <p class="content-parragraph">
+          La solicitud de reconocimiento de título es gratuita y se realiza
+          exclusivamente a través de un formulario en línea, siempre y cuando
+          los extranjeros hayan obtenido un título en alguno de los países con
+          los que Chile ha celebrado tratado bilateral o multilateral. De lo
+          contrario, deben acudir a la Universidad de Chile para realizar el
+          trámite. <br /><br />
+          Sin embargo, si la información ingresada es correcta, el solicitante
+          tendrá que acudir a una entrevista, previa reserva de hora, en el
+          Ministerio de Relaciones Exteriores, el Ministerio de Educación o
+          Universidad de Chile y entregar la documentación original. Muchas
+          veces las solicitudes quedan estancadas en este paso porque no se
+          poseen los documentos originales. Posteriormente se procede a la
+          confección del certificado, previa revisión jurídica. Si es aprobado,
+          se recibe el certificado mediante correo electrónico en formato PDF.
+          <br /><br />
+          Para el economista Erik Haindl, el grupo de inmigrantes que cuenta con
+          un título profesional es un aporte para la economía del país. “Para mí
+          los venezolanos son los inmigrantes que más han aportado a la economía
+          chilena, ya que cuentan con buenos niveles de educación y la mayoría
+          de ellos tiene un título profesional, por lo que ayudan mucho en las
+          diferentes áreas laborales en que se desempeñan”, señala.
+        </p>
+      </div>
+    </section>
+
+    <div class="container mx-auto text-center my-5">
+      <img src="img/foto-extra1.jpg" alt="" class="img-fluid d-block" />
+      <small
+        >Cientos de extranjeros hacen fila en las afueras del Registro Civil de
+        Santiago Centro</small
+      >
+    </div>
+
+    <!-- Sigue Leyendo -->
+    <div id="sigue-leyendo"></div>
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!--  -->
+    <!--  -->
+
+    <!-- Popper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap 4.1.1 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+    <script src="tit.js"></script>
+  </body>
+</html>

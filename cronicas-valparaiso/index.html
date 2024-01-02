@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="p a n s" />
+    <meta
+      name="description"
+      content="Patrimonio de la Humanidad de la UNESCO, la Ciudad Puerto esconde grandes historias en los rincones de sus cerros. Aquí algunas de ellas."
+    />
+    <meta property="og:title" content="Crónicas de Valparaíso | Sclab." />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2010-07-valparaiso.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://pab-ns.github.io/sclab.co/cronicas-valparaiso"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Crónicas de Valparaíso | Sclab.</title>
+  </head>
+
+  <body class="index">
+    <!-- START HERE -->
+
+    <!-- Small Nav -->
+    <section class="d-block d-sm-none">
+      <nav class="navbar navbar-dark py-5" style="background-color: #000">
+        <div class="container">
+          <a class="navbar-brand" href="./">
+            <img
+              src="./img/logo_valpo.png"
+              width="200"
+              alt="Logo Crónicas de Valparaiso"
+              class="img-fluid"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <ul
+            class="list-inline my-auto collapse navbar-collapse"
+            id="navbarNav"
+          >
+            <li class="nav-item list-inline-item">
+              <a class="nav-link text-secondary" href="./historia.html"
+                >Historias</a
+              >
+            </li>
+            <li class="nav-item list-inline-item">
+              <a class="nav-link text-secondary" href="./creditos.html"
+                >Créditos</a
+              >
+            </li>
+            <li class="nav-item list-inline-item">
+              <a
+                class="nav-link text-secondary"
+                href="https://pab-ns.github.io/sclab.co/"
+                >Sclab.</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Main Stories -->
+    <section class="">
+      <div class="row no-gutters">
+        <!-- Sello Personal -->
+        <div class="card col-md-3 border-0">
+          <a href="content.html?slide=1">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid image rounded-0"
+              src="img/sello-4-5.jpg"
+              alt="Sello Personal"
+            />
+          </a>
+        </div>
+        <!-- Fragmentos -->
+        <div class="card col-md-3 border-0">
+          <a href="content.html?slide=2">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid rounded-0"
+              src="img/fragmentos-4-5.jpg"
+              alt="Fragmentos"
+            />
+          </a>
+        </div>
+        <!-- La Condena de una Herencia -->
+        <div class="card col-md-3 border-0">
+          <a href="content.html?slide=0">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid rounded-0"
+              src="img/herencia-4-5.jpg"
+              alt="La condena de una herencia"
+            />
+          </a>
+        </div>
+        <!-- Adiós al Cerro -->
+        <div class="card col-md-3 border-0">
+          <a href="content.html?slide=4">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid rounded-0"
+              src="img/adios-4-5.jpg"
+              alt="Adios al Cerro"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Nav -->
+    <section class="d-none d-sm-block">
+      <nav class="navbar navbar-dark py-3" style="background-color: #000">
+        <div class="container">
+          <a class="navbar-brand" href="./">
+            <img
+              src="./img/logo_valpo.png"
+              width="300"
+              alt="Logo Crónicas de Valparaiso"
+              class="img-fluid"
+            />
+          </a>
+
+          <ul class="list-inline my-auto">
+            <li class="nav-item list-inline-item">
+              <a class="nav-link text-secondary" href="./historia.html"
+                >Historias</a
+              >
+            </li>
+            <li class="nav-item list-inline-item">
+              <a class="nav-link text-secondary" href="./creditos.html"
+                >Créditos</a
+              >
+            </li>
+            <li class="nav-item list-inline-item">
+              <a
+                class="nav-link text-secondary"
+                href="https://pab-ns.github.io/sclab.co/"
+                >Sclab.</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Secondary stories -->
+    <section class="">
+      <div class="row no-gutters">
+        <!-- Tango, amistad y Cinzano -->
+        <div class="card col-md border-0">
+          <a href="content.html?slide=3">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid rounded-0"
+              src="img/cinzano-1x1.jpg"
+              alt="Tango, amistad y Cinzano"
+            />
+          </a>
+        </div>
+        <!-- Trazos de ciudad -->
+        <div class="card col-md border-0">
+          <a href="content.html?slide=8">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid rounded-0"
+              src="img/trazos-1x1.jpg"
+              alt="Trazos de ciudad"
+            />
+          </a>
+        </div>
+        <!-- Encuentro en la cumbre -->
+        <div class="card col-md border-0">
+          <a href="content.html?slide=9">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid rounded-0"
+              src="img/encuentro-1x1.jpg"
+              alt="Encuentro en la cumbre"
+            />
+          </a>
+        </div>
+        <!-- En la Caleta -->
+        <div class="card col-md border-0">
+          <a href="content.html?slide=10">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid rounded-0"
+              src="img/caleta-1x1.jpg"
+              alt="En la caleta"
+            />
+          </a>
+        </div>
+        <!-- Perros -->
+        <div class="card col-md border-0">
+          <a href="content.html?slide=6">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid rounded-0"
+              src="img/perros-1x1.jpg"
+              alt="Perros de la calle"
+            />
+          </a>
+        </div>
+        <!-- Las entrás del Decano -->
+        <div class="card col-md border-0">
+          <a href="content.html?slide=7">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid rounded-0"
+              src="img/decano-1x1.jpg"
+              alt="Las entrañas del decano"
+            />
+          </a>
+        </div>
+        <!-- Pan al mar -->
+        <div class="card col-md border-0">
+          <a href="content.html?slide=5">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid rounded-0"
+              src="img/pan-1x1.jpg"
+              alt="Pan al mar"
+            />
+          </a>
+        </div>
+        <!-- U -->
+        <div class="card col-md border-0">
+          <a href="fcom.html">
+            <div class="overlay-div"></div>
+            <img
+              class="card-img-top img-fluid rounded-0"
+              src="img/u-1x1.jpg"
+              alt="Fcom Uandes"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+    </script>
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>

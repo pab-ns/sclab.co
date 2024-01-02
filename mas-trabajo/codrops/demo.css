@@ -1,0 +1,28 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after {display: table;  content: ''; }
+.clearfix:after { clear: both; }
+
+/* custom */
+body {
+	/* background: #2a2e39; */
+	background: #222222;
+	color: #dbdbdb;
+	font-weight: 400;
+	font-size: 1em;
+	/* font-family: "Josefin Sans", "Helvetica Neue", Helvetica, sans-serif; */
+}
+
+/* custom */
+a {
+	/* color: #36b6dd; */
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+
+/* custom */
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+	color: #fff !important;
+}

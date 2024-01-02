@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="p a n s" />
+    <meta
+      name="description"
+      content="En una nueva conmemoración del 8M, Día Internacional de la Mujer, casi 50 estaciones del Metro de Santiago fueron ‘re-nombradas’ con mujeres emblemáticas"
+    />
+    <meta
+      property="og:title"
+      content="Las mujeres que se 'tomaron' el Metro de Santiago | Sclab."
+    />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2019-03-8m.jpg"
+    />
+    <meta property="og:url" content="https://www.sclab.co/mujeres-metro" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.css" />
+
+    <!-- Custom CSS (If neccesary) -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#navbar").load("../assets/html/navbar.html");
+        $("#footer").load("../assets/html/footer.html");
+      });
+    </script>
+
+    <title>Las mujeres que se "tomaron" el Metro de Santiago | Sclab.</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
+
+    <!-- START HERE -->
+    <!-- INTRO -->
+    <section class="container mt-4">
+      <div class="container">
+        <span class="roman small">8M: Día Internacional de la Mujer</span>
+        <h1 class="display-3 bold">
+          Las mujeres que se <em>"tomaron" </em> el Metro de Santiago
+        </h1>
+        <p class="roman font-italic mb-4">
+          Por: Sclab. | Adaptado desde
+          <a
+            href="https://www.latercera.com/culto/2019/03/04/mujeres-se-tomaron-el-metro/"
+            target="_blank"
+            >La Tercera</a
+          >
+        </p>
+        <p class="lead medium">
+          En una nueva conmemoración del Día Internacional de la Mujer, casi 50
+          estaciones del Metro de la capital fueron "re-nombradas" con mujeres
+          que por distintos motivos han impactado y han sido parte de la
+          historia nacional. Nombres que van desde la fase de la conquista
+          chilena hasta tiempos presentes.
+        </p>
+        <hr class="my-5" />
+      </div>
+    </section>
+
+    <!-- SECTION -->
+    <section class="mx-5 my-5">
+      <!-- The StoryMap container can go anywhere on the page. Be sure to
+    specify a width and height.  The width can be absolute (in pixels) or
+    relative (in percentage), but the height must be an absolute value.
+    Of course, you can specify width and height with CSS instead -->
+      <div id="mapdiv" style="width: 100%; height: 600px"></div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+    <!--  -->
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap 4.1.1 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Your script tags should be placed before the closing body tag. -->
+    <link rel="stylesheet" href="./css_sm/storymap.css?v1" />
+    <script type="text/javascript" src="./js/json2.min.js"></script>
+    <link rel="stylesheet" href="./css_sm/fonts/font.mio.css?v1" />
+    <script type="text/javascript" src="./js/storymap.js"></script>
+
+    <script>
+      // storymap_data can be an URL or a Javascript object
+      var storymap_data = "test3.json";
+
+      // certain settings must be passed within a separate options object
+      var storymap_options = {};
+
+      var storymap = new VCO.StoryMap(
+        "mapdiv",
+        storymap_data,
+        storymap_options
+      );
+      window.onresize = function (event) {
+        storymap.updateDisplay(); // this isn't automatic
+      };
+    </script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-27829802-2", {
+        anonymize_ip: true,
+        linker: {
+          domains: ["knightlab.com"],
+        },
+      });
+
+      gtag("event", "EmbeddedIn", {
+        event_label: document.referrer,
+        event_category: "StoryMapJS",
+        non_interaction: true,
+      });
+    </script>
+
+    <script type="text/javascript">
+      function parseQuerystring() {
+        var nvpair = {};
+        var qs = window.location.search.replace("?", "");
+        var pairs = qs.split("&");
+
+        for (var i = 0; i < pairs.length; i++) {
+          var p = pairs[i].split("=");
+          nvpair[p[0]] = p[1];
+        }
+        return nvpair;
+      }
+
+      function getScriptPath(scriptname) {
+        var scriptTags = document.getElementsByTagName("script");
+
+        for (var i = 0; i < scriptTags.length; i++) {
+          if (scriptTags[i].src.match(scriptname)) {
+            script_path = scriptTags[i].src;
+            return script_path.split("?")[0].split("/").slice(0, -1).join("/");
+          }
+        }
+        return "";
+      }
+
+      function url_join(url, concat) {
+        // see http://stackoverflow.com/questions/2676178/joining-relative-urls
+        function build(parts, container) {
+          for (var i = 0, l = parts.length; i < l; i++) {
+            if (parts[i] == "..") {
+              container.pop();
+            } else if (parts[i] == ".") {
+              continue;
+            } else {
+              container.push(parts[i]);
+            }
+          }
+        }
+        var url_parts = [];
+        build(url.split("/"), url_parts);
+        build(concat.split("/"), url_parts);
+        return url_parts.join("/");
+      }
+
+      var storymap = null;
+
+      var params = parseQuerystring();
+      var storymap_url = decodeURIComponent(params["url"]);
+
+      if (
+        !!navigator.userAgent.match(/AppleWebKit\/.* Mobile\//) ||
+        !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/) ||
+        !!navigator.userAgent.toLowerCase().match(/msie [789]/)
+      ) {
+        if (storymap_url.match(/^https?:\/\/www\.googledrive\.com\/host\//)) {
+          storymap_url =
+            location.protocol +
+            "//proxy.knightlab.com/" +
+            storymap_url.split("://")[1];
+          trace("proxy, " + storymap_url);
+        }
+      }
+
+      var options = {
+        script_path: getScriptPath(/storymap(-min)?\.js/),
+        start_at_slide: 0,
+      };
+
+      if (params.hasOwnProperty("start_at_slide")) {
+        options.start_at_slide = parseInt(params.start_at_slide);
+      }
+
+      function storymap_onload(d) {
+        trace("embed: storymap data loaded");
+        if (d && d.storymap) {
+          var font = "stock:default";
+          if (d.font_css) {
+            font = d.font_css;
+          }
+          if (font.indexOf("stock:") == 0) {
+            var font_name = font.split(":")[1];
+            var base_url = url_join(options.script_path, "../css/fonts");
+            font = url_join(base_url, "font." + font_name + ".css");
+          } else if (!font.match("^(http|https|//)")) {
+            font = url_join(options.script_path, font);
+          }
+          VCO.Load.css(font, function () {
+            trace("font loaded: " + font);
+          });
+          storymap = new VCO.StoryMap("storymap-embed", d, options, {
+            title: on_storymap_title,
+          });
+        }
+        var mapType = storymap.options.map_type;
+        if (mapType && mapType.match("^zoomify.*")) {
+          ga("send", "event", "StoryMapJS", "zoomify", document.referrer);
+        }
+      }
+
+      function on_storymap_title(e) {
+        document.title = "StoryMapJS: " + e.title;
+      }
+
+      function storymap_getjson() {
+        if ("withCredentials" in new XMLHttpRequest()) {
+          // Supports cross-domain requests
+          trace("embed: loading data via XMLHttpRequest");
+          VCO.getJSON(storymap_url, storymap_onload);
+        } else if (typeof XDomainRequest !== "undefined") {
+          // Use IE-specific "CORS" code with XDR
+          trace("embed: loading data via XDomainRequest");
+          var xdr = new XDomainRequest();
+          xdr.onload = function () {
+            storymap_onload(JSON.parse(xdr.responseText));
+          };
+          xdr.onerror = function () {
+            trace("embed: error loading data via XDomainRequest");
+          };
+          xdr.onprogress = function () {};
+          xdr.open("get", storymap_url);
+          xdr.send();
+        }
+      }
+
+      window.onload = function () {
+        if (storymap_url.match("\\.js$")) {
+          trace("embed: loading data via script injection");
+          var loaded = false;
+          var script = document.createElement("script");
+          script.type = "text/javascript";
+          script.src = storymap_url;
+          script.onload = script.onreadystatechange = function () {
+            if (
+              !loaded &&
+              (!(d = this.readyState) || d == "loaded" || d == "complete")
+            ) {
+              loaded = true;
+              storymap_onload(storymap_json);
+            }
+          };
+
+          // document.head not standard before HTML5
+          var insertionPoint =
+            document.head ||
+            document.getElementsByTagName("head").item(0) ||
+            document.documentElement.childNodes[0];
+          insertionPoint.appendChild(script);
+        } else {
+          storymap_getjson();
+        }
+      };
+
+      window.onresize = function (event) {
+        if (storymap) {
+          storymap.updateDisplay();
+        }
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="Sclab. X FCom UAndes" />
+    <meta
+      name="description"
+      content="Una reportaje de la realidad de los extranjeros que han llegado al país en busca de nuevas oportunidades."
+    />
+    <meta
+      property="og:title"
+      content="Lo bueno, lo malo y los chilenismos | El Nuevo Chile | Sclab."
+    />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-09-nuevo-chile.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://pab-ns.github.io/sclab.co/nuevo-chile"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../../assets/css/theme.css" />
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#navbar-ench").load("../../assets/html/navbar-ench.html");
+        $("#footer").load("../../assets/html/footer.html");
+        $("#sigue-leyendo").load("../html/sigue.html");
+      });
+    </script>
+
+    <!-- Historias -->
+    <link rel="stylesheet" href="../css/historias.css" />
+
+    <title>Lo bueno, lo malo y los chilenismos | El Nuevo Chile | Sclab.</title>
+  </head>
+
+  <body>
+    <!-- START HERE -->
+    <!-- NAV -->
+    <div id="navbar-ench"></div>
+
+    <header>
+      <div class="jumbotron d-flex align-items-center" id="jumbo-chilenismos">
+        <div class="container text-center">
+          <h1 class="display-4 text-white">
+            <span>Lo bueno, lo malo y los <em>chilenismos</em></span>
+          </h1>
+          <p class="autores text-white my-3">
+            <span
+              ><small
+                >Por: Agustina Gasaly, Antonia Gazzana y María Isabel
+                Eckholt</small
+              ></span
+            >
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="w-75 mx-auto text-center my-5">
+      <p class="intro">
+        ¿Cómo ven los extranjeros a nuestro país? Quisimos que los chilenos se
+        enteraran qué es lo que les llama la atención y que los extranjeros
+        puedan informarse a través de distintas experiencias otorgadas por sus
+        mismos compatriotas. Podrás escuchar su <em>chilenismo</em> favorito y
+        saber qué les gusta y qué no.
+      </p>
+    </section>
+
+    <section class="container my-5">
+      <div class="row">
+        <!-- Card 8 NICOLE -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card mx-1 my-2">
+            <img class="card-img-top rounded-top" src="img/img08.jpg" />
+
+            <div class="playpausebutton">
+              <a class="mc-btn-action">
+                <div class="faplaypause">
+                  <span class="fa fa-volume-up"></span>
+                </div>
+              </a>
+            </div>
+
+            <audio id="audio-n">
+              <source src="audios/mp3/audio08.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+
+            <progress id="seekbar-n" value="0" max="1" class="w-100"></progress>
+
+            <div class="card-body text-center">
+              <p class="h5"><strong>Nicole 🇲🇽</strong></p>
+              <p class="leermas">
+                <a href="#" data-toggle="modal" data-target="#Modal8"
+                  >Leer más</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 9 VITOR -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card mx-1 my-2">
+            <img class="card-img-top rounded-top" src="img/img09.jpg" />
+
+            <div class="playpausebutton">
+              <a class="mc-btn-action">
+                <div class="faplaypause">
+                  <span class="fa fa-volume-up"></span>
+                </div>
+              </a>
+            </div>
+
+            <audio id="audio-v">
+              <source src="audios/mp3/audio09.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+
+            <progress id="seekbar-v" value="0" max="1" class="w-100"></progress>
+
+            <div class="card-body text-center">
+              <p class="h5"><strong>Vitor 🇧🇷</strong></p>
+              <p class="leermas">
+                <a href="#" data-toggle="modal" data-target="#Modal9"
+                  >Leer más</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 SARAH -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card mx-1 my-2">
+            <img class="card-img-top rounded-top" src="img/img02.jpg" />
+
+            <div class="playpausebutton">
+              <a class="mc-btn-action">
+                <div class="faplaypause">
+                  <span class="fa fa-volume-up"></span>
+                </div>
+              </a>
+            </div>
+
+            <audio id="audio-s">
+              <source src="audios/mp3/audio02.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+
+            <progress id="seekbar-s" value="0" max="1" class="w-100"></progress>
+
+            <div class="card-body text-center">
+              <p class="h5"><strong>Sarah 🇻🇪</strong></p>
+              <p class="leermas">
+                <a href="#" data-toggle="modal" data-target="#Modal2"
+                  >Leer más</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 1 CARLOS -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card mx-1 my-2">
+            <img class="card-img-top rounded-top" src="img/img01.jpg" />
+
+            <div class="playpausebutton">
+              <a class="mc-btn-action">
+                <div class="faplaypause">
+                  <span class="fa fa-volume-up"></span>
+                </div>
+              </a>
+            </div>
+
+            <audio id="audio-jc">
+              <source src="audios/mp3/audio01.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+
+            <progress
+              id="seekbar-jc"
+              value="0"
+              max="1"
+              class="w-100"
+            ></progress>
+
+            <div class="card-body text-center">
+              <p class="h5"><strong>Carlos 🇨🇴</strong></p>
+              <p class="leermas">
+                <a href="#" data-toggle="modal" data-target="#Modal1"
+                  >Leer más</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 ANASTASIA -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card mx-1 my-2">
+            <img class="card-img-top rounded-top" src="img/img03.jpg" />
+
+            <div class="playpausebutton">
+              <a class="mc-btn-action">
+                <div class="faplaypause">
+                  <span class="fa fa-volume-up"></span>
+                </div>
+              </a>
+            </div>
+
+            <audio id="audio-a">
+              <source src="audios/mp3/audio03.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+
+            <progress id="seekbar-a" value="0" max="1" class="w-100"></progress>
+
+            <div class="card-body text-center">
+              <p class="h5"><strong>Anastasia 🇷🇺</strong></p>
+              <p class="leermas">
+                <a href="#" data-toggle="modal" data-target="#Modal3"
+                  >Leer más</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 JIMMY -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card mx-1 my-2">
+            <img class="card-img-top rounded-top" src="img/img04.jpg" />
+
+            <div class="playpausebutton">
+              <a class="mc-btn-action">
+                <div class="faplaypause">
+                  <span class="fa fa-volume-up"></span>
+                </div>
+              </a>
+            </div>
+
+            <audio id="audio-j">
+              <source src="audios/mp3/audio04.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+
+            <progress id="seekbar-j" value="0" max="1" class="w-100"></progress>
+
+            <div class="card-body text-center">
+              <p class="h5"><strong>Jimmy 🇭🇹</strong></p>
+              <p class="leermas">
+                <a href="#" data-toggle="modal" data-target="#Modal4"
+                  >Leer más</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7 REINA -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card mx-1 my-2">
+            <img class="card-img-top rounded-top" src="img/img07.jpg" />
+
+            <div class="playpausebutton">
+              <a class="mc-btn-action">
+                <div class="faplaypause">
+                  <span class="fa fa-volume-up"></span>
+                </div>
+              </a>
+            </div>
+
+            <audio id="audio-r">
+              <source src="audios/mp3/audio072.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+
+            <progress id="seekbar-r" value="0" max="1" class="w-100"></progress>
+
+            <div class="card-body text-center">
+              <p class="h5"><strong>Reina 🇧🇴</strong></p>
+              <p class="leermas">
+                <a href="#" data-toggle="modal" data-target="#Modal7"
+                  >Leer más</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 OLIVER -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card mx-1 my-2">
+            <img class="card-img-top rounded-top" src="img/img06.jpg" />
+
+            <div class="playpausebutton">
+              <a class="mc-btn-action">
+                <div class="faplaypause">
+                  <span class="fa fa-volume-up"></span>
+                </div>
+              </a>
+            </div>
+
+            <audio id="audio-o">
+              <source src="audios/mp3/audio06.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+
+            <progress id="seekbar-o" value="0" max="1" class="w-100"></progress>
+
+            <div class="card-body text-center">
+              <p class="h5"><strong>Oliver 🇫🇷</strong></p>
+              <p class="leermas">
+                <a href="#" data-toggle="modal" data-target="#Modal6"
+                  >Leer más</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <div>
+      <!-- 8 NICOLE -->
+      <div
+        class="modal fade"
+        id="Modal8"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title font-weight-bold leermas">
+                Nicole Baurez
+              </h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="font-weight-bold lead">Lo bueno y lo malo...</p>
+              <p class="my-3">
+                "Lo bueno de Chile es el tema de la seguridad y las
+                instituciones funcionan bien. Es un país donde se puede vivir
+                bien. Lo malo, tiene que ver con la integración de personas
+                extranjeras, siempre hay excepciones, pero en general el chileno
+                es más frío y cuesta ser parte de la sociedad”
+              </p>
+              <hr class="my-3" />
+              <small
+                >Desde el DF en México, Nicole llegó hace unos 7 años a Chile.
+                Pasó sus últimos años de educación media en nuestro país y hoy
+                se desempeña como periodista.</small
+              >
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9 VITOR -->
+      <div
+        class="modal fade"
+        id="Modal9"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title font-weight-bold leermas">Vitor Santos</h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="font-weight-bold lead">Lo bueno y lo malo...</p>
+              <p class="my-3">
+                "Lo bueno de Chile es el tema de la seguridad y las
+                instituciones funcionan bien. Es un país donde se puede vivir
+                bien. Lo malo, tiene que ver con la integración de personas
+                extranjeras, siempre hay excepciones, pero en general el chileno
+                es más frío y cuesta ser parte de la sociedad”
+              </p>
+              <hr class="my-3" />
+              <small
+                >Luego de vivir en distintos paises de sudamerica, Vitor decidió
+                quedarse en Chile. Lleva más de 5 años en nuestro país, es
+                programador y esta casado con su esposa chilena. Juntos tienen
+                dos hijos, también chilenos y viven en la región del
+                Bío-bío.</small
+              >
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 SARAH -->
+      <div
+        class="modal fade"
+        id="Modal2"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title font-weight-bold leermas">
+                Sarah Ezquerra
+              </h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="font-weight-bold lead">Lo bueno y lo malo...</p>
+              <p class="my-3">
+                “Lo bueno es el vino, la palta y los lindos y diversos paisajes
+                que tiene. Lo malo diría que es lo lejos que está del resto del
+                mundo, además de que las playas son demasiado frías para mí”.
+              </p>
+              <hr class="my-3" />
+              <small
+                >Sarah, de 21 años llegó a Chile en 2009 junto a sus padres.
+                Lleva más de 9 años viviendo en el país y hoy estudia Bioquímica
+                en la Universidad Católica.</small
+              >
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1 CARLOS -->
+      <div
+        class="modal fade"
+        id="Modal1"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title font-weight-bold leermas">
+                Juan Carlos Blandón
+              </h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="font-weight-bold lead">Lo bueno y lo malo...</p>
+              <p class="my-3">
+                “Lo bueno que tiene Chile son las oportunidades que hay, para
+                trabajar y para surgir adelante. Lo malo es la discriminación,
+                discriminan mucho por el tema del color de la piel”.
+              </p>
+              <hr class="my-3" />
+              <small
+                >Este cafetero de 44 años decidió continuar su vida en Chile con
+                apenas 22. Desde entonces, comenzó a dedicarse a la peluquería,
+                específicamente a los servicios de manicure y pedicure. En 2017,
+                inauguró su propio salón de belleza llamado, “Carlitos”.</small
+              >
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 ANASTASIA -->
+      <div
+        class="modal fade"
+        id="Modal3"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title font-weight-bold leermas">
+                Anastasia Belloni
+              </h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="font-weight-bold lead">Lo bueno y lo malo...</p>
+              <p class="my-3">
+                “Lo que más me gusta de Chile es el Barrio Lastarria, el 18, el
+                terremoto y la piscola. Lo que menos me gusta es que encuentro
+                que es un país súper machista y con mucha diferencia entre las
+                personas, la brecha social es demasiado notoria”.
+              </p>
+              <hr class="my-3" />
+              <small
+                >Anastasia de 22 años, lleva 6 años viviendo en nuestro país.
+                Vive junto a sus padres, tiene un hermano y actualmente estudia
+                Dirección de Arte en el Instituto Profesional Arcos.</small
+              >
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 JIMMY -->
+      <div
+        class="modal fade"
+        id="Modal4"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title font-weight-bold leermas">Jimmy Lemour</h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="font-weight-bold lead">Lo bueno y lo malo...</p>
+              <p class="my-3">
+                “Hay buena onda en Chile, no sé si para otras personas es lo
+                contrario, pero para mí está buena porque mis compañeros de
+                trabajo hablan bien conmigo y no son racistas conmigo. En mi
+                trabajo hay buena onda. Lo malo, es que en Chile es más difícil
+                juntar plata para un arriendo, porque parece que hay una mayor
+                cantidad de casas. Es más difícil vivir bien”.
+              </p>
+              <hr class="my-3" />
+              <small
+                >Jimmy, abandonó su país hace 5 años para venir a Chile en busca
+                de nuevas oportunidades. Actualmente, trabaja en el área de
+                logística de la empresa de elaboración y fabricación de envases
+                para alimentos, Deandespac.</small
+              >
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7 REINA -->
+      <div
+        class="modal fade"
+        id="Modal7"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title font-weight-bold leermas">
+                Reina Dabeiba Mejia Montero
+              </h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="font-weight-bold lead">Lo bueno y lo malo...</p>
+              <p class="my-3">
+                “Lo que más me gusta de Chile es su progreso, que tiene más
+                adelantos que mi país. Me gusta su manera de tratar a la gente
+                extranjera. Lo malo es el clima, el clima frío, porque en mi
+                país casi no hay frío, y que hay mucha gente en el metro y en la
+                micro”.
+              </p>
+              <hr class="my-3" />
+              <small
+                >Reina de 43 años, lleva 5 años viviendo en Chile. Hoy se
+                desempeña como asesora del hogar.</small
+              >
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6 OLIVER -->
+      <div
+        class="modal fade"
+        id="Modal6"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title font-weight-bold leermas">
+                Olivier Dequidt
+              </h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="font-weight-bold lead">Lo bueno y lo malo...</p>
+              <p class="my-3">
+                “Lo bueno de Chile son sus paisajes, las montañas, las
+                sopaipillas y los asados. Lo que no me gusta de Chile es que hay
+                mucha contaminación, los chilenos están siempre atrasados y el
+                correo postal es muy lento”
+              </p>
+              <hr class="my-3" />
+              <small
+                >Olivier, es un joven francés de 24 años que lleva un año
+                viviendo en Chile. Actualmente es alumno universitario de
+                intercambio.</small
+              >
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sigue Leyendo -->
+    <div id="sigue-leyendo"></div>
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!--  -->
+    <!--  -->
+
+    <!-- Popper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap 4.1.1 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+
+    <!-- Audio Play Pause Icon -->
+    <script>
+      $(function () {
+        var curAudio;
+        $(".playpausebutton").click(function (e) {
+          e.preventDefault();
+          var song = $(this).next("audio")[0];
+
+          if (curAudio && song != curAudio && !curAudio.paused) {
+            curAudio.pause();
+            $(curAudio)
+              .prev()
+              .find(".faplaypause")
+              .html('<span class="fa fa-volume-up"></span>');
+          }
+
+          if (song.paused) {
+            song.play();
+            curAudio = song;
+            $(this)
+              .find(".faplaypause")
+              .html('<span class="fas fa-pause"></span>');
+          } else {
+            song.pause();
+            curAudio = undefined;
+            $(this)
+              .find(".faplaypause")
+              .html('<span class="fa fa-volume-up"></span>');
+          }
+          curPlaying = $(this).parent()[0].id;
+        });
+
+        $("audio").on("ended", function () {
+          $(this)
+            .prev()
+            .find(".faplaypause")
+            .html('<span class="fa fa-volume-up"></span>');
+        });
+      });
+    </script>
+  </body>
+</html>

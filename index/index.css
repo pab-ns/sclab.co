@@ -1,0 +1,138 @@
+
+.flex-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    order: -1;
+    margin-bottom: 2rem;
+    margin-top: 3.2rem;
+}
+
+.services {
+    /* Flex here*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services .service {
+    /* Flex here*/
+    flex: 0 0 100%;
+}
+
+
+@media screen and (min-width:768px) { 
+    .flex-container {
+       flex-direction: row;
+       justify-content: space-between;
+    }
+    .main-content {
+        flex: 0 0 calc(70% - 2rem);
+    }
+    aside {
+        order: 1;
+        flex: 0 0 30%;
+    }
+    .services .service {
+        /* Flex here*/
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+}
+
+/* Common */
+.card{border: none; background-color: rgba(0, 0, 0, 0);}
+
+.card-body{padding: 1rem;}
+
+a{
+    text-decoration: none;
+    color: #000; 
+    }
+
+a:hover{
+    color: #666;
+    text-decoration: none;
+   }
+
+.a-index{color: red;}   
+
+
+
+
+
+/* Filter */
+.column {display: none; /* Hide columns by default */}
+
+.show {display: block; /* The "show" class is added to the filtered elements */}
+
+
+.current {
+    text-decoration: underline;
+    font-weight: 800;
+    color: black;
+    text-transform: uppercase;
+  }
+
+.list-inline-item:hover{
+  opacity: 0.3;
+}
+
+ul li{
+    cursor:pointer;
+    -webkit-transition:all .2s ease;
+    -moz-transition:all .2s ease;
+    -ms-transition:all .2s ease;
+    -o-transition:all .2s ease;
+    transition:all .2s ease;
+  }
+
+  
+
+/*  */
+/*  */
+/* Extra small devices (575px and down) */
+@media screen and (max-width: 575px) {
+    #eng-long{display: none;} 
+    #eng-short{width: 90%;display: inline;}
+    aside{margin-top: 0;}
+    aside p, ul{font-size: 1rem;} 
+    #hr-aside{display:none;}
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+        #eng-long{display: none;} 
+        #eng-short{width: 90%; display: inline;}
+        aside{margin-top: 0;}
+        #hr-aside{visibility: hidden;}
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+        #eng-long{width: 85%; display: inline;} 
+        #eng-short{display: none;} 
+        aside{margin-top: 3.2rem;}
+        .services .service {flex: 0 0 calc(50% - 1rem);}
+        #hr-aside{visibility: visible;}
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+        #eng-long{width: 70%; display: inline;} 
+        #eng-short{display: none;}    
+        .services .service {flex: 0 0 calc(33.3% - 1rem);}
+        
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+        #eng-long{width: 50%;} 
+        #eng-short{display: none;}    
+}

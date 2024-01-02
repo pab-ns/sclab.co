@@ -1,0 +1,268 @@
+.interactive-points {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.static {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	opacity: 0.5;
+}
+
+.points {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+
+.static,
+.points {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (min-aspect-ratio: 1885/1000) {
+	.static,
+	.points {
+		width: auto;
+		height: calc(100vh - 6em);
+		min-height: 500px;
+	}
+}
+
+.points {
+	left: 50%;
+	-webkit-transform: translate3d(-50%,0,0);
+	transform: translate3d(-50%,0,0);
+}
+
+
+path{
+    cursor: pointer;
+	/* fill: #28282f; */
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s, fill 0.3s;
+	transition: opacity 0.3s, transform 0.3s, fill 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+path:hover{
+	/* fill: #408283; */
+	/* -webkit-transform: scale3d(1.3,1.3,1);
+	transform: scale3d(1.3,1.3,1); */
+	fill: #C35340;
+}
+
+
+.mc-btn-action{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 47px;
+    text-align: center;
+    color: #C35340 !important;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 20;
+}
+
+progress{
+    /*gets rid of default appearance*/
+   -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+/*styles as any good ol' div would */
+  height:0.5em;
+  color: #C35340;
+}
+progress::-moz-progress-bar { background: #C35340; }
+progress::-webkit-progress-value { background: #C35340; }
+
+
+/* MODAL */
+.modal-header{
+    border-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.card-header{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.modal-body{
+    padding-bottom: 1.5rem !important;
+}
+
+.close{
+    color:#fff !important;
+}
+
+.modal-content{
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+}
+
+.show {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card{
+	border: 0;
+}
+
+/* .tag--span{
+	background-color: #C35340;
+} */
+
+/* .tooltip{
+	display: block;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.tooltip-inner{
+	border-radius: 0%;
+	background-color: #C35340;
+} */
+
+
+
+
+/* POPOVER */
+.popover{
+	background-color: rgba(0, 0, 0, 0) !important;
+	border: 0 !important;
+}
+
+.whale{background-color: rgba(0, 0, 0, 0.8)};
+/* .whale-col{background-color: #7B64AC}; */
+
+div.arrow::after{
+	display: none !important;
+}
+
+div.arrow::before{
+	display: none !important;
+}
+
+div.arrow{
+	display: none !important;
+}
+
+
+/* leyenda */
+.caja1 {
+    width: 1rem;
+    height: 1rem;
+    background: #7B64AC;
+    display: inline-block;
+	vertical-align: middle;
+}
+
+.explanation {
+    margin-left: 5px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.caja2 {
+    width: 1rem;
+    height: 1rem;
+    background: #408283;
+    display: inline-block;
+	vertical-align: middle;
+}
+
+
+/* Word Cloud */
+.hover{
+    font-family: 'Open Sans', sans-serif;
+    fill: #9ea0a6;
+    font-weight: lighter;
+    transition: all .2s ease;
+    cursor: default;
+}
+
+.hover:hover{
+    /* fill: #666; */
+    fill: #C35340
+}
+
+
+/* Grid */
+.sm-grid:active{
+    transition: .1s linear;
+    border: solid 5px #C35340;
+}
+
+.sm-grid:hover{
+    transition: .1s linear;
+    border: solid 5px #C35340;
+}
+
+
+
+/* #cloud (svg)
+#map-stgo > svg */
+
+
+/* Media queries */
+/* Extra small devices (phones, 600px and down) */
+/* 0 - 600 */
+@media only screen and (max-width: 600px) {
+	#cloud{
+		width: 100%;
+		height: 100%;
+	}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* 600 - 768 */
+  @media only screen and (min-width: 600px) {
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  /* 768 - 992 */
+  @media only screen and (min-width: 768px) {
+	.subtitle{
+		font-size: 1.5rem;
+	}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  /* 992 - 1200 */
+  @media only screen and (min-width: 992px) {
+	.subtitle{
+		font-size: 2rem;
+	}
+	#map-stgo{
+		width: 55%;
+		height: 55%;
+
+	}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  /* 1200 - over */
+  @media only screen and (min-width: 1200px) {
+	.subtitle{
+		font-size: 2.5rem;
+    }
+    #map-stgo{
+		width: 40%;
+		height: 40%;
+    }
+    #cloud{
+		width: 50%;
+		height: 50%;
+	}
+  }

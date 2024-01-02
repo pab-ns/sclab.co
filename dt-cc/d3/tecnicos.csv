@@ -1,0 +1,27 @@
+﻿id,name,country,extranjero,PJ,PJ,PTS,Rendimiento,rendimientoporcentaje,rangorendimiento,Títulos,titulos,image_path,,rangorendimiento2,,,anio,nombre
+Mirko-Jozic,Mirko Jozic,Croacia,si,204,150+,375,61,"61,27 %",c,6,si,img/jozic.jpg,,60-69,40-49,a,1990 - 1993,Mirko Jozic
+Vicente-Cantatore,Vicente Cantatore,Argentina,si,12,0-50,22,61,"61,11 %",c,0,no,img/cantatore.jpg,,60-69,50-59,b,1994,Vicente Cantatore
+Eddio-Inostroza,Eddio Inostroza,Chile,no,10,0-50,18,60,"60,00 %",c,0,no,img/eddio.jpg,,60-69,60-69,c,1994,Eddio Inostroza
+Ignacio-Prieto,Ignacio Prieto,Chile,no,40,0-50,66,55,"55,00 %",b,1,si,img/prieto.jpg,,50-59,70-79,d,1994,Ignacio Prieto
+Gustavo-Benitez1,Gustavo Benitez1,Paraguay,si,192,150+,374,65,"64,93 %",c,4,si,img/benitez1.jpg,*,60-69,,,1995 - 1998,Gustavo Benitez*
+Nelsinho-Baptista,Nelsinho Baptista,Brasil,si,47,0-50,69,49,"48,94 %",a,0,no,img/nelsinho.jpg,,40-49,,,1999,Nelsinho Baptista
+Fernando-Morena,Fernando Morena,Uruguay,si,49,0-50,83,56,"56,46 %",b,0,no,img/morena.jpg,,50-59,,,1999 - 2000,Fernando Morena
+Roberto-Hernandez,Roberto Hernández,Chile,no,36,0-50,62,57,"57,41 %",b,0,no,img/hernandez.jpg,,50-59,,,2001,Roberto Hernández
+Jaime-Pizarro,Jaime Pizarro,Chile,no,125,101-150,218,58,"58,13 %",b,1,si,img/pizarro.jpg,,50-59,,,2002 - 2004,Jaime Pizarro
+Ricardo-Dabrowski1,Ricardo Dabrowski1,Argentina,si,27,0-50,47,58,"58,02 %",b,0,no,img/dabrowski1.jpg,,50-59,,,2004,Ricardo Dabrowski*
+Marcelo-Espina,Marcelo Espina,Argentina,si,23,0-50,34,49,49.28%,a,0,no,img/espina.jpg,,40-49,,,2005,Marcelo Espina
+Ricardo-Dabrowski2,Ricardo Dabrowski2,Argentina,si,21,0-50,46,73,73.02%,d,0,no,img/dabrowski2.jpg,,70-79,,,2005,Ricardo Dabrowski**
+Claudio-Borghi,Claudio Borghi,Argentina / Chile,si,138,101-150,276,67,"66,67 %",c,4,si,img/borghi.jpg,,60-69,,,2006 - 2008,Claudio Borghi
+Fernando-Astengo,Fernando Astengo,Chile,no,26,0-50,41,53,"52,56 %",b,0,no,img/astengo.jpg,,50-59,,,2008,Fernando Astengo
+Marcelo-Barticciotto,Marcelo Barticciotto,Chile,no,32,0-50,46,48,"47,92 %",a,1,si,img/barti.jpg,,40-49,,,2008 - 2009,Marcelo Barticciotto
+Hugo-Tocalli,Hugo Tocalli,Argentina,si,45,0-50,88,65,"65,19 %",c,1,si,img/tocalli.jpg,,60-69,,,2009 - 2010,Hugo Tocalli
+Diego-Cagna,Diego Cagna,Argentina,si,28,0-50,51,61,"60,71 %",c,0,no,img/cagna.jpg,,60-69,,,2010 - 2011,Diego Cagna
+Tolo-Gallego,Tolo Gallego,Argentina,si,27,0-50,42,52,"51,85 %",b,0,no,img/gallego.jpg,,50-59,,,2011,Américo Rubén Gallego
+Ivo-Basay,Ivo Basay,Chile,no,24,0-50,38,53,"52,78 %",b,0,no,img/basay.jpg,,50-59,,,2011  - 2012,Ivo Basay
+Luis-Perez,Luis Perez,Chile,no,10,0-50,18,60,"60,00 %",c,0,no,img/perez.jpg,,60-69,,,2012,Luis Pérez
+Omar-Labruna,Omar Labruna,Argentina,si,36,0-50,59,55,"54,63 %",b,0,no,img/labruna.jpg,,50-59,,,2012 - 2013,Omar Labruna
+Gustavo-Benitez2,Gustavo Benitez2,Paraguay,si,22,0-50,30,45,"45,45 %",a,0,no,img/benitez2.jpg,,40-49,,,2013,Gustavo Benítez**
+Hector-Tapia,Héctor Tapia,Chile,no,70,51-100,146,70,"69,52 %",d,1,si,img/tapia.jpg,,70-79,,,2013 - 2015,Héctor Tapia*
+JL-sierra,JL Sierra,Chile,no,49,0-50,95,65,"64,63 %",c,1,si,img/sierra.jpg,,60-69,,,2015 - 2016,José Luis Sierra
+Pablo-Guede,Pablo Guede,Argentina,si,72,51-100,130,60,"60,19 %",c,4,si,img/guede.jpg,,60-69,,,2016 - 2018,Pablo Guede
+Hector-Tapia2,Hector Tapia2,Chile,no,29,0-0,37,43,"42,53%",a,0,no,img/tapia2.jpg,,40-49,,,2018,Hector Tapia**

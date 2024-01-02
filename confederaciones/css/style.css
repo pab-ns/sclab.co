@@ -1,0 +1,31 @@
+ .tooltip {
+    opacity: 100;
+} 
+
+.leyenda {
+	text-align: center;
+}
+
+.caja1{
+	width:30px;
+	height:30px;
+	background: #507894;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.caja2{
+	width:30px;
+	height:30px;
+	background: rgb(236, 0, 113);
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.explanation {
+    margin-left: 5px;
+    vertical-align: middle;
+    margin-right: 20px;
+    color: #888;
+    font-size: 12px;
+}

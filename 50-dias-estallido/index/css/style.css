@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body{ font-family: 'Playfair Display', serif; background-color: black;}
+
+.text-danger{color: #AA272F!important;}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+}
+
+.sidebar{
+    flex: 0 0 40%;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.inner-title{text-align: center;}
+
+.main-title{font-family: 'Abril Fatface', cursive;}
+
+.main-navigation a{
+  text-decoration: none;
+  color: darkgray;
+  font-weight: 400;
+  margin: 0 2rem;
+}
+
+.main-navigation a:hover{
+  color: #AA272F;
+  font-weight: 900;
+}
+
+
+.main{
+    flex: 0 0 60%;
+    background-color: black;
+    height: 100vh;
+}
+
+.entry-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .entry{
+    flex: 0 0 33.3%;
+    height: calc(100vh / 3);
+} */
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+  grid-template-rows: repeat(3, 1fr);
+  height: 100vh;
+  width: 100%;
+}
+
+.hover-container{
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.9);
+  outline: 2px solid #AA272F;
+  outline-offset: -10px;
+}
+
+.hover-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+
+
+
+.example2 {
+    background: url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+.example1 {
+  background: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .example8 {
+    background: url(../img/img8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .example3 {
+    background: url(../img/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .example4 {
+    background: url(../img/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .example7 {
+    background: url(../img/img7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .example5 {
+    background: url(../img/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .example6 {
+    background: url(../img/img6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .examplela3 {
+    background: url(../img/img-la3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px){
+    .sidebar{flex: 0 0 100%;}
+    .main{flex: 0 0 100%;}
+    .grid{
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      width: 100%;
+    }
+    .lead{font-size: 1rem;}
+  }
+  
+  /* Landscape */
+  @media only screen and (orientation: landscape) {
+    .lead{font-size: .8rem;}
+  }
+  
+  @media (min-height: 1000px){
+  /* .sidebar{flex: 0 0 100%;}
+  .main{flex: 0 0 100%;} */
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 100%;
+  }
+  }
+  
+  /* Medium devices 768 to 992 (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+  } 
+  
+  /* Large devices 922 to 1200 (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .lead{font-size: 1.25rem;}
+  } 
+  
+  /* Extra large devices 1200 and over (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+  }
+
+

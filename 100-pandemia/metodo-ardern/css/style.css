@@ -1,0 +1,22 @@
+section.cta {
+    position: relative;
+    padding: 80px 0;
+    background-image: url("https://assets.vogue.com/photos/5a8314a0d9fbe859992545d3/master/w_2560%2Cc_limit/jacinda-ardern-vogue-march-2018.jpg");
+    /* background-image: url("https://recursos.marketingnews.es/files/1339/46.jpg"); */
+    background-position: top;
+    background-size: cover;
+    height: 450px;
+  }
+  
+  section.cta .cta-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* section.cta .cta-content h2 {
+    max-width: 450px;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+   */
+  

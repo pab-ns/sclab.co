@@ -1,0 +1,94 @@
+@import url( 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
+
+.index{
+    background-color: #292929;
+}
+
+body{
+    background-color: rgb(0, 0, 0); 
+}
+
+.overlay-div{
+    height:100%;
+    width: 100%;
+    position:absolute;
+    background-color:rgba(0, 0, 0, 0.6);
+    transition: .5s ease;
+ }
+
+ .overlay-div:hover{
+    background-color:rgba(0, 0, 0, 0);
+    transition: .5s ease;
+ }
+
+ /* .container_2{
+     width: 750px;
+ }
+
+ .span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+} */
+
+.card{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.column11 {
+    width: 370px;
+    float: left;
+    text-align: right;
+}    
+
+.column12 {
+    width: 370px;
+    float: left;
+    text-align: left;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* .video { position: relative; }
+.video img { display: block; }
+.video .fa-play-circle { 
+    position: absolute; 
+    bottom:50%; 
+    left:50%; 
+    color: white;
+    font-size: 4rem;
+} */
+
+
+
+.adminDemoVideo {
+  position: relative;
+  display: inline-block;
+}
+.adminDemoVideo::before {
+    content: '\f04b';
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50% );
+    padding: 3px 15px 3px 25px;
+    color: white;
+    font-family: 'FontAwesome';
+    font-size: 30px !important;
+    background-color: rgba(23, 35, 34, 0.75);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+
+

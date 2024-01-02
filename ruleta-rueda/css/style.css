@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+.card{
+    border: none;
+    cursor: pointer;
+}
+
+.content{
+    font-family: 'NeueHaasGrotesk';
+    src: url(../font/NeueHaasGrotDisp-55Roman.otf);
+    font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility !important;
+    font-smoothing: antialiased !important;
+    -webkit-font-smoothing: antialiased !important; 
+}
+
+/* .text-shadow{text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);} */
+
+/* .titular{
+    background-color: black;
+    padding: 10px;
+} */
+
+ .nombre-jugador{
+    background-color: black;
+    padding: 10px;
+}
+
+
+
+/*MAIN*/
+
+    /*Filter*/
+    .filter-button{
+    font-size: 12px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+    }
+    
+    .filter-button:hover{
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #555;
+    }
+    
+    .btn-default:active .filter-button:active{
+    background-color: #42B32F;
+    color: white;
+    }
+
+/*Jugadores*/
+
+/* flip the pane when hovered */
+.card-container:not(.manual-flip):hover .card,
+.card-container.hover.manual-flip .card{
+  -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+/* flip speed goes here */
+.card {
+  -webkit-transition: -webkit-transform .5s;
+   -moz-transition: -moz-transform .5s;
+    -o-transition: -o-transform .5s;
+    transition: transform .5s;
+    -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+  -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    z-index: 3;
+  background-color: #fbfbfb;
+}
+
+.card-container, .front, .back {
+  width: 100%;
+  height: 300px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.16);
+}
+
+.card .content{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    padding: 0px 20px 20px;
+}
+
+
+/* ADD MEDIA QUERIES FOR FOTO JUGADOR*/
+
+
+/*       Fix bug for IE      */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .front, .back{
+        -ms-backface-visibility: visible;
+        backface-visibility: visible;
+    }
+
+    .back {
+        visibility: hidden;
+        -ms-transition: all 0.2s cubic-bezier(.92,.01,.83,.67);
+    }
+    .front{
+        z-index: 4;
+    }
+    .card-container:not(.manual-flip):hover .back,
+    .card-container.manual-flip.hover .back{
+        z-index: 5;
+        visibility: visible;
+    }
+}
+
+.foto{
+    /*background-image: url("https://www.showsport.cl/wp-content/uploads/2018/08/PS_196640-1.gif");*/
+    /*background-color: #111;*/
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: initial; /*or static, relative, initial,   */
+}
+
+#foto1{background-image: url("../img/mallende.jpg");}
+
+#foto2{background-image: url("../img/pdiaz.jpg");}
+
+#foto3{background-image: url("../img/ncastillo.jpg");}
+
+#foto4{background-image: url("../img/fmora.jpg");}
+
+#foto5{background-image: url("../img/nguerra.jpg");}
+
+#foto6{background-image: url("../img/imorales.jpg");}
+
+#foto7{background-image: url("../img/dvaldes.jpg");}
+
+#foto8{background-image: url("../img/svegas.jpg");}
+
+#foto9{background-image: url("../img/bcortes.jpg");}
+
+#foto10{background-image: url("../img/gmaripan.jpg");}
+
+#foto11{background-image: url("../img/gcastellon.jpg");}
+
+#foto12{background-image: url("../img/jcarreno.jpg");}
+
+#foto13{background-image: url("../img/aaraos.jpg");}
+
+#foto14{background-image: url("../img/asagal.jpg");}
+
+#foto15{background-image: url("../img/bprovoste.jpg");}
+
+#foto16{background-image: url("../img/oopazo.jpg");}
+
+#foto17{background-image: url("../img/paranguiz.jpg");}
+
+#foto18{background-image: url("../img/epulgar.jpg");}
+
+#foto19{background-image: url("../img/fsierralta.jpg");}
+

@@ -1,0 +1,129 @@
+.fullvh{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-bar{
+    /* background-color: #008fd1; */
+    margin: 1rem 0;
+    /* margin-top: 1rem; */
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+
+}
+
+.main-navigation{
+    flex-direction: row;
+    flex: 0 0 25rem;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+
+.main-navigation a{
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 2rem;
+  }
+  
+  .main-navigation a:hover{
+    color: #dc3545;
+    font-weight: 900;
+  }
+  
+
+
+
+
+.line {
+    width: 100%;
+}
+
+.two-column{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin: 1rem;
+  }
+
+  .entry-box{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .entry{
+      flex: 0 0 50%;
+      height: calc(100vh / 2);
+  }
+
+  #example1{
+      background-image: url(../img/2VLWDJMM6NG7PMUGV56EVGD3JM.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+  }
+
+  #example2{
+    background-image: url(../img/ON2VQYRACZFXTMGQKTOOGYBD6M.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width:800px){
+    .two-column {
+        display: initial;
+      }
+  }
+
+  /* Media queries */
+  /* Extra small devices 0 to 600 (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .fullvh{
+        height: auto;
+        margin-top: 2em;
+    }
+    
+    .title--big{font-size: 5.5rem;}
+
+    .nav-bar{
+        position:static;
+        margin-bottom: 2.5rem;
+    }
+  }
+
+  @media only screen and (orientation: landscape) {
+    .fullvh{
+        height: auto;
+        margin-top: 2em;
+    }
+
+    .nav-bar{
+        position:static;
+        margin-bottom: 2rem;
+    }
+    
+  }
+
+    /* Large devices 922 to 1200 (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        .fullvh{
+            height: 100vh;
+            margin-top: 2em;
+    }
+}

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="p a n s" />
+    <meta
+      name="description"
+      content="Tras las críticas contra el director del Festival, Álex Hernández, repasamos cómo fue realmente la trasmisión de la banda inglesa."
+    />
+    <meta property="og:title" content="Jamiroquai Viña 2018 | Sclab." />
+    <meta
+      property="og:image"
+      content="http://www.sclab.co/jamiroquai-festival/img/main.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://pab-ns.github.io/sclab.co/jamiroquai-festival"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+
+    <!-- Chart Visavail  -->
+    <link rel="stylesheet" type="text/css" href="css/visavail.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.css" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#navbar").load("../assets/html/navbar.html");
+        $("#footer").load("../assets/html/footer.html");
+      });
+    </script>
+
+    <title>📺 Jamiroquai Viña 2018 | Sclab.</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
+
+    <!-- START HERE -->
+
+    <!-- INTRODUCCIÓN -->
+    <section class="container mt-4">
+      <div class="container">
+        <span class="roman small"
+          >El Show, el público, animadores y las intervenciones</span
+        >
+        <h1 class="display-3 bold">
+          ¿Cómo fue realmente la trasmisión de Jamiroquai en Viña 2018?
+        </h1>
+        <p class="roman font-italic">Por: Sclab.</p>
+        <hr class="my-5" />
+      </div>
+    </section>
+
+    <!-- SECTION -->
+    <section class="container content my-5">
+      <div class="text-center">
+        <figure class="figure">
+          <img
+            src="img/main.jpg"
+            class="figure-img img-fluid"
+            alt="Jamiroquai / Twitter / Alex Hernández"
+            title="Photo credit: Aton / Sclab."
+          />
+          <small>
+            <figcaption
+              class="figure-caption text-secondary roman"
+            ></figcaption>
+          </small>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Contenido -->
+    <section class="container content my-5">
+      <p class="content-parragraph">
+        A las una de la mañana del día viernes 23 de febrero del 2018,
+        <strong>Alex Hernández</strong> era trending topic en Twitter con más de
+        <strong>34.2K tweets</strong>. Minutos antes, los animadores del
+        Festival de Viña del Mar acababan de entregar el segundo galardón
+        (Gaviota de Oro) a la banda inglesa, <strong>Jamiroquai</strong>, que
+        acababan de presentar un show de primera línea que encendió la Quinta
+        Vergara, pero que fue opacado durante la transmisión por los numerosos
+        cortes que hacía el director del Festival a rostros de CHV, miembros del
+        jurado de la competencia y público asistente. Algo que causó molestia en
+        los televidentes y que fue duramente criticado por redes sociales.
+        <br /><br />
+
+        Aquí presentamos un desglose de cómo fue realmente la transmisión de
+        Jamiroquai durante su paso por el Festival de Viña del Mar, analizando
+        cuánto tiempo se le dedicó al
+        <strong style="color: #417505">"Show"</strong>,
+        <strong style="color: #c3261f">"Público"</strong>, "Intervención de los
+        <strong style="color: #ff7f00">Animadores"</strong> y
+        <strong style="color: purple">"Otras Intervenciones"</strong>.
+      </p>
+    </section>
+
+    <!-- VISAVAIL CHART Hide on Small Screens -->
+    <section class="d-none d-md-block">
+      <div
+        style="margin: 0 auto; width: 100%; padding: 10px"
+        id="visavail_container"
+      >
+        <p id="example"><!-- Visavail.js chart will be placed here --></p>
+      </div>
+    </section>
+    <!-- VISAVAIL CHART -->
+
+    <!-- JPG Display on Small Screens -->
+    <section class="container">
+      <div class="d-sm-block d-md-none">
+        <img src="img/graph2.jpg" class="img-fluid mx-auto" />
+      </div>
+    </section>
+    <!-- JPG Display on Small Screens -->
+
+    <!-- Videos -->
+    <section class="container content my-5">
+      <h2 class="bold">Videos según categoría</h2>
+      <p class="content-parragraph mb-4">
+        A los siguientes videos se les ha alterado su velocidad para que tengan
+        una duración promedio de dos minutos apox. y muestra la transmisión de
+        cada categoría y el tiempo que tuvo al aire.
+      </p>
+    </section>
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="text-left medium" style="color: #417505">Show</h4>
+          <div class="embed-responsive embed-responsive-16by9 mb-5">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/kdIWglPQy-4"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-left medium" style="color: #c3261f">Público</h4>
+          <div class="embed-responsive embed-responsive-16by9 mb-5">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/UO_WYkS-ngM"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-left medium" style="color: #ff7f00">"Ya viene..."</h4>
+          <div class="embed-responsive embed-responsive-16by9 mb-5">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/ADgrYunJErY"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-left medium" style="color: purple">Animadores</h4>
+          <div class="embed-responsive embed-responsive-16by9 mb-5">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/mQinh2G0O5I"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Videos -->
+
+    <!-- CHART -->
+    <section
+      class="container content mb-5 justify-content-center d-none d-md-block"
+    >
+      <h2 class="bold">En resumen...</h2>
+      <p class="content-parragraph">
+        Estas son los porcentajes en que se dividió de la transmisión de
+        Jamiroquai sobre el escenario del Festival de Viña del Mar 2018.
+      </p>
+
+      <div id="canvas-holder" style="width: 100%" class="mx-auto">
+        <canvas id="chart-area"></canvas>
+      </div>
+    </section>
+    <!-- CHART -->
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Popper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap 4.1.1 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CHART SCRIPTS -->
+    <script src="js/Chart.bundle.js"></script>
+    <script src="js/utils.js"></script>
+
+    <script>
+      var randomScalingFactor = function () {
+        return Math.round(Math.random() * 100);
+      };
+
+      var config = {
+        type: "doughnut",
+        data: {
+          datasets: [
+            {
+              data: ["42.13", "47.57", "4.63", "5.67"],
+              backgroundColor: ["#417505", "#C3261F", "purple", "#FF7F00"],
+              label: "Dataset 1",
+            },
+          ],
+          labels: [
+            "Show",
+            "Público / Publicidad",
+            '"Ya Viene"',
+            "Intervención Animadores",
+          ],
+        },
+        options: {
+          responsive: true,
+          legend: {
+            position: "top",
+          },
+          title: {
+            display: false,
+            text: "% de la transmisión",
+          },
+          animation: {
+            animateScale: true,
+            animateRotate: true,
+          },
+        },
+      };
+
+      window.onload = function () {
+        var ctx = document.getElementById("chart-area").getContext("2d");
+        window.myDoughnut = new Chart(ctx, config);
+      };
+    </script>
+    <!-- CHART SCRIPTS -->
+
+    <!-- VISAVAIL SCRIPTS -->
+    <!-- Moment with locales -->
+    <script src="js/moment-with-locales.min.js" type="text/javascript"></script>
+
+    <script>
+      moment.locale("en");
+    </script>
+
+    <script src="js/d3.min.js" charset="utf-8"></script>
+
+    <script src="js/data.js" charset="utf-8"></script>
+
+    <script src="js/visavail.js"></script>
+
+    <script>
+      // draw Visavail.js chart
+      var chart = visavailChart();
+
+      function draw_visavail() {
+        chart.width($("#visavail_container").width() - 140);
+        $("#example").text("");
+        d3.select("#example").datum(dataset).call(chart);
+      }
+
+      draw_visavail();
+
+      $(window).resize(function () {
+        return draw_visavail();
+      });
+    </script>
+
+    <!-- VISAVAIL SCRIPTS -->
+  </body>
+</html>

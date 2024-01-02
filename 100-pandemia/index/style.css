@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+
+
+.og-expander-inner h3{
+    font-family: 'Archivo Black';
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.og-expander-inner p{
+    font-size: 1.2rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.og-expander-inner a {
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1rem;
+}
+
+/* Media queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    #bodymovin{
+        width:40%;
+        height:40%;
+    }
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    #bodymovin{
+        width:50%;
+        height:50%;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  }
+
+
+
+

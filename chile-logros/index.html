@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="p a n s" />
+    <meta
+      name="description"
+      content="Con la obtención del Oscar por “Una Mujer Fantástica”, Chile nuevamente vuelve a estar en la palestra a nivel mundial. Pero, ¿qué otros logros hemos obtenido?"
+    />
+    <meta property="og:title" content="Chile, ¿país de logros? | Sclab." />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-01-chi-logros.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://pab-ns.github.io/sclab.co/chile-logros"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+
+    <!-- Timeline CSS -->
+    <link rel="stylesheet" type="text/css" href="css/timeline.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.css" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#navbar").load("../assets/html/navbar.html");
+        $("#footer").load("../assets/html/footer.html");
+      });
+    </script>
+
+    <title>Chile, ¿país de logros? | Sclab.</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
+
+    <!-- INTRO -->
+    <section class="container mt-4">
+      <div class="container">
+        <span class="roman small">Oscars, records y podios mundiales</span>
+        <h1 class="display-3 bold">Chile, ¿país de logros?</h1>
+        <p class="roman font-italic mb-4">Por: Sclab.</p>
+        <hr class="my-5" />
+      </div>
+    </section>
+
+    <!-- MAIN PHOTO -->
+    <section class="container content my-5">
+      <div class="text-center">
+        <figure class="figure">
+          <img
+            src="https://img.elcomercio.pe/uploads/2018/03/05/5a9d5179a906d.jpeg"
+            class="figure-img img-fluid"
+            alt="Una Mujer Fantástica | Fabula"
+            title="Photo credit: EFE"
+          />
+          <small>
+            <figcaption class="figure-caption text-secondary roman">
+              Sebastián Lelio recibe al Oscar en la categoría "Mejor Película
+              Extranjera" por <em>Una Mujer Fantástica</em>
+            </figcaption>
+          </small>
+        </figure>
+      </div>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="container content">
+      <p class="content-parragraph">
+        Con la reciente obtención al premio de la Academia a la mejor película
+        extranjera por <strong>“Una Mujer Fantástica”</strong>, Chile nuevamente
+        vuelve a estar destacado a nivel mundial. Reconocimiento importante si
+        se considera que en casi 90 años de historia, solo dos países a nivel
+        latinoamericano han obtenido dicha distinción en la misma categoría
+        (Argentina, con la cinta <em>“El Secreto de sus ojos”</em> en 2010).
+        <br /><br />
+        Sin embargo en casi 210 años de historia, reconocimientos de categoría
+        mundial no son sucesos que suelen ocurrir con frecuencia. Eso si, en los
+        últimos 5 años, Chile ha sido testigos de grandes logros internacionales
+        tanto en lo deportivo como en lo cultural. Aquí, hacemos un recorrido de
+        los grandes logros que, de vez en cuando, colocan a nuestro país en lo
+        más alto. De lo bueno, poco.
+      </p>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="cd-timeline js-cd-timeline">
+      <div class="cd-timeline__container">
+        <!-- UNA MUJER FANTASTICA -->
+        <div class="cd-timeline__block js-cd-block">
+          <div class="cd-timeline__img cd-timeline__img--oscar js-cd-img">
+            <img src="img/oscars.svg" alt="Picture" />
+          </div>
+          <!-- cd-timeline__img -->
+          <div class="cd-timeline__content js-cd-content">
+            <h2 class="bold text-dark">Un premio Fantástico</h2>
+            <p class="my-4 content-parragraph">
+              Era la favorita para quedarse con el Oscar y así fue. Y es que la
+              película producidad por los hermanos Larraín (Pablo y Juan de
+              Dios), dirigida por Sebastián Leilo y protagonizada por Daniela
+              Vega, en su camino a los premios de la Academia ganó distintos
+              galardones, entre ellos el Festival Internacional de Cine de
+              Berlín, los Premios Fénix y el premio Goya, hasta coronarse con la
+              estaquilla de oro (que pesa unos cuatro kilos). La cinta traspasó
+              la cultura y puso en discusión la tramitación de una ley de
+              identidad de género en el Congreso.
+            </p>
+            <div class="foto">
+              <img
+                src="img/Untitled-1.jpg"
+                class="img-fluid mx-auto d-block"
+                alt=""
+                title="Photo credit: Cordon Press / Agencia Uno"
+              />
+            </div>
+            <span class="cd-timeline__date">2018</span>
+          </div>
+          <!-- cd-timeline__content -->
+        </div>
+        <!-- cd-timeline__block -->
+
+        <!-- NOBEL DE LA ARQUITECTURA -->
+        <div class="cd-timeline__block js-cd-block">
+          <div class="cd-timeline__img cd-timeline__img--ciencia js-cd-img">
+            <img src="img/plan.svg" alt="Picture" />
+          </div>
+          <!-- cd-timeline__img -->
+          <div class="cd-timeline__content js-cd-content">
+            <h2 class="bold text-dark">El Nobel de la Arquitectura</h2>
+            <p class="my-4 content-parragraph">
+              En este rubro, el Premio Pritzker es considerado como el principal
+              galardón. El mayor premio cayó en manos de Alejandro Aravena por
+              su trabajo comprometida con la sociedad, para solventar problemas
+              de habitabilidad, incluidos los de los afectados por catástrofes
+              naturales. El jurado del certamen destacó que “el papel del
+              arquitecto está siendo desafiado para servir mayoritariamente a
+              necesidades sociales y humanitarias, y Alejandro Aravena ha
+              respondido a este desafío de forma clara, plena y generosa”.
+            </p>
+            <div class="foto">
+              <img
+                src="img/Untitled-2.jpg"
+                class="img-fluid mx-auto d-block"
+                alt=""
+                title="Photo Credit: Arquitecturayempresa.es"
+              />
+            </div>
+            <span class="cd-timeline__date">2016</span>
+          </div>
+          <!-- cd-timeline__content -->
+        </div>
+        <!-- cd-timeline__block -->
+
+        <!-- HISTORIA DE UN OSO -->
+        <div class="cd-timeline__block js-cd-block">
+          <div class="cd-timeline__img cd-timeline__img--oscar js-cd-img">
+            <img src="img/oscars.svg" alt="Picture" />
+          </div>
+          <!-- cd-timeline__img -->
+          <div class="cd-timeline__content js-cd-content">
+            <h2 class="bold text-dark">La Historia de un Oscar</h2>
+            <p class="my-4 content-parragraph">
+              La noche del 28 de febrero, los <i>“Minions”</i> (personajes de la
+              película animada “Mi villano favorito”) dieron a conocer los
+              ganadores a la categoría <i>“Mejor cortometraje animado”.</i> Al
+              escenario subieron Gabriel Osorio y Patricio Escala, acompañados
+              de sus parejas y co-trabajadoras, para recibir la primera
+              estatuilla de oro para nuestro país. En 11 minutos, la productora
+              <strong>Punkrobot</strong> logró cautivar a los miembros de la
+              Academia (y de variados festivales previos) con una historia
+              inspirada en la época de la Dictadura y quedarse por primera vez
+              el Oscar. Logro épico, digno de una historia de David y Golliat,
+              considerando que los chilenos competían con grandes producciones
+              norteamericanas como Disney Pixar.
+            </p>
+            <div class="embed-responsive embed-responsive-16by9 my-5">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/aQJsne3qSrE?rel=0"
+              ></iframe>
+            </div>
+            <span class="cd-timeline__date">2016</span>
+          </div>
+          <!-- cd-timeline__content -->
+        </div>
+        <!-- cd-timeline__block -->
+
+        <!-- COPA AMÉRICA 2015 -->
+        <div class="cd-timeline__block js-cd-block">
+          <div class="cd-timeline__img cd-timeline__img--deportes js-cd-img">
+            <img src="img/ca2015.svg" alt="Picture" />
+          </div>
+          <!-- cd-timeline__img -->
+          <div class="cd-timeline__content js-cd-content">
+            <h2 class="bold text-dark">Chile Bicampeón</h2>
+            <p class="my-4 content-parragraph">
+              La copa más antigua del mundo finalmente se tiño de rojo. Después
+              de una dolorosa eliminación de la Copa del Mundo de Brasil el año
+              anterior, la escuadra de Jorge Sampaoli se juramentó ganar la Copa
+              América en casa. El equipo estaba en su peak de rendimiento y
+              <strong>La Generación Dorada</strong> del futbol chileno, tenía la
+              obligación (con ellos mismos) de consolidarse con un título
+              internacional. En una reñida final, “La Roja” se enfrentó a la
+              Argentina de Messi y compañía (finalista del Mundial del 2014).
+              Los de Sampaoli estuvieron más finos en la definición de penales y
+              el capitán y arquero Claudio Bravo tuvo intervenciones claves.
+              Atrás quedaban los fantasmas de perder las finales de 1979 y 1987.
+              <br /><br />
+              *Pese a que la Copa América es un torneo que se realiza cada
+              cuatro años, en 2016 se realizó el campeonato para conmemorar los
+              100 años de la Copa. Chile se quedó nuevamente con el trofeo y
+              provocó una profunda crisis al interior de la Selección Argentina,
+              tras caer en su tercera final consecutiva.
+            </p>
+            <div class="embed-responsive embed-responsive-16by9 my-5">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/ATXMJOEt6zc?rel=0"
+              ></iframe>
+            </div>
+            <span class="cd-timeline__date">2016</span>
+          </div>
+          <!-- cd-timeline__content -->
+        </div>
+        <!-- cd-timeline__block -->
+
+        <!-- ATENAS -->
+        <div class="cd-timeline__block js-cd-block">
+          <div class="cd-timeline__img cd-timeline__img--deportes js-cd-img">
+            <img src="img/first-place.svg" alt="Picture" />
+          </div>
+          <!-- cd-timeline__img -->
+          <div class="cd-timeline__content js-cd-content">
+            <h2 class="bold text-dark">El himno en el podio y en Atenas</h2>
+            <p class="my-4 content-parragraph">
+              Los Juegos Olímpicos de Atenas de 2004 fue el escenario perfecto
+              para que Chile hiciera historia. Por primera vez el himno patrio
+              se escucharía en una ceremonia en la entrega de medallas. Fernando
+              Gónzalez y Nicolás Massú lograron oro en dobles, el viñamarino
+              logró quedarse con la presea dorada en individuales y el
+              "Bombardero de la Reina" se quedaría con la de bronce. Ambos
+              venían de partidos intensos y duraderos (más de tres horas) y en
+              momentos en que la presea dorada se veía lejana, ambos lograron
+              doblegar a sus rivales, tanto en dobles como en individuales.
+              Hasta el momento, la mayor proeza en la historia del tenis
+              nacional.
+            </p>
+            <div class="foto">
+              <img
+                src="img/Untitled-3.jpg"
+                class="img-fluid mx-auto d-block"
+                alt=""
+                title="Photo credit: Metrolatam.com"
+              />
+            </div>
+            <span class="cd-timeline__date">2004</span>
+          </div>
+          <!-- cd-timeline__content -->
+        </div>
+        <!-- cd-timeline__block -->
+
+        <!-- CHINO RIOS -->
+        <div class="cd-timeline__block js-cd-block">
+          <div class="cd-timeline__img cd-timeline__img--deportes js-cd-img">
+            <img src="img/tennis-ball.svg" alt="Picture" />
+          </div>
+          <!-- cd-timeline__img -->
+          <div class="cd-timeline__content js-cd-content">
+            <h2 class="bold text-dark">El Nº1 sin Grand Slam</h2>
+            <p class="my-4 content-parragraph">
+              20 años se han cumplido (29 de Marzo) de una de las tres grandes
+              proezas en la historia del tenis chileno. Y es que Marcelo “Chino”
+              Ríos, de apenas 23 años, conquistaba el tenis mundial y se
+              convertía en nuevo número uno del mundo (primer latinoamericano y
+              más bajo de estatura). En la final del torneo Lipton, el chileno
+              vencía a Andre Agassi y destronaba a Pete Sampras de la cima.
+              Logro épico si se considera que Ríos nunca ganó un Grand Slam. Ese
+              año ganó en total siete títulos y llegó a estar seis semanas en
+              total como número uno. Fue
+              <i
+                >“el primer deportista chileno en hacer algo grande en el
+                mundo”, sentencia Fernando Gónzalez.</i
+              >
+            </p>
+            <div class="embed-responsive embed-responsive-16by9 my-5">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/mVNTpKIoL0Q?rel=0"
+              ></iframe>
+            </div>
+            <span class="cd-timeline__date">1998</span>
+          </div>
+          <!-- cd-timeline__content -->
+        </div>
+        <!-- cd-timeline__block -->
+
+        <!-- MISS UNIVERSO -->
+        <div class="cd-timeline__block js-cd-block">
+          <div class="cd-timeline__img cd-timeline__img--otros js-cd-img">
+            <img src="img/crown.svg" alt="Picture" />
+          </div>
+          <!-- cd-timeline__img -->
+          <div class="cd-timeline__content js-cd-content">
+            <h2 class="bold text-dark">La belleza Universal</h2>
+            <p class="my-4 content-parragraph">
+              De temprana edad, Cecilia Bolocco acaparó las miradas para
+              participar en destinas competencias de bellezas. Sin embargo, no
+              fue hasta 1986 mientras terminaba sus estudios de diseño de
+              vestuario cuando decide ser parte del primer evento de belleza de
+              “Miss Chile”. De allí, pasó a ser la candidata del país para el
+              certamen mundial, que se desarrolló en Singapur. La final del
+              certamen mundial fue seguida por 600 millones de televidentes.
+              Durante la madrugada del 26 de mayo Bob Barker, animador del
+              concurso, dio a conocer que Cecilia Boloco era ganadora de Miss
+              Universo y con eso un cambio radical en su vida.
+            </p>
+            <div class="foto">
+              <img
+                src="img/Untitled-4.jpg"
+                class="img-fluid mx-auto d-block"
+                alt=""
+                title="Photo credit: T13.cl"
+              />
+            </div>
+            <span class="cd-timeline__date">1987</span>
+          </div>
+          <!-- cd-timeline__content -->
+        </div>
+        <!-- cd-timeline__block -->
+
+        <!-- PABLO VALENZUELA -->
+        <div class="cd-timeline__block js-cd-block">
+          <div class="cd-timeline__img cd-timeline__img--ciencia js-cd-img">
+            <img src="img/virus.svg" alt="Picture" />
+          </div>
+          <!-- cd-timeline__img -->
+          <div class="cd-timeline__content js-cd-content">
+            <h2 class="bold text-dark">El científico superestrella</h2>
+            <p class="my-4 content-parragraph">
+              Sus descubrimientos han cambiando faz de la medicina actual.
+              Empresario por naturaleza, científico de profesión y padre de la
+              superestrella pop Francisca Valenzuela. Una característica
+              familiar, ya que Pablo es una estrella de la ciencia, gracias al
+              descubrimiento de la vacuna contra la Hepatitis B. El impacto del
+              antídoto fue un impacto mundial. Las infecciones de la enfermedad
+              disminuyeron en más de un 95% y se ha implementado en más de 170
+              países. Ha secuenciado el genoma del Sida, descubrió el virus de
+              la Hepatitis C y ahora va por el cáncer.
+            </p>
+            <div class="foto">
+              <img
+                src="img/Untitled-5.jpg"
+                class="img-fluid mx-auto d-block"
+                alt=""
+                title="Photo credit: Captura Infantil.cntv.cl"
+              />
+            </div>
+            <span class="cd-timeline__date">1986</span>
+          </div>
+          <!-- cd-timeline__content -->
+        </div>
+        <!-- cd-timeline__block -->
+
+        <!-- PABLO NERUDA -->
+        <div class="cd-timeline__block js-cd-block">
+          <div class="cd-timeline__img cd-timeline__img--nobel js-cd-img">
+            <img src="img/Nobel_prize_winner3.svg" alt="Picture" />
+          </div>
+          <!-- cd-timeline__img -->
+          <div class="cd-timeline__content js-cd-content">
+            <h2 class="bold text-dark">De Isla Negra al mundo</h2>
+            <p class="my-4 content-parragraph">
+              Neftalí Reyes, alcanzó fama internacional en 1924 con su
+              publicación
+              <i>“Veinte poemas de amor y una canción desesperada”.</i> A los 22
+              años, la carrera consular lo llevaría a recorrer el mundo, entre
+              ellos destinos exóticos como Birmania, Ceilán, Java y Singapur. En
+              España se relacionó con García Lorca, Aleixandre, Gerardo Diego,
+              entre otros de la llamada <strong>Generación del 27</strong>.
+              Neruda es considerado entre lo más influyentes artistas de si
+              siglo. En palabras de Gabriel García Márquez, “el más grande poeta
+              del siglo XX en cualquier idioma”. En dos ocaciones La Academia
+              Sueca lo consideró al Premio Nobel de Literatura. Su segunda
+              postulación resultaría exitosa.
+              <i
+                >“Se dice (o se lo dijeron a Matilde para impresionarla) que el
+                rey estuvo más tiempo conmigo que con los otros laureados, que
+                me apretó la mano con evidente simpatía”</i
+              >, cuenta en <i>"Confieso que he vivido".</i>
+            </p>
+            <div class="foto">
+              <img
+                src="img/Untitled-6.jpg"
+                class="img-fluid mx-auto d-block"
+                alt=""
+                title="Photo credit: Lunaoscurarevista.blogspot.com"
+              />
+            </div>
+            <span class="cd-timeline__date">1971</span>
+          </div>
+          <!-- cd-timeline__content -->
+        </div>
+        <!-- cd-timeline__block -->
+
+        <!-- RÉCORD GUINESS -->
+        <div class="cd-timeline__block js-cd-block">
+          <div class="cd-timeline__img cd-timeline__img--otros js-cd-img">
+            <img
+              src="img/black-head-horse-side-view-with-horsehair.svg"
+              alt="Picture"
+            />
+          </div>
+          <!-- cd-timeline__img -->
+          <div class="cd-timeline__content js-cd-content">
+            <h2 class="bold text-dark">La hazaña del "Huaso"</h2>
+            <p class="my-4 content-parragraph">
+              Hasta el día de hoy es el único récord mundial de Chile en el
+              mundo del deporte. Simple. El binomio chileno integrado por el
+              jinete militar Alberto Larraguibel y su caballo “Huaso”, lograron
+              el histórico salto de 2,47 metros. La hazaña fue realizada en el
+              regimiento Coraceros de Viña del Mar, cuando el nacional doblegó
+              el salto del italiano Antonio Gutiérrez.
+              <i
+                >“Fue un momento eterno. No escuché un solo grito y pensé que
+                algo había salido mal, aunque no sentí caer las varas…”</i
+              >, relató Larraguibel a la revista Estadio de 1950. A fines del
+              año 2007, se instaló en la ciudad jardín un monumento al binomio
+              que inmortaliza el salto récord.
+            </p>
+            <div class="embed-responsive embed-responsive-16by9 my-5">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/7qH-4cVNJAU?rel=0"
+              ></iframe>
+            </div>
+            <span class="cd-timeline__date">1949</span>
+          </div>
+          <!-- cd-timeline__content -->
+        </div>
+        <!-- cd-timeline__block -->
+
+        <!-- EL PRIMER NOBEL -->
+        <div class="cd-timeline__block js-cd-block">
+          <div class="cd-timeline__img cd-timeline__img--nobel js-cd-img">
+            <img src="img/Nobel_prize_winner3.svg" alt="Picture" />
+          </div>
+          <!-- cd-timeline__img -->
+          <div class="cd-timeline__content js-cd-content">
+            <h2 class="bold text-dark">El primer Nobel para las letras</h2>
+            <p class="my-4 content-parragraph">
+              Gabriela Mistral es considerada una las principales referentes de
+              la poseía femenina a nivel mundial. Nacida “entre treinta cerro”
+              (Vicuña, Región de Coquimbo) desde temprana edad practicó la
+              pedagogía mientras desarrollaba la producción poética. Su
+              publicación, Desolación (1922) la pondría en la órbita mundial de
+              la poesía siendo considerada una promesa de la literatura
+              latinoamericana. En 1945 la Academia Sueca galardonó a Mistral con
+              el Premio Nobel de Literatura, siendo la primera persona
+              latinoamericana en recibir el premio. Curiosamente, años después
+              en Chile, fue Premio Nacional de Literatura.
+            </p>
+            <div class="foto">
+              <img
+                src="img/Untitled-8.jpg"
+                class="img-fluid mx-auto d-block"
+                alt=""
+                title="Photo credit: Memoriachilena.gob.cl"
+              />
+            </div>
+            <span class="cd-timeline__date">1945</span>
+          </div>
+          <!-- cd-timeline__content -->
+        </div>
+        <!-- cd-timeline__block -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!--  -->
+    <!--  -->
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Popper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap 4.1.1 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Timeline JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

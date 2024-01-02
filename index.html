@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story"
+    />
+    <meta name="author" content="p a n s" />
+    <meta
+      name="description"
+      content="Sclab. es un laboratorio de pruebas digitales enfocados a narraciones visuales. Contamos historias y creamos contenido multimedia."
+    />
+    <meta property="og:title" content="Sclab. - Storytelling & Content Lab" />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/share_sclab.jpg"
+    />
+    <meta property="og:url" content="https://pab-ns.github.io/sclab.co/" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Sclab. - Storytelling Content Lab" />
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#footer").load("assets/html/footer.html");
+      });
+    </script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/theme.css" />
+
+    <!-- Index Styles -->
+    <link rel="stylesheet" href="index/index.css" />
+    <link rel="stylesheet" href="index/esp-logo.css" />
+
+    <title>Storytelling & Content Lab | SCLab.</title>
+  </head>
+
+  <body>
+    <section class="container my-5">
+      <img
+        src="index/img/eng-long.svg"
+        id="eng-long"
+        alt="Scl. logo"
+        style="height: auto; width: 50%"
+      />
+      <img
+        src="index/img/eng-short.svg"
+        id="eng-short"
+        alt="Monkey face"
+        style="height: auto; width: 80%"
+      />
+    </section>
+
+    <main class="flex-container container">
+      <div class="main-content">
+        <nav>
+          <ul class="list-inline thin-three" id="myBtnContainer">
+            <li
+              class="list-inline-item filter_btn current"
+              onclick="filterSelection('all')"
+            >
+              <span>Todos</span>
+            </li>
+            <li
+              class="list-inline-item filter_btn"
+              onclick="filterSelection('sports')"
+            >
+              <span>Deportes</span>
+            </li>
+            <li
+              class="list-inline-item filter_btn"
+              onclick="filterSelection('pplcul')"
+            >
+              <span>Personas & Cultura</span>
+            </li>
+            <li
+              class="list-inline-item filter_btn"
+              onclick="filterSelection('entertainment')"
+            >
+              <span>Entretención</span>
+            </li>
+            <li
+              class="list-inline-item filter_btn"
+              onclick="filterSelection('social')"
+            >
+              <span>Social</span>
+            </li>
+          </ul>
+        </nav>
+        <hr />
+
+        <div class="services">
+          <!-- 17  -->
+          <div class="card service column sports entertainment">
+            <a href="http://eloncedemanolo.cl/">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2022-02-11m.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="http://eloncedemanolo.cl">
+                <span class="p card-title bold">El 11 de Manolo</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 16 -->
+          <div class="card service column social pplcul">
+            <a href="https://pab-ns.github.io/sclab.co/100-pandemia">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2020-07-100-pandemia.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/100-pandemia">
+                <span class="p card-title bold">100 días de pandemia</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 15 -->
+          <div class="card service column social">
+            <a href="https://pab-ns.github.io/sclab.co/50-dias-estallido">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2020-10-50dias.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/50-dias-estallido">
+                <span class="p card-title bold"
+                  >A 50 días del estallido social</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <!-- 14 -->
+          <div class="card service column social pplcul">
+            <a href="https://pab-ns.github.io/sclab.co/mujeres-metro">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2019-03-8m.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/mujeres-metro">
+                <span class="p card-title bold"
+                  >Las mujeres que se "tomaron" el Metro de Santiago</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <!-- 13 -->
+          <div class="card service column pplcul">
+            <a href="https://pab-ns.github.io/sclab.co/mas-trabajo">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2019-06-trabajo.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/mas-trabajo">
+                <span class="p card-title bold">Más que un Trabajo</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 12 -->
+          <div class="card service column sports">
+            <a href="https://pab-ns.github.io/sclab.co/dt-cc">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-12-dt.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/dt-cc">
+                <span class="p card-title bold"
+                  >¿Quién ha sido el mejor DT de Colo-Colo desde 1991?</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <!-- 11 -->
+          <div class="card service column social">
+            <a href="https://pab-ns.github.io/sclab.co/nuevo-chile">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-09-nuevo-chile.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/nuevo-chile">
+                <span class="p card-title bold">El Nuevo Chile</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 10 -->
+          <div class="card service column sports">
+            <a href="https://pab-ns.github.io/sclab.co/confederaciones">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-07-confederation.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/confederaciones">
+                <span class="p card-title bold"
+                  >¿La maldición de la Copa Confederaciones?</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <!-- 9 -->
+          <div class="card service column pplcul">
+            <a href="https://pab-ns.github.io/sclab.co/stgo-centro">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-06-stgo-centro.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/stgo-centro">
+                <span class="p card-title bold"
+                  >Santiago Centro en 11 estaciones</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <!-- 8 -->
+          <div class="card service column entertainment">
+            <a href="https://pab-ns.github.io/sclab.co/chile-logros">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-01-chi-logros.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/chile-logros">
+                <span class="p card-title bold">Chile, ¿país de logros?</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 7 -->
+          <div class="card service column entertainment">
+            <a href="https://pab-ns.github.io/sclab.co/jamiroquai-festival">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-03-jamiroquai.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/jamiroquai-festival">
+                <span class="p card-title bold"
+                  >¿Cómo fue realmente la transmisión de Jamiroquai en Viña
+                  2018?</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="card service column entertainment">
+            <a href="https://pab-ns.github.io/sclab.co/reinas-festival">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-02-vina.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/reinas-festival">
+                <span class="p card-title bold">Eligiendo una Reina</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="card service column sports">
+            <a href="https://pab-ns.github.io/sclab.co/ruleta-rueda">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2018-04-rrr.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/ruleta-rueda">
+                <span class="p card-title bold"
+                  >La ruleta de Reinaldo Rueda</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="card service column pplcul">
+            <a href="https://pab-ns.github.io/sclab.co/divino-tormento">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2015-05-divino.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/divino-tormento">
+                <span class="p card-title bold">Divino Tormento</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="card service column pplcul">
+            <a href="https://pab-ns.github.io/sclab.co/msm">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2014-12-melbourne.jpg.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/msm">
+                <span class="p card-title bold">Melbourne Street Music</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="card service column sports">
+            <a href="https://pab-ns.github.io/sclab.co/confesiones">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2014-02-confesion.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/confesiones">
+                <span class="p card-title bold">Confesiones</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 1 -->
+          <div class="card service column pplcul">
+            <a href="https://pab-ns.github.io/sclab.co/cronicas-valparaiso">
+              <img
+                class="card-img-top rounded-0"
+                src="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2010-07-valparaiso.jpg"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <a href="https://pab-ns.github.io/sclab.co/cronicas-valparaiso">
+                <span class="p card-title bold">Crónicas de Valparaíso</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <h2 class="bold">Selecciona un contenido</h2>
+        <p class="light">
+          <strong>[ SCLab. ]</strong> es un laboratorio de pruebas digitales
+          enfocados a narraciones visuales. Nos gusta contar historias. Crear,
+          adaptar y jugar con el contenido y hacerlo multimedia.
+        </p>
+        <p class="light">
+          Estamos interesados en tus opiniones/comentarios. Escríbenos a
+          <a
+            class="a-index"
+            href="mailto:hello@sclab.co?Subject=Hola/Hi%20Sclab"
+            >hello@sclab.co</a
+          >
+        </p>
+        <p class="light">
+          Proyecto desarrollado por
+          <a class="a-index" href="http://pabsneyra.com/es" target="_blank"
+            >Pablo</a
+          >
+        </p>
+        <ul class="list-inline light">
+          <li class="list-inline-item">
+            <a
+              class="a-index"
+              href="https://pab-ns.github.io/sclab.co/about.html"
+              >+ Info.</a
+            >
+          </li>
+          <!-- <li class="list-inline-item"><a class="a-index" href="https://www.instagram.com/sclab_/" target="_blank">Instagram</a></li>
+            <li class="list-inline-item a-index" data-toggle="tooltip" data-placement="top" title="Soon...">English</li> -->
+        </ul>
+        <hr id="hr-aside" />
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!--  -->
+    <!--  -->
+
+    <!-- JQuery 3.3.1 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap 4.1.1 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+    <script src="index/index.js"></script>
+  </body>
+</html>

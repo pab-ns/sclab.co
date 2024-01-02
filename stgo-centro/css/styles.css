@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+.serif{
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+/* MINE  // START STYLES */
+a{
+    text-decoration: none !important;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .titular {font-size: 50px;}
+    .subtitulo{font-size: 20px;}
+}
+
+
+/*PROJECT*/
+.titular{
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+}
+
+.subtitulo{
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+}
+
+
+.contenedor{
+    margin: 0 10%;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+  margin: 1%;
+}
+
+#lugar1{
+    background-image: url(../img/row/01-row-plaza.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#lugar2{
+    background-image: url(../img/row/02-row-liguria.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#lugar3{
+    background-image: url(../img/row/03-row-confiteria.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#lugar4{
+    background-image: url(../img/row/04-row-player.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#lugar5{
+    background-image: url(../img/row/05-row-hipico.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#lugar6{
+    background-image: url(../img/row/06-row-piojera.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#lugar7{
+    background-image: url(../img/row/07-row-rapido.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#lugar8{
+    background-image: url(../img/row/08-row-peluqueria.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#lugar9{
+    background-image: url(../img/row/09-row-paris.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#lugar10{
+    background-image: url(../img/row/10-row-bandera.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#lugar11{
+    background-image: url(../img/row/11-row-penique.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#map {
+     height: 800px;
+     width: 100%;
+}
+
+.hola {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }

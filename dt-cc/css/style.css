@@ -1,0 +1,39 @@
+a:hover{
+  text-decoration: none;
+}
+
+
+.show {
+  display: block;
+}
+
+ /* Add a dark background color to the current button */
+.current {
+  text-decoration: line-through;
+  color:red;
+}
+
+.current:hover{
+  text-decoration: line-through;
+}
+
+ ul li{
+  /* display:inline-block;
+  margin:0;
+  list-style: none; */
+  /* padding:10px 15px; */
+  cursor:pointer;
+  -webkit-transition:all 05s ease;
+  -moz-transition:all 05s ease;
+  -ms-transition:all 05s ease;
+  -o-transition:all 05s ease;
+  transition:all .5s ease;
+}
+
+
+
+
+
+
+
+

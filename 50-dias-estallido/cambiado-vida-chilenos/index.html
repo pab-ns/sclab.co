@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150899674-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150899674-1");
+    </script>
+    <!-- End Google Analytics -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="keywords"
+      content="storytelling, content, lab, contenido, laboratorio, digital, multimedia, journalism, periodismo, engagement, hub, creative, media, chile, scl, photography, photo, data, data-viz, d3, visual, video, web, story, 50dias, 50, estallido, social, estalido social, octubre, chile, manifestaciones, protestas, piñera, constitucion, nueva, nueva constitucion, plebiscito, 18 octubre, 25 octubre, marcha"
+    />
+    <meta name="author" content="La Tercera - SCLab." />
+    <meta
+      name="description"
+      content="A 50 días del estallido | SCLab. | La Tercera"
+    />
+    <meta
+      property="og:title"
+      content="A 50 días del estallido | SCLab. | La Tercera"
+    />
+    <meta
+      property="og:image"
+      content="https://pab-ns.github.io/sclab.co/assets/img/thumbnails/525/2020-10-50dias.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://pab-ns.github.io/sclab.co/50-dias-estallido/"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="SCLab." />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://pab-ns.github.io/sclab.co/assets/img/favicon.ico/"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Project style  -->
+    <link rel="stylesheet" href="../css/proyect-style.css" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>
+      ¿Cómo ha cambiado la vida de los chilenos? | A 50 días del estallido |
+      SCLab. | La Tercera
+    </title>
+  </head>
+
+  <body>
+    <!-- START HERE -->
+
+    <section class="grid--one">
+      <div class="grid-text container my-5">
+        <!-- nav -->
+        <nav class="main-navigation lead small">
+          <a href="https://pab-ns.github.io/sclab.co/50-dias-estallido/"
+            >50 días</a
+          >
+          <a
+            href="https://pab-ns.github.io/sclab.co/50-dias-estallido/sobre.html"
+            >Sobre</a
+          >
+          <a href="https://pab-ns.github.io/sclab.co/" target="_blank"
+            >SCLab.</a
+          >
+        </nav>
+        <br />
+
+        <h1 class="title display-4">
+          Cómo ha cambiado la vida de los chilenos
+        </h1>
+        <br />
+        <!-- lead -->
+        <hr class="line" />
+        <p class="lead">
+          <span class="text-danger">Los impactos del estallido social.</span> A
+          50 días del inicio de las movilizaciones, <i>La Tercera</i> analizó
+          algunos de los principales cambios que han tenido que afrontar miles
+          de personas en su diario vivir.
+        </p>
+        <hr class="line" />
+        <!-- author -->
+        <small class="author"
+          ><i>Por: <strong>Equipo de Nacional</strong></i></small
+        >
+        <p class="content-paragraph my-5">
+          Tiempos de viaje más extensos en el transporte público, reaprendizaje
+          de conductores de vehículos particulares a raíz de la destrucción de
+          semáforos y señaléticas, y cambios en la forma como miles de personas
+          se recrean luego de su jornada laboral o de estudios. Estos son solo
+          algunos de los giros que han tenido que afrontar los residentes de
+          barrios, comunas, pueblos y ciudades, a lo largo de los 50 días del
+          estallido social que se inició el pasado 18 de octubre. La Tercera
+          abordó estas modificaciones en la vida de hombres y mujeres, buscando
+          traducir -y proyectar- una parte de lo que hoy ocurre, tanto en
+          Santiago como en regiones. <br />
+          <strong>Haz click sobre las imágenes para más información.</strong>
+        </p>
+      </div>
+
+      <div class="img1 hover-container">
+        <div class="overlay" data-toggle="modal" data-target="#modalViaje">
+          <div class="box">
+            <div class="text">Tiempos y viajes de conducción</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="img2 hover-container">
+        <div class="overlay" data-toggle="modal" data-target="#modalHotel">
+          <div class="box">
+            <div class="text">Turismo y hotelería</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="img hover-container">
+        <div class="overlay" data-toggle="modal" data-target="#modalComercio">
+          <div class="box">
+            <div class="text">Comercio y vida nocturna</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="img4 hover-container">
+        <div class="overlay" data-toggle="modal" data-target="#modalFarmacos">
+          <div class="box">
+            <div class="text">FÁRMACOS Y LICENCIAS MÉDICAS</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="img5 hover-container">
+        <div class="overlay" data-toggle="modal" data-target="#modalEspacio">
+          <div class="box">
+            <div class="text">ESPACIOS PÚBLICOS</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SMALL SCREEN -->
+    <section class="section--small">
+      <!-- nav -->
+      <nav class="main-navigation lead small my-4">
+        <a href="https://pab-ns.github.io/sclab.co/50-dias-estallido/"
+          >50 días</a
+        >
+        <a href="https://pab-ns.github.io/sclab.co/50-dias-estallido/sobre.html"
+          >Sobre</a
+        >
+        <a href="https://pab-ns.github.io/sclab.co/" target="_blank">SCLab.</a>
+      </nav>
+
+      <div class="container">
+        <!-- title -->
+        <h1 class="title display-3">
+          Cómo ha cambiado la vida de los chilenos
+        </h1>
+        <br />
+        <!-- lead -->
+        <hr class="line" />
+        <p class="lead">
+          <span class="text-danger">Los impactos del estallido social.</span> A
+          50 días del inicio de las movilizaciones, <i>La Tercera</i> analizó
+          algunos de los principales cambios que han tenido que afrontar miles
+          de personas en su diario vivir.
+        </p>
+        <hr class="line" />
+        <!-- author -->
+        <small class="author"
+          ><i>Por: <strong>Equipo de Nacional</strong></i></small
+        >
+      </div>
+      <div class="my-5 container">
+        <p class="content-paragraph">
+          Tiempos de viaje más extensos en el transporte público, reaprendizaje
+          de conductores de vehículos particulares a raíz de la destrucción de
+          semáforos y señaléticas, y cambios en la forma como miles de personas
+          se recrean luego de su jornada laboral o de estudios. Estos son solo
+          algunos de los giros que han tenido que afrontar los residentes de
+          barrios, comunas, pueblos y ciudades, a lo largo de los 50 días del
+          estallido social que se inició el pasado 18 de octubre. La Tercera
+          abordó estas modificaciones en la vida de hombres y mujeres, buscando
+          traducir -y proyectar- una parte de lo que hoy ocurre, tanto en
+          Santiago como en regiones. <br />
+          <strong>Haz click sobre las imágenes para más información.</strong>
+        </p>
+      </div>
+      <div class="my-5">
+        <div class="grid-container mx-auto">
+          <div class="img1 hover-container">
+            <img src="img/img1.jpg" alt="" />
+            <div class="overlay" data-toggle="modal" data-target="#modalViaje">
+              <div class="box">
+                <div class="text">Tiempos y viajes de conducción</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="img2 hover-container">
+            <img src="img/img2.jpg" alt="" />
+            <div class="overlay" data-toggle="modal" data-target="#modalHotel">
+              <div class="box">
+                <div class="text">Turismo y hotelería</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="img hover-container">
+            <img src="img/img3.jpg" alt="" />
+            <div
+              class="overlay"
+              data-toggle="modal"
+              data-target="#modalComercio"
+            >
+              <div class="box">
+                <div class="text">Comercio y vida nocturna</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="img4 hover-container">
+            <img src="img/img4.jpg" alt="" />
+            <div
+              class="overlay"
+              data-toggle="modal"
+              data-target="#modalFarmacos"
+            >
+              <div class="box">
+                <div class="text">FÁRMACOS Y LICENCIAS MÉDICAS</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="img5 hover-container">
+            <img src="img/img5.jpg" alt="" />
+            <div
+              class="overlay"
+              data-toggle="modal"
+              data-target="#modalEspacio"
+            >
+              <div class="box">
+                <div class="text">ESPACIOS PÚBLICOS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="container my-5 text-center">
+      <hr />
+      <a href="https://pab-ns.github.io/sclab.co/50-dias-estallido"
+        ><img src="../css/logo50.png" class="img-fluid" width="100" alt=""
+      /></a>
+    </div>
+
+    <!-- MODALS -->
+    <!-- 1 -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="modalViaje"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Tiempos de viaje y conducción
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              El aumento en los tiempos de viaje y las nuevas formas de
+              conducción, en sectores con señaléticas y semáforos caídos, es uno
+              de los cambios más resentidos por los habitantes de comunas
+              periféricas, así como por quienes transitan a diario en las zonas
+              afectadas por hechos vandálicos.
+            </p>
+            <p>
+              Un tiempo promedio de 61,4 minutos es lo que hoy tarda una persona
+              en desplazarse en bus y Metro entre las comuna de Puente Alto y
+              Providencia, según estadísticas del Ministerio de Transportes. Y
+              aunque los tiempos mejoraron (76,6 minutos, entre el 18 y el 31 de
+              octubre), la falta de alternativas para trasladarse sigue siendo
+              una problemática entre los pasajeros del transporte público.
+            </p>
+            <p>
+              Bien lo sabe Fernando Pavez, ingeniero en Prevención de Riesgos,
+              quien asegura que
+              <em
+                >"en mi caso, los tiempos de viaje, tanto de ida y vuelta, han
+                aumentado significativamente desde el 18 de octubre. Si antes
+                tardaba 45 o 50 minutos desde mi casa en Av. La Florida (Puente
+                Alto) hasta Santa Lucía (Santiago Centro), las primeras semanas
+                eran dos horas de viaje de ida a mi trabajo y una hora y media
+                de vuelta"</em
+              >.
+            </p>
+            <p>
+              La falta de conductores y de vehículos sería una de las razones
+              que impactarían en la frecuencia de los buses, según Boris
+              Guerrero, presidente del sindicato de la empresa Subus, que opera
+              en avenidas como Vicuña Mackenna, Santa Rosa, Gran Avenida y el
+              sector sur y norte de la ciudad.
+              <em
+                >"Después de las 20.00 es muy difícil circular por las calles. Y
+                no porque la empresa tomara esa decisión, sino porque los mismos
+                trabajadores nos autoimpusimos horarios para resguardar nuestra
+                integridad (...). La inseguridad nos tiene más que superados.
+                Las licencias médicas por estrés han subido bastante y los
+                problemas estomacales por esto mismo han aumentado. Estamos
+                teniendo un déficit de conductores disponibles para salir a las
+                rutas"</em
+              >, asegura el dirigente.
+            </p>
+            <p>
+              El uso del auto particular como alternativa al transporte público
+              también enfrenta un problema creciente: la falta de señaléticas y
+              semáforos en las calles. Según el capitán César Sandoval, de la
+              prefectura Siat de Carabineros, en las zonas afectadas hay
+              <em
+                >"114 semáforos apagados, el 90% de ellos vandalizados,
+                destruidos o sacados de su base de fijación, que provoca que no
+                exista un control y regulación del tránsito. Mucha gente, por
+                desconocimiento, no sabe cómo actuar al llegar a un cruce no
+                regulado. Eso ha provocado accidentes menores"</em
+              >. A la fecha, según cifras de la policía uniformada, en Santiago
+              han ocurrido 2.714 accidentes viales, dejando 1.392 lesionados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="modalHotel"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Turismo y Hotelería
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              Rubén Cataldo planificó sus vacaciones para febrero, pero la
+              crisis social lo hizo replantear su proyecto:
+              <em
+                >“Con la inestabilidad producto de la crisis social, no sabes
+                cuándo puedes perder el trabajo. Hay que ahorrar al máximo,
+                además, el tipo de cambio está demasiado alto. Se ha producido
+                un alza excesiva del dólar, así que no viajaremos al extranjero
+                como lo hicimos en años anteriores con mi familia”,</em
+              >
+              argumentó.
+            </p>
+            <p>
+              El presidente de la Cámara de Comercio, Industria y Turismo de
+              Iquique, Rafael Montes, dijo que los hoteles más pequeños
+              registran una baja de casi 80% en su actividad y, en el caso de
+              los grandes, bordea el 50%.
+              <em
+                >“Esto varía semana a semana, pero creemos que el máximo de
+                ocupación en el verano podría llegar al 50% de la capacidad de
+                los recintos. La situación más crítica la viven hostales,
+                residenciales y hoteles de menor tamaño”.</em
+              >
+            </p>
+            <p>
+              A más de 1.700 kilómetros de distancia, en la Región de
+              Valparaíso, la situación no es muy distinta. Un sondeo de la
+              Cámara Regional de Comercio mostró que para enero y febrero hay un
+              nivel de reservas de un 33,8% entre los alojamientos turísticos de
+              Valparaíso, Viña del Mar y Concón. Trinidad Sepúlveda (45) vive en
+              Punta Arenas y cambió su destino de descanso.
+              <em
+                >“Me gustan Algarrobo y Maitencillo, pero este año definimos ir
+                a La Serena con los niños, porque parece menos acontecido y en
+                ese tiempo necesitamos tranquilidad”</em
+              >, dijo.
+            </p>
+            <p>
+              Más al sur, en la Región del Bio-bío, debido a las manifestaciones
+              registradas en la zona, el100% de las reuniones y seminarios que
+              se realizarían entre octubre y diciembre fueron cancelados. Pilar
+              Varela, presidenta de Protur, dice que el
+              <em
+                >“panorama es absolutamente deprimente, esta es una época en que
+                la ciudad puede fluctuar sobre un 70% de ocupación y estamos muy
+                por debajo para un mes como noviembre, cuando efectivamente es
+                el peak de la ciudad, por turismo de negocio, reuniones,
+                congresos y fiestas de empresas. Eso está en un mínimo”</em
+              >, aseguró.
+            </p>
+            <p>
+              En La Araucanía, el alcalde de Pucón, Carlos Barra, tiene una
+              visión distinta:
+              <em
+                >“Si bien es cierto vamos a tener un año no tan auspicio- so
+                como los anteriores, creo que nos vamos a desenvolver con
+                normalidad y no va a ser una mala tempo- rada para Pucón”</em
+              >.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="modalComercio"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Comercio y vida nocturna
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              <em
+                >"Con todo lo que ha pasado, ahora da un poco de miedo salir en
+                la noche. Es mucho más seguro juntarse con los amigos en una
+                casa que en un local. Antes íbamos seguido al barrio Bellavista
+                o Providencia, pero con las marchas y saqueos, dejamos de
+                ir"</em
+              >, relata Macarena Gutiérrez, trabajadora de una empresa ubicada
+              cerca de Plaza Italia. Al igual que ella, cientos de clientes se
+              han alejado de bares y locales nocturnos tras el estallido social.
+            </p>
+            <p>
+              La situación preocupa en el gremio, asegura Fernando Bórquez,
+              presidente de la Asociación de Empresarios Nocturnos (Anetur):
+              <em
+                >"La crisis ha impactado fuertemente la vida nocturna. Las
+                primeras semanas hubo toque de queda. Y ahora, por temas de
+                transporte y por una sensación de inseguridad, la gente está
+                saliendo menos. Eso impactó fuertemente en la cantidad de
+                clientes en los locales. Hay una baja en el comercio de nuestro
+                rubro cercana al 70% en algunos barrios, como en Bellavista, que
+                está al lado de la zona cero"</em
+              >.
+            </p>
+            <p>
+              Según Bórquez, la situación se replica en otros lugares, como
+              <em
+                >"Plaza Ñuñoa, Maipú, Lo Prado y La Florida; todos esos lugares
+                han sido golpeados por la baja de público. Santiago, Providencia
+                y Recoleta, también"</em
+              >.
+            </p>
+            <p>
+              El golpe a los locatarios nocturnos, además, se sintió en el
+              comercio establecido. Un estudio realizado por la Cámara de
+              Comercio de Santiago (CCS) y FollowUP muestra que el sector de
+              Santiago Centro
+              <em
+                >"sigue siendo por lejos la zona más golpeada, acumulando una
+                nueva caída (en ventas) en noviembre, esta vez del 32%, en
+                comparación con igual mes del año anterior"</em
+              >.
+            </p>
+            <p>
+              El informe, además, dice que la situación es
+              <em
+                >"crítica para el comercio minorista, y amenaza la viabilidad de
+                gran cantidad de pequeños locales"</em
+              >.
+            </p>
+            <p>
+              Pese a ello, el reporte muestra una cifra alentadora: la venta de
+              vestuario en outlets repuntó, aumentando un 10% en noviembre,
+              mientras que el comercio del rubro infantil también mostró un
+              crecimiento del 4%.
+              <em
+                >"En ambos casos, la cercanía con Navidad pudo haber influido en
+                su desempeño del mes"</em
+              >, detalla el informe.
+            </p>
+            <p>
+              Según el documento de la CCS,
+              <em
+                >"para las próximas semanas se esperan nuevas moderaciones en
+                los ritmos de contracción, siempre que no retomen intensidad los
+                actos de violencia y vandalismo que han afectado con dureza al
+                sector"</em
+              >, alertan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="modalFarmacos"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Fármacos y Licencias Médicas
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              El aumento en el consumo de tranquilizantes y antidepresivos es
+              una de las preocupaciones que, por estos días, ronda entre las
+              autoridades vinculadas al área de salud. Tras el estallido social,
+              la cantidad de personas que ingieren este tipo de fármacos ha
+              crecido en torno al 30%, aseguran en el Ministerio de Salud.
+            </p>
+            <p>
+              <em
+                >“Empecé a tomar medicamentos para calmar la ansiedad, estaba
+                nerviosa por todo esto que está pasando en las calles. Mi hija
+                me llevó al médico y me recetaron unos medicamentos que me han
+                ayudado harto”</em
+              >, relata Mónica Garrido (76), quien comenzó a medicarse poco
+              después del estallido social.
+            </p>
+            <p>
+              Su caso no es aislado. De acuerdo con el ministro de Salud, Jaime
+              Mañalich, las consultas psicológicas
+              <em
+                >“han aumentado, por lo menos, en un 15%. Y las licencias
+                médicas por este motivo, un 20%. La petición de fármacos
+                asociados a tranquilizantes y antidepresivos ha crecido en un
+                30% en la atención primaria. O sea, es un problema”</em
+              >, detalló a inicios de diciembre.
+            </p>
+            <p>
+              Datos de la Comisión de Medicina Preventiva e Invalidez, (Compin)
+              muestran que en las últimas semanas se registró un promedio de 25
+              mil licencias por salud mental, con un peak de seis mil licencias
+              diarias, detalla el organismo.
+            </p>
+            <p>
+              Según la Compin, los permisos médicos asociados a trastornos
+              mentales se incrementaron en un 22%, desde el 21 de octubre de
+              2019, al comparar la misma cantidad de días de semanas anteriores.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="modalEspacio"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Espacios públicos
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body content-paragraph">
+            <p>
+              Los daños provocados a los espacios públicos, como plazas y
+              parques, son parte de los efectos colaterales de las
+              manifestaciones y marchas que se registran desde el 18 de octubre.
+            </p>
+            <p>
+              Solo en la comuna de Santiago, según cifras del municipio, más de
+              270 especies vegetales, como árboles, flores y arbustos, han sido
+              dañadas o destrozadas y más de 700 metros cuadrados de pasto han
+              desaparecido. Cuatro parques y tres plazas han sido vandalizados
+              en estos 50 días de movilizaciones. En el primer grupo se
+              encuentran los parques Forestal, San Borja, Santa Lucía y Almagro.
+              Y en el segundo están las plazas Vicuña Mackenna, Carabineros de
+              Chile y El Pedregal.
+            </p>
+            <p>
+              En la comuna de Providencia, donde se encuentra Plaza Italia,
+              epicentro de las movilizaciones, se retira aproximadamente una
+              <em>"camionada diaria con 7.000 kilos (de escombros)"</em>,
+              aseguran en el municipio.
+            </p>
+            <p>
+              En esta comuna, seis parques y plazas han sido afectadas:
+              Baquedano, Plaza Italia, la explanada de las Artes, el parque
+              Bustamante, Balmaceda y Hungría.
+            </p>
+            <p>
+              La reparación de estos espacios a nivel nacional llevó a que el
+              Ministerio de Vivienda financiara 44 proyectos, localizados en 29
+              comunas, de siete regiones, los cuales formarán parte de un "Plan
+              de Recuperación de Espacios Públicos", que destinará cerca de $
+              3.600 millones para estos fines.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- END -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
